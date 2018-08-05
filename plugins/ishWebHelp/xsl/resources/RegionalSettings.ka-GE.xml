@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RegionalSettings xml:lang="ka-GE"><!--Georgian (Georgia)-->
+	<setting name="CountryDescription">Georgia</setting>
+	<setting name="CountryCode">GE</setting>
+	<setting name="LanguageDescription">Georgian</setting>
+	<setting name="LanguageCode">ka</setting>
+	<setting name="LanguageRegion">ka-GE</setting>
+</RegionalSettings>

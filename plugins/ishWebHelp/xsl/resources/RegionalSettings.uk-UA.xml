@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RegionalSettings xml:lang="uk-UA"><!--Ukrainian (Ukraine)-->
+	<setting name="CountryDescription">Ukraine</setting>
+	<setting name="CountryCode">UA</setting>
+	<setting name="LanguageDescription">Ukrainian</setting>
+	<setting name="LanguageCode">uk</setting>
+	<setting name="LanguageRegion">uk-UA</setting>
+</RegionalSettings>

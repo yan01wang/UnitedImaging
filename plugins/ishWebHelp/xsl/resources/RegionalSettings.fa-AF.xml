@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RegionalSettings xml:lang="fa-AF"><!--Persian/Farsi (Afghanistan)-->
+	<setting name="CountryDescription">Afghanistan</setting>
+	<setting name="CountryCode">AF</setting>
+	<setting name="LanguageDescription">Persian/Farsi</setting>
+	<setting name="LanguageCode">fa</setting>
+	<setting name="LanguageRegion">fa-AF</setting>
+</RegionalSettings>

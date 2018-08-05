@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RegionalSettings xml:lang="en-TK"><!--English (Tokelau)-->
+	<setting name="CountryDescription">Tokelau</setting>
+	<setting name="CountryCode">TK</setting>
+	<setting name="LanguageDescription">English</setting>
+	<setting name="LanguageCode">en</setting>
+	<setting name="LanguageRegion">en-TK</setting>
+</RegionalSettings>

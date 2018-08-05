@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RegionalSettings xml:lang="hu-HU"><!--Hungarian (Hungary)-->
+	<setting name="CountryDescription">Hungary</setting>
+	<setting name="CountryCode">HU</setting>
+	<setting name="LanguageDescription">Hungarian</setting>
+	<setting name="LanguageCode">hu</setting>
+	<setting name="LanguageRegion">hu-HU</setting>
+</RegionalSettings>

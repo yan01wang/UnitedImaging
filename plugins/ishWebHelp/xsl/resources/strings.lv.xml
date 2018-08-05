@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.-->
+<!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. -->
+
+<strings xml:lang="lv-lv">        <!-- Latvian -->
+
+<!-- various labels (not author controlled) -->
+<str name="Figure">Attēls</str>
+<str name="Table">Tabula</str>
+<str name="Next topic">Nākamā tēma</str>
+<str name="Previous topic">Iepriekšējā tēma</str>
+<str name="Parent topic">Vecāktēma</str>
+<str name="Required cleanup">Nepieciešama tīrīšana</str>
+<str name="Draft comment">Komentārs melnrakstā</str>
+<str name="Option">Opcija</str>
+<str name="Description">Apraksts</str>
+<str name="Optional">Neobligāts</str>
+<str name="Required">Nepieciešams</str>
+<str name="Skip visual syntax diagram">Izlaist vizuālo sintakses diagrammu</str>
+<str name="Read syntax diagram">Lasīt sintakses diagrammu</str>
+<str name="Start of change">Izmaiņu sākums</str>
+<str name="End of change">Izmaiņu beigas</str>
+<str name="Index">Indekss</str>
+<str name="Special characters">Speciālās rakstzīmes</str>
+<str name="Numerics">Skaitļi</str>
+<str name="End notes">Beigu vēres</str>
+<str name="Artwork">Ilustrācija</str>
+<str name="Syntax">Sintakse</str>
+<str name="Type">Tips</str>
+<str name="Value">Vērtība</str>
+<!-- Text that goes before a link to a topic -->
+<str name="intro-to-topic-link"></str>
+
+<!-- peril notice labels -->
+<str name="Note">Piezīme</str>
+<str name="Notes">Piezīmes</str>
+<str name="Tip">Padoms</str>
+<str name="Fastpath">Ātrais ceļš</str>
+<str name="Important">Svarīgi</str>
+<str name="Attention">Brīdinājums</str>
+<str name="Caution">UZMANĪBU</str>
+<str name="Danger">BĪSTAMI</str>
+<str name="Remember">Atcerieties</str>
+<str name="Restriction">Ierobežojums</str>
+
+<!-- default title text for section level generated sections -->
+<str name="Contents">Saturs</str>
+<str name="Related concepts">Saistītās koncepcijas</str>
+<str name="Related tasks">Saistītie uzdevumi</str>
+<str name="Related reference">Saistītā atsauce</str>
+<str name="Related information">Saistītā informācija</str>
+
+<str name="Prerequisite">Priekšnoteikums</str>
+<str name="Prerequisites">Priekšnoteikumi</str>
+<str name="or">vai</str>
+
+<str name="Copyright">Copyright</str>
+
+<!-- Symbols -->
+<str name="OpenQuote">"</str>
+<str name="CloseQuote">"</str>
+<str name="ColonSymbol">:</str>
+
+<!-- InfoShare -->
+<str name="Credo">E-fficiency in technical communication</str>
+<str name="SubCredo">Single Sourcing in a multilingual environment</str>
+<str name="Example">Example (lv)</str>
+<str name="Context">Context (lv)</str>
+<str name="Postrequisites">Postrequisites (lv)</str>
+<str name="Result">Result (lv)</str>
+<str name="Steps">Steps (lv)</str>
+
+
+<!-- WebHelp related terms -->
+<str name="Search">Search (lv)</str>
+<str name="Searching">Searching... (lv)</str>
+<str name="No documents found">No documents found (lv)</str>
+<str name="Enter search criteria:">Enter search criteria:  (lv)</str>
+<str name="Following documents found:">Following documents found:  (lv)</str>
+<str name="Print topic">Print topic (lv)</str>
+<str name="Email topic">Email topic (lv)</str>
+<str name="Select one">Select one of the available targets by clicking the link (lv)</str>
+<str name="Close">Close (lv)</str>
+<str name="see">see (lv)</str>
+<str name="see also">see also (lv)</str>
+
+</strings>

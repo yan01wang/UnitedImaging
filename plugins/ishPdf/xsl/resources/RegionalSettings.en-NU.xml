@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RegionalSettings xml:lang="en-NU"><!--English (Niue)-->
+	<setting name="CountryDescription">Niue</setting>
+	<setting name="CountryCode">NU</setting>
+	<setting name="LanguageDescription">English</setting>
+	<setting name="LanguageCode">en</setting>
+	<setting name="LanguageRegion">en-NU</setting>
+</RegionalSettings>

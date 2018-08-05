@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RegionalSettings xml:lang="hr-BA"><!--Croatian (Bosnia And Herzegovina)-->
+	<setting name="CountryDescription">Bosnia And Herzegovina</setting>
+	<setting name="CountryCode">BA</setting>
+	<setting name="LanguageDescription">Croatian</setting>
+	<setting name="LanguageCode">hr</setting>
+	<setting name="LanguageRegion">hr-BA</setting>
+</RegionalSettings>

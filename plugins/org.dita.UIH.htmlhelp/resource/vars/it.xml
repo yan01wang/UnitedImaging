@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--   
+Copyright © 2004-2006 by Idiom Technologies, Inc. All rights reserved. 
+IDIOM is a registered trademark of Idiom Technologies, Inc. and WORLDSERVER
+and WORLDSTART are trademarks of Idiom Technologies, Inc. All other 
+trademarks are the property of their respective owners. 
+
+IDIOM TECHNOLOGIES, INC. IS DELIVERING THE SOFTWARE "AS IS," WITH 
+ABSOLUTELY NO WARRANTIES WHATSOEVER, WHETHER EXPRESS OR IMPLIED,  AND IDIOM
+TECHNOLOGIES, INC. DISCLAIMS ALL WARRANTIES, EXPRESS OR IMPLIED, INCLUDING
+BUT NOT LIMITED TO WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR 
+PURPOSE AND WARRANTY OF NON-INFRINGEMENT. IDIOM TECHNOLOGIES, INC. SHALL NOT
+BE LIABLE FOR INDIRECT, INCIDENTAL, SPECIAL, COVER, PUNITIVE, EXEMPLARY,
+RELIANCE, OR CONSEQUENTIAL DAMAGES (INCLUDING BUT NOT LIMITED TO LOSS OF 
+ANTICIPATED PROFIT), ARISING FROM ANY CAUSE UNDER OR RELATED TO  OR ARISING 
+OUT OF THE USE OF OR INABILITY TO USE THE SOFTWARE, EVEN IF IDIOM
+TECHNOLOGIES, INC. HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES. 
+
+Idiom Technologies, Inc. and its licensors shall not be liable for any
+damages suffered by any person as a result of using and/or modifying the
+Software or its derivatives. In no event shall Idiom Technologies, Inc.'s
+liability for any damages hereunder exceed the amounts received by Idiom
+Technologies, Inc. as a result of this transaction.
+
+These terms and conditions supersede the terms and conditions in any
+licensing agreement to the extent that such terms and conditions conflict
+with those set forth herein.
+
+This file is part of the DITA Open Toolkit project. 
+See the accompanying license.txt file for applicable licenses.
+-->
+<vars xmlns="http://www.idiominc.com/opentopic/vars">
+<variable id="Figure">Figura</variable>
+<variable id="Table">Tabella</variable>
+<variable id="Next topic">Argomento successivo</variable>
+<variable id="Previous topic">Argomento precedente</variable>
+<variable id="Parent topic">Argomento principale</variable>
+<variable id="Required cleanup">Correzione necessaria</variable>
+<variable id="Draft comment">Commento per la versione bozza</variable>
+<variable id="Option">Opzione</variable>
+<variable id="Description">Descrizione</variable>
+<variable id="Optional">Opzionale</variable>
+<variable id="Required">Richiesto</variable>
+<variable id="Skip visual syntax diagram">Salta diagramma di sintassi</variable>
+<variable id="Read syntax diagram">Leggi diagramma di sintassi</variable>
+<variable id="Start of change">Inizio modifica</variable>
+<variable id="End of change">Fine modifica</variable>
+<variable id="Index">Indice analitico</variable>
+<variable id="Special characters">Caratteri speciali</variable>
+<variable id="Numerics">Numerico</variable>
+<variable id="End notes">Note a pié di pagina</variable>
+<variable id="Artwork">Figura</variable>
+<variable id="Syntax">Sintassi</variable>
+<variable id="Type">Tipo</variable>
+<variable id="Value">Valore</variable>
+<!-- Text that goes before a link to a topic -->
+<variable id="intro-to-topic-link"></variable>
+
+<!-- peril notice labels -->
+<variable id="Note">Nota</variable>
+<variable id="Notes">Note</variable>
+<variable id="Tip">Suggerimento</variable>
+<variable id="Fastpath">Percorso di accesso rapido</variable>
+<variable id="Important">Importante</variable>
+<variable id="Attention">Attenzione</variable>
+<variable id="Caution">Avvertenza</variable>
+<variable id="Danger">Pericolo</variable>
+<variable id="Remember">Attenzione</variable>
+<variable id="Revariableiction">Limitazione</variable>
+<variable id="Warning">Avvertenza</variable>
+
+<!-- default title text for section level generated sections -->
+<variable id="Contents">Indice</variable>
+<variable id="Related concepts">Concetti correlati</variable>
+<variable id="Related tasks">Attività correlate</variable>
+<variable id="Related reference">Riferimenti correlati</variable>
+<variable id="Related information">Informazioni correlate</variable>
+
+<variable id="Prerequisite">Prerequisito</variable>
+<variable id="Prerequisites">Prerequisiti</variable>
+<variable id="or">oppure</variable>
+<variable id="figure-number-separator"> </variable>
+
+<!--Task section labels -->
+<variable id="task_context">Informazioni su questa attività</variable>
+<variable id="task_example">Esempio</variable>
+<variable id="task_prereq">Prima di iniziare</variable>
+<variable id="task_povariableeq">Operazioni successive</variable>
+<variable id="task_procedure">Procedura</variable>
+<variable id="task_procedure_unordered">Procedura</variable>
+<variable id="task_results">Risultati</variable>
+
+<variable id="Copyright">Copyright</variable>
+
+<!-- Symbols -->
+<variable id="OpenQuote">"</variable>
+<variable id="CloseQuote">"</variable>
+<variable id="ColonSymbol">:</variable>
+</vars>

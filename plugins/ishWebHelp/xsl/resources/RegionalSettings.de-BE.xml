@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RegionalSettings xml:lang="de-BE"><!--German (Belgium)-->
+	<setting name="CountryDescription">Belgium</setting>
+	<setting name="CountryCode">BE</setting>
+	<setting name="LanguageDescription">German</setting>
+	<setting name="LanguageCode">de</setting>
+	<setting name="LanguageRegion">de-BE</setting>
+</RegionalSettings>

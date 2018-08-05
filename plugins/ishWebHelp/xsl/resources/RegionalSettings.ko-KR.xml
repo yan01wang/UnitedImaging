@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RegionalSettings xml:lang="ko-KR"><!--Korean (Republic Of Korea)-->
+	<setting name="CountryDescription">Republic Of Korea</setting>
+	<setting name="CountryCode">KR</setting>
+	<setting name="LanguageDescription">Korean</setting>
+	<setting name="LanguageCode">ko</setting>
+	<setting name="LanguageRegion">ko-KR</setting>
+</RegionalSettings>

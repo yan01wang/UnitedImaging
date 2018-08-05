@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RegionalSettings xml:lang="fr-RW"><!--French (Rwanda)-->
+	<setting name="CountryDescription">Rwanda</setting>
+	<setting name="CountryCode">RW</setting>
+	<setting name="LanguageDescription">French</setting>
+	<setting name="LanguageCode">fr</setting>
+	<setting name="LanguageRegion">fr-RW</setting>
+</RegionalSettings>

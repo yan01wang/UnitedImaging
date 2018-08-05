@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<project name="org.dita.UIH.html5">
+  <target name="dita2UIH-html5.init">
+    <property name="customization.dir" location="${dita.plugin.org.dita.UIH.html5.dir}/cfg"/>
+  </target>
+  <target name="dita2UIH-html5" depends="dita2UIH-html5.init, dita2pdf2"/>
+</project>

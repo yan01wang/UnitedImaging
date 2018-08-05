@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RegionalSettings xml:lang="sq-MK"><!--Albanian (The Former Yugoslav Republic Of Macedonia)-->
+	<setting name="CountryDescription">The Former Yugoslav Republic Of Macedonia</setting>
+	<setting name="CountryCode">MK</setting>
+	<setting name="LanguageDescription">Albanian</setting>
+	<setting name="LanguageCode">sq</setting>
+	<setting name="LanguageRegion">sq-MK</setting>
+</RegionalSettings>

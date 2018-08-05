@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RegionalSettings xml:lang="ar-QA"><!--Arabic (Qatar)-->
+	<setting name="CountryDescription">Qatar</setting>
+	<setting name="CountryCode">QA</setting>
+	<setting name="LanguageDescription">Arabic</setting>
+	<setting name="LanguageCode">ar</setting>
+	<setting name="LanguageRegion">ar-QA</setting>
+</RegionalSettings>

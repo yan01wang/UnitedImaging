@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RegionalSettings xml:lang="da-DK"><!--Danish (Denmark)-->
+	<setting name="CountryDescription">Denmark</setting>
+	<setting name="CountryCode">DK</setting>
+	<setting name="LanguageDescription">Danish</setting>
+	<setting name="LanguageCode">da</setting>
+	<setting name="LanguageRegion">da-DK</setting>
+</RegionalSettings>

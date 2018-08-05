@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RegionalSettings xml:lang="ms-CC"><!--Malay (Christmas Island)-->
+	<setting name="CountryDescription">Christmas Island</setting>
+	<setting name="CountryCode">CX</setting>
+	<setting name="LanguageDescription">Malay</setting>
+	<setting name="LanguageCode">ms</setting>
+	<setting name="LanguageRegion">ms-CC</setting>
+</RegionalSettings>

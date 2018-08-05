@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RegionalSettings xml:lang="gn-PY"><!--Guarani (Paraguay)-->
+	<setting name="CountryDescription">Paraguay</setting>
+	<setting name="CountryCode">PY</setting>
+	<setting name="LanguageDescription">Guarani</setting>
+	<setting name="LanguageCode">gn</setting>
+	<setting name="LanguageRegion">gn-PY</setting>
+</RegionalSettings>

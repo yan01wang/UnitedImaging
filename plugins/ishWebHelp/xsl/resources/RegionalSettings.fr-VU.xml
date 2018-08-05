@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RegionalSettings xml:lang="fr-VU"><!--French (Vanuatu)-->
+	<setting name="CountryDescription">Vanuatu</setting>
+	<setting name="CountryCode">VU</setting>
+	<setting name="LanguageDescription">French</setting>
+	<setting name="LanguageCode">fr</setting>
+	<setting name="LanguageRegion">fr-VU</setting>
+</RegionalSettings>

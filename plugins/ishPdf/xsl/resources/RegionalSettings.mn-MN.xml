@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RegionalSettings xml:lang="mn-MN"><!--Mongolian (Mongolia)-->
+	<setting name="CountryDescription">Mongolia</setting>
+	<setting name="CountryCode">MN</setting>
+	<setting name="LanguageDescription">Mongolian</setting>
+	<setting name="LanguageCode">mn</setting>
+	<setting name="LanguageRegion">mn-MN</setting>
+</RegionalSettings>

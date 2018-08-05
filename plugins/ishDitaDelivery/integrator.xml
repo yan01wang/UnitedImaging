@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+
+	<property name="ishditadelivery.xsl.dir" value="${dita.dir}${file.separator}plugins${file.separator}ishDitaDelivery${file.separator}xsl"/>
+
+	<target name="dita2ishditadelivery">  
+		<!-- do xml to xhtml conversion -->
+		<antcall target="dita2xhtml">
+			<param name="args.xsl" value="${ishditadelivery.xsl.dir}${file.separator}ish.conditions.dita2xhtml.xsl"/>
+			<param name="args.xhtml.toc.xsl" value="${ishditadelivery.xsl.dir}${file.separator}ish.conditions.map2xhtml-cover.xsl"/>
+			<param name="args.xhtml.toc" value="toc"/>      
+			<!-- param name="args.indexshow" value="yes"/> If yes, would put the indexterms into the topics xhtml output -->			
+			<param name="onlytopic.in.map" value="yes"/>	<!--  If set to true, only files that are referenced directly from the map will generate output; the default value is false. -->			
+			<!-- param name="args.filter" value="ditaval.xml"/>  Specifies a filter file to be used to include, exclude, or flag content. -->
+			<param name="args.gen.task.lbl" value="YES"/>	<!-- set to YES, so task header like "Before you begin", "Procedure", etc. are added to the generated html files -->
+		</antcall>			
+		<!-- Generate back of book index file -->
+		<antcall target="dita.map.eclipsehelp.index"/>
+	</target>
+
+	<!-- Generate back of book index file -->
+	<target name="dita.map.eclipsehelp.index" description="Build DITA Delivery Index file">
+		<pipeline message="Extract index term."
+			  tempdir="${dita.temp.dir}"
+			  inputmap="${user.input.file}">
+			<module class="org.dita.dost.module.IndexTermExtractModule">
+				<param name="output" location="${output.dir}/index.xml"/>
+				<param name="targetext" value=".html"/>
+				<param name="indextype" value="eclipsehelp"/>
+				<param name="indexclass" value="org.dita.dost.writer.EclipseIndexWriter"/>
+				<param name="eclipse.indexsee" value="true"/>
+				<param name="encoding" value="${args.dita.locale}" if="args.dita.locale"/>
+			</module>
+		</pipeline>
+	</target>
+
+
+</project>

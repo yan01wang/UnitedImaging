@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RegionalSettings xml:lang="tg-TJ"><!--Tajik (Tajikistan)-->
+	<setting name="CountryDescription">Tajikistan</setting>
+	<setting name="CountryCode">TJ</setting>
+	<setting name="LanguageDescription">Tajik</setting>
+	<setting name="LanguageCode">tg</setting>
+	<setting name="LanguageRegion">tg-TJ</setting>
+</RegionalSettings>

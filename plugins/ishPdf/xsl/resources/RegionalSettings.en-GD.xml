@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RegionalSettings xml:lang="en-GD"><!--English (Grenada)-->
+	<setting name="CountryDescription">Grenada</setting>
+	<setting name="CountryCode">GD</setting>
+	<setting name="LanguageDescription">English</setting>
+	<setting name="LanguageCode">en</setting>
+	<setting name="LanguageRegion">en-GD</setting>
+</RegionalSettings>

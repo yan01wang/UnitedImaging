@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RegionalSettings xml:lang="be-BY"><!--Belarusian (Belarus)-->
+	<setting name="CountryDescription">Belarus</setting>
+	<setting name="CountryCode">BY</setting>
+	<setting name="LanguageDescription">Belarusian</setting>
+	<setting name="LanguageCode">be</setting>
+	<setting name="LanguageRegion">be-BY</setting>
+</RegionalSettings>

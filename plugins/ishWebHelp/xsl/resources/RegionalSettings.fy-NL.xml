@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RegionalSettings xml:lang="fy-NL"><!--Frisian (Netherlands)-->
+	<setting name="CountryDescription">Netherlands</setting>
+	<setting name="CountryCode">NL</setting>
+	<setting name="LanguageDescription">Frisian</setting>
+	<setting name="LanguageCode">fy</setting>
+	<setting name="LanguageRegion">fy-NL</setting>
+</RegionalSettings>

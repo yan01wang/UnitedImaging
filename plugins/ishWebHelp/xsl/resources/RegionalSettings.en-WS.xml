@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RegionalSettings xml:lang="en-WS"><!--English (Samoa)-->
+	<setting name="CountryDescription">Samoa</setting>
+	<setting name="CountryCode">WS</setting>
+	<setting name="LanguageDescription">English</setting>
+	<setting name="LanguageCode">en</setting>
+	<setting name="LanguageRegion">en-WS</setting>
+</RegionalSettings>

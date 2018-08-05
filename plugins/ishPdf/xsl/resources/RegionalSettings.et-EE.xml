@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RegionalSettings xml:lang="et-EE"><!--Estonian (Estonia)-->
+	<setting name="CountryDescription">Estonia</setting>
+	<setting name="CountryCode">EE</setting>
+	<setting name="LanguageDescription">Estonian</setting>
+	<setting name="LanguageCode">et</setting>
+	<setting name="LanguageRegion">et-EE</setting>
+</RegionalSettings>

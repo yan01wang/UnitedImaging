@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RegionalSettings xml:lang="en-KE"><!--English (Kenya)-->
+	<setting name="CountryDescription">Kenya</setting>
+	<setting name="CountryCode">KE</setting>
+	<setting name="LanguageDescription">English</setting>
+	<setting name="LanguageCode">en</setting>
+	<setting name="LanguageRegion">en-KE</setting>
+</RegionalSettings>

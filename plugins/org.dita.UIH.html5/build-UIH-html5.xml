@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<project name="org.dita.UIH.html5">
+  <target name="dita2UIH-html5.init">
+    <property name="org.dita.UIH.html5.dir" location="${dita.plugin.org.dita.UIH.html5.dir}/cfg/xsl/custom.xsl"/>	 
+  </target>
+  <target name="dita2UIH-html5" depends="dita2UIH-html5.init, dita2html5, UIH.html5.css"/>
+    <target name="UIH.html5.css" unless="user.csspath.url" description="Copy CSS files">
+    <condition property="user.copycss.yes">
+      <and>
+        <equals arg1="${args.copycss}" arg2="yes"/>
+        <isset property="args.css.present"/>
+      </and>
+    </condition>
+    <property name="user.csspath.real" location="${output.dir}/${user.csspath}"/>
+    <mkdir dir="${user.csspath.real}"/>
+    <!-- Always copy system default css files -->
+    <copy todir="${user.csspath.real}">
+      <fileset dir="${dita.plugin.org.dita.UIH.html5.dir}/cfg/css" includes="*.css"/>
+    </copy>
+    <!-- Copy user specify css file when required -->
+    <antcall target="UIH.html5.copy-css-user"/>
+  </target>
+  
+  <target name="UIH.html5.copy-css-user" if="user.copycss.yes">
+    <copy file="${args.css.real}" todir="${user.csspath.real}"/>
+  </target>
+</project>

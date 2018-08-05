@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RegionalSettings xml:lang="fr-PF"><!--French (French Polynesia)-->
+	<setting name="CountryDescription">French Polynesia</setting>
+	<setting name="CountryCode">PF</setting>
+	<setting name="LanguageDescription">French</setting>
+	<setting name="LanguageCode">fr</setting>
+	<setting name="LanguageRegion">fr-PF</setting>
+</RegionalSettings>

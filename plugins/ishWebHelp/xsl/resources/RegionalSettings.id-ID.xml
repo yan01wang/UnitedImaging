@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RegionalSettings xml:lang="id-ID"><!--Indonesian (Indonesia)-->
+	<setting name="CountryDescription">Indonesia</setting>
+	<setting name="CountryCode">ID</setting>
+	<setting name="LanguageDescription">Indonesian</setting>
+	<setting name="LanguageCode">id</setting>
+	<setting name="LanguageRegion">id-ID</setting>
+</RegionalSettings>

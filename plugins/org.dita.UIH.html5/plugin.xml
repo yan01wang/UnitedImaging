@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin id="org.dita.UIH.html5">
+  <require plugin="org.dita.html5"/>
+  <extension-point id="dita.xsl.UIH.html5.toc" name="HTML/XHTML TOC XSLT import"/>
+  <feature extension="dita.conductor.transtype.check" value="UIH-html5"/>
+  <feature extension="dita.transtype.print" value="UIH-html5"/>
+  <feature extension="dita.conductor.target.relative" file="build-UIH-html5.xml"/>
+</plugin>
+

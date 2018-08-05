@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RegionalSettings xml:lang="en-PK"><!--English (Pakistan)-->
+	<setting name="CountryDescription">Pakistan</setting>
+	<setting name="CountryCode">PK</setting>
+	<setting name="LanguageDescription">English</setting>
+	<setting name="LanguageCode">en</setting>
+	<setting name="LanguageRegion">en-PK</setting>
+</RegionalSettings>

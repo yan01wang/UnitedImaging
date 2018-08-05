@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RegionalSettings xml:lang="fi-FI"><!--Finnish (Finland)-->
+	<setting name="CountryDescription">Finland</setting>
+	<setting name="CountryCode">FI</setting>
+	<setting name="LanguageDescription">Finnish</setting>
+	<setting name="LanguageCode">fi</setting>
+	<setting name="LanguageRegion">fi-FI</setting>
+</RegionalSettings>

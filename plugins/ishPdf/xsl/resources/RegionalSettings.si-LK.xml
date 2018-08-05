@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RegionalSettings xml:lang="si-LK"><!--Sinhala (Sri Lanka)-->
+	<setting name="CountryDescription">Sri Lanka</setting>
+	<setting name="CountryCode">LK</setting>
+	<setting name="LanguageDescription">Sinhala</setting>
+	<setting name="LanguageCode">si</setting>
+	<setting name="LanguageRegion">si-LK</setting>
+</RegionalSettings>

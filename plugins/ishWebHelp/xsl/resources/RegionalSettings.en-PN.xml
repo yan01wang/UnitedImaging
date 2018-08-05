@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RegionalSettings xml:lang="en-PN"><!--English (Pitcairn)-->
+	<setting name="CountryDescription">Pitcairn</setting>
+	<setting name="CountryCode">PN</setting>
+	<setting name="LanguageDescription">English</setting>
+	<setting name="LanguageCode">en</setting>
+	<setting name="LanguageRegion">en-PN</setting>
+</RegionalSettings>

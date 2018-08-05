@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RegionalSettings xml:lang="ta-SG"><!--Tamil (Singapore)-->
+	<setting name="CountryDescription">Singapore</setting>
+	<setting name="CountryCode">SG</setting>
+	<setting name="LanguageDescription">Tamil</setting>
+	<setting name="LanguageCode">ta</setting>
+	<setting name="LanguageRegion">ta-SG</setting>
+</RegionalSettings>

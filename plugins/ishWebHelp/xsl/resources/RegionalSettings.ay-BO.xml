@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RegionalSettings xml:lang="ay-BO"><!--Aymara (Bolivia)-->
+	<setting name="CountryDescription">Bolivia</setting>
+	<setting name="CountryCode">BO</setting>
+	<setting name="LanguageDescription">Aymara</setting>
+	<setting name="LanguageCode">ay</setting>
+	<setting name="LanguageRegion">ay-BO</setting>
+</RegionalSettings>

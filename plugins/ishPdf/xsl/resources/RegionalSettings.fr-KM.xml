@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RegionalSettings xml:lang="fr-KM"><!--French (Comoros)-->
+	<setting name="CountryDescription">Comoros</setting>
+	<setting name="CountryCode">KM</setting>
+	<setting name="LanguageDescription">French</setting>
+	<setting name="LanguageCode">fr</setting>
+	<setting name="LanguageRegion">fr-KM</setting>
+</RegionalSettings>

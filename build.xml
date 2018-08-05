@@ -1,0 +1,757 @@
+<?xml version="1.0" encoding="UTF-8"?><!-- (c) Copyright IBM Corp. 2006 All Rights Reserved.  hosted on 
+     Sourceforge.net. See the accompanying license.txt file for 
+     applicable licenses.--><!-- (c) Copyright IBM Corp. 2006 All Rights Reserved. --><project xmlns:dita="http://dita-ot.sourceforge.net" name="DOST" default="init">
+  
+  <property file="${basedir}/local.properties"/>
+  
+  <!-- Initialize DITA-OT base directory -->
+  <dirname property="ant.file.DOST.dir" file="${ant.file.DOST}"/>
+  <condition property="dita.dir" value="${ant.file.DOST.dir}">
+    <not>
+      <isset property="dita.dir"/>
+    </not>
+  </condition>
+  <condition property="dita.dir" value="${basedir}">
+    <not>
+      <isset property="dita.dir"/>
+    </not>
+  </condition>
+    
+  <path id="dost.class.path">
+    <pathelement location="${dita.dir}${file.separator}plugins/org.dita.pdf2/lib/fo.jar"/><pathelement location="${dita.dir}${file.separator}plugins/org.dita.odt/lib/odt.jar"/><pathelement location="${dita.dir}${file.separator}plugins/org.dita.pdf2.axf/lib/axf.jar"/><pathelement location="${dita.dir}${file.separator}plugins/org.dita.pdf2.xep/lib/xep.jar"/><pathelement location="${dita.dir}${file.separator}plugins/org.dita.wordrtf/lib/wordrtf.jar"/>
+    <pathelement location="${dita.dir}/lib/dost.jar"/>
+    <pathelement location="${dita.dir}/lib/dost-configuration.jar"/>
+  </path>
+  
+  <target name="init">
+    <dita-ot-fail id="DOTA001F">
+      <condition>
+        <and>
+          <not><equals arg1="${transtype}" arg2="ishxpp" casesensitive="false"/></not>
+		  <not><equals arg1="${transtype}" arg2="tocjs" casesensitive="false"/></not>
+		  <not><equals arg1="${transtype}" arg2="webworks" casesensitive="false"/></not>
+		  <not><equals arg1="${transtype}" arg2="pdf" casesensitive="false"/></not>
+		  <not><equals arg1="${transtype}" arg2="pdf2" casesensitive="false"/></not>
+		  <not><equals arg1="${transtype}" arg2="UIH-PDF" casesensitive="false"/></not>
+		  <not><equals arg1="${transtype}" arg2="common-html" casesensitive="false"/></not>
+		  <not><equals arg1="${transtype}" arg2="xhtml" casesensitive="false"/></not>
+		  <not><equals arg1="${transtype}" arg2="html5" casesensitive="false"/></not>
+		  <not><equals arg1="${transtype}" arg2="UIH-html5" casesensitive="false"/></not>
+		  <not><equals arg1="${transtype}" arg2="docbook" casesensitive="false"/></not>
+		  <not><equals arg1="${transtype}" arg2="eclipsecontent" casesensitive="false"/></not>
+		  <not><equals arg1="${transtype}" arg2="eclipsehelp" casesensitive="false"/></not>
+		  <not><equals arg1="${transtype}" arg2="htmlhelp" casesensitive="false"/></not>
+		  <not><equals arg1="${transtype}" arg2="UIH-htmlhelp" casesensitive="false"/></not>
+		  <not><equals arg1="${transtype}" arg2="javahelp" casesensitive="false"/></not>
+		  <not><equals arg1="${transtype}" arg2="odt" casesensitive="false"/></not>
+		  <not><equals arg1="${transtype}" arg2="troff" casesensitive="false"/></not>
+		  <not><equals arg1="${transtype}" arg2="ishwebhelp" casesensitive="false"/></not>
+		  <not><equals arg1="${transtype}" arg2="wordrtf" casesensitive="false"/></not>
+		  <not><equals arg1="${transtype}" arg2="ishditadelivery" casesensitive="false"/></not>
+		  <not><equals arg1="${transtype}" arg2="ishhtmlhelp" casesensitive="false"/></not>
+		  <not><equals arg1="${transtype}" arg2="ishpdf" casesensitive="false"/></not>
+        </and>
+      </condition>
+      <param name="1" value="${transtype}"/>
+    </dita-ot-fail>
+    <condition property="clean.temp" value="true">
+      <not><isset property="clean.temp"/></not>
+    </condition>
+    <condition property="clean-temp.skip">
+      <isfalse value="${clean.temp}"/>
+    </condition>
+    <antcall>
+      <target name="dita2${transtype}"/>
+      <target name="clean-temp"/>
+    </antcall>
+  </target>
+  
+  <property name="dita.plugin.com.sdl.ishxpp.dir" location="${dita.dir}/plugins/ishXpp"/>
+  <property name="dita.plugin.org.dita.base.dir" location="${dita.dir}"/>
+  <property name="dita.plugin.org.dita.pdf2.xep.dir" location="${dita.dir}/plugins/org.dita.pdf2.xep"/>
+  <property name="dita.plugin.org.dita.eclipsehelp.dir" location="${dita.dir}/plugins/org.dita.eclipsehelp"/>
+  <property name="dita.plugin.org.dita.specialization.dita11.dir" location="${dita.dir}/plugins/org.dita.specialization.dita11"/>
+  <property name="dita.plugin.org.dita.troff.dir" location="${dita.dir}/plugins/org.dita.troff"/>
+  <property name="dita.plugin.org.dita.eclipsecontent.dir" location="${dita.dir}/plugins/org.dita.eclipsecontent"/>
+  <property name="dita.plugin.com.suitesol.dita.webworks.dir" location="${dita.dir}/plugins/webworks"/>
+  <property name="dita.plugin.org.dita.specialization.eclipsemap.dir" location="${dita.dir}/plugins/org.dita.specialization.eclipsemap"/>
+  <property name="dita.plugin.org.dita.wordrtf.dir" location="${dita.dir}/plugins/org.dita.wordrtf"/>
+  <property name="dita.plugin.org.dita.xhtml.dir" location="${dita.dir}/plugins/org.dita.xhtml"/>
+  <property name="dita.plugin.org.oasis-open.dita.v1_2.dir" location="${dita.dir}/plugins/org.oasis-open.dita.v1_2"/>
+  <property name="dita.plugin.org.oasis-open.dita.v1_3.dir" location="${dita.dir}/plugins/org.oasis-open.dita.v1_3"/>
+  <property name="dita.plugin.org.dita.UIH.html5.dir" location="${dita.dir}/plugins/org.dita.UIH.html5"/>
+  <property name="dita.plugin.org.dita.htmlhelp.dir" location="${dita.dir}/plugins/org.dita.htmlhelp"/>
+  <property name="dita.plugin.org.dita.UIH.htmlhelp.dir" location="${dita.dir}/plugins/org.dita.UIH.htmlhelp"/>
+  <property name="dita.plugin.com.sophos.tocjs.dir" location="${dita.dir}/plugins/com.sophos.tocjs"/>
+  <property name="dita.plugin.org.dita.pdf2.fop.dir" location="${dita.dir}/plugins/org.dita.pdf2.fop"/>
+  <property name="dita.plugin.org.dita.webhelp.dir" location="${dita.dir}/plugins/ishWebHelp"/>
+  <property name="dita.plugin.trisoft.dita.delivery.dir" location="${dita.dir}/plugins/ishDitaDelivery"/>
+  <property name="dita.plugin.trisoft.dita.apiref.dir" location="${dita.dir}/plugins/ishApiRef"/>
+  <property name="dita.plugin.trisoft.dita.pdf.dir" location="${dita.dir}/plugins/ishPdf"/>
+  <property name="dita.plugin.org.dita.pdf2.axf.dir" location="${dita.dir}/plugins/org.dita.pdf2.axf"/>
+  <property name="dita.plugin.org.dita.html5.dir" location="${dita.dir}/plugins/org.dita.html5"/>
+  <property name="dita.plugin.org.dita.javahelp.dir" location="${dita.dir}/plugins/org.dita.javahelp"/>
+  <property name="dita.plugin.org.dita.odt.dir" location="${dita.dir}/plugins/org.dita.odt"/>
+  <property name="dita.plugin.org.dita.UIH.dir" location="${dita.dir}/plugins/org.dita.UIH.pdf"/>
+  <property name="dita.plugin.trisoft.dita.ishhtmlhelp.dir" location="${dita.dir}/plugins/ishHtmlHelp"/>
+  <property name="dita.plugin.org.dita.pdf2.dir" location="${dita.dir}/plugins/org.dita.pdf2"/>
+  <property name="dita.plugin.org.dita.docbook.dir" location="${dita.dir}/plugins/org.dita.docbook"/>
+  
+  <import file="plugins/org.dita.base/build_init.xml"/>
+  <import file="plugins/org.dita.base/build_preprocess.xml"/>
+
+
+  <import file="plugins/org.dita.pdf2/build.xml"/>
+
+
+  <target name="dita2UIH-PDF.init">
+    <property name="customization.dir" location="${dita.plugin.org.dita.UIH.dir}/cfg"/>
+  </target>
+  <target name="dita2UIH-PDF" depends="dita2UIH-PDF.init, dita2pdf2"/>
+
+  <import file="plugins/org.dita.xhtml/build_general.xml"/>
+  <import file="plugins/org.dita.xhtml/build_dita2xhtml.xml"/>
+
+  <import file="plugins/org.dita.html5/build_dita2html5.xml"/>
+
+  <target name="dita2UIH-html5.init">
+    <property name="org.dita.UIH.html5.dir" location="${dita.plugin.org.dita.UIH.html5.dir}/cfg/xsl/custom.xsl"/>	 
+  </target>
+  <target name="dita2UIH-html5" depends="dita2UIH-html5.init, dita2html5, UIH.html5.css"/>
+    <target name="UIH.html5.css" unless="user.csspath.url" description="Copy CSS files">
+    <condition property="user.copycss.yes">
+      <and>
+        <equals arg1="${args.copycss}" arg2="yes"/>
+        <isset property="args.css.present"/>
+      </and>
+    </condition>
+    <property name="user.csspath.real" location="${output.dir}/${user.csspath}"/>
+    <mkdir dir="${user.csspath.real}"/>
+    
+    <copy todir="${user.csspath.real}">
+      <fileset dir="${dita.plugin.org.dita.UIH.html5.dir}/cfg/css" includes="*.css"/>
+    </copy>
+    
+    <antcall target="UIH.html5.copy-css-user"/>
+  </target>
+  
+  <target name="UIH.html5.copy-css-user" if="user.copycss.yes">
+    <copy file="${args.css.real}" todir="${user.csspath.real}"/>
+  </target>
+
+  <import file="plugins/org.dita.docbook/build_dita2docbook.xml"/>
+
+  <import file="plugins/org.dita.eclipsecontent/build_dita2eclipsecontent.xml"/>
+
+  <import file="plugins/org.dita.eclipsehelp/build_dita2eclipsehelp.xml"/>
+
+  <import file="plugins/org.dita.htmlhelp/build_dita2htmlhelp.xml"/>
+  
+  <import file="plugins/org.dita.UIH.htmlhelp/build_dita2htmlhelp.xml"/>
+
+  <import file="plugins/org.dita.javahelp/build_dita2javahelp.xml"/>
+
+  <import file="plugins/org.dita.odt/build_dita2odt.xml"/>
+
+  <import file="plugins/org.dita.pdf2.axf/build_axf.xml"/>
+
+  <import file="plugins/org.dita.pdf2.fop/build_fop.xml"/>
+
+  <import file="plugins/org.dita.pdf2.xep/build_xep.xml"/>
+
+  <import file="plugins/org.dita.troff/build_dita2troff.xml"/>
+
+  <import file="plugins/org.dita.wordrtf/build_dita2wordrtf.xml"/>
+
+
+	<property name="ishditadelivery.xsl.dir" value="${dita.dir}${file.separator}plugins${file.separator}ishDitaDelivery${file.separator}xsl"/>
+
+	<target name="dita2ishditadelivery">  
+		
+		<antcall target="dita2xhtml">
+			<param name="args.xsl" value="${ishditadelivery.xsl.dir}${file.separator}ish.conditions.dita2xhtml.xsl"/>
+			<param name="args.xhtml.toc.xsl" value="${ishditadelivery.xsl.dir}${file.separator}ish.conditions.map2xhtml-cover.xsl"/>
+			<param name="args.xhtml.toc" value="toc"/>      
+						
+			<param name="onlytopic.in.map" value="yes"/>				
+			
+			<param name="args.gen.task.lbl" value="YES"/>	
+		</antcall>			
+		
+		<antcall target="dita.map.eclipsehelp.index"/>
+	</target>
+
+	
+	<target name="dita.map.eclipsehelp.index" description="Build DITA Delivery Index file">
+		<pipeline message="Extract index term." tempdir="${dita.temp.dir}" inputmap="${user.input.file}">
+			<module class="org.dita.dost.module.IndexTermExtractModule">
+				<param name="output" location="${output.dir}/index.xml"/>
+				<param name="targetext" value=".html"/>
+				<param name="indextype" value="eclipsehelp"/>
+				<param name="indexclass" value="org.dita.dost.writer.EclipseIndexWriter"/>
+				<param name="eclipse.indexsee" value="true"/>
+				<param name="encoding" value="${args.dita.locale}" if="args.dita.locale"/>
+			</module>
+		</pipeline>
+	</target>
+
+
+
+  <dirname property="input.dir" file="${args.input}"/>
+  <property name="ishreport.file" value="${input.dir}${file.separator}${args.ishreport}"/>
+
+  
+  <target name="dita2ishhtmlhelp" unless="noMap" depends="build-init, preprocess, ishhtmlhelp.set.codepage,                       xhtml.topics, copy-css" description="Trisoft HTML Help output processing">
+    <antcall target="dita.map.ishhtmlhelp"/>
+    
+    
+    <propertyfile file="${dita.plugin.trisoft.dita.ishhtmlhelp.dir}${file.separator}filter${file.separator}replacefilter.hhk.properties" comment="Replace strings in HHK files">
+      <entry key="&amp;apos;" default="'"/>
+    </propertyfile>
+    <replace encoding="UTF-8" file="${output.dir}${file.separator}${dita.map.filename.root}.hhk" replacefilterfile="${dita.plugin.trisoft.dita.ishhtmlhelp.dir}${file.separator}filter${file.separator}replacefilter.hhk.properties"/>
+    <antcall target="ishhtmlhelp.convert.file">
+      <param name="input.filename" value="${output.dir}${file.separator}${dita.map.filename.root}.hhk"/>
+    </antcall>
+    <antcall target="ishhtmlhelp.convert.file">
+      <param name="input.filename" value="${output.dir}${file.separator}${dita.map.filename.root}.hhc"/>
+    </antcall>
+    <antcall target="ishhtmlhelp.convert.file">
+      <param name="input.filename" value="${output.dir}${file.separator}${dita.map.filename.root}.hhp"/>
+    </antcall>
+    <antcall target="compile.HTML.Help"/>
+  </target>
+
+  <target name="dita.map.ishhtmlhelp" depends="dita.map.htmlhelp.init, dita.map.htmlhelp.hhp, dita.map.htmlhelp.hhc, dita.map.htmlhelp.hhk, dita.out.map.ishhtmlhelp.hhp, dita.out.map.ishhtmlhelp.hhc, dita.out.map.htmlhelp.hhk">
+  </target>
+
+  <target name="dita.out.map.ishhtmlhelp.hhc" depends="dita.map.htmlhelp.init" if="inner.transform" description="Build HTMLHelp HHC file">
+      <xslt basedir="${dita.temp.dir}" destdir="${output.dir}" includesfile="${dita.temp.dir}${file.separator}${user.input.file.listfile}" classpathref="dost.class.path" style="${dita.plugin.trisoft.dita.ishhtmlhelp.dir}/xsl/ish.map2hhc.xsl">
+      	<excludesfile name="${dita.temp.dir}${file.separator}${resourceonlyfile}" if="resourceonlyfile"/>
+          <param name="DITAEXT" expression="${dita.ext}" if="dita.ext"/>
+          <param name="OUTEXT" expression="${out.ext}" if="out.ext"/>
+          <mapper type="glob" from="${user.input.file}" to="${dita.map.filename.root}.hhc"/>
+        <xmlcatalog refid="dita.catalog"/>
+      </xslt>
+  </target>
+
+  <target name="dita.out.map.ishhtmlhelp.hhp" depends="dita.map.htmlhelp.init" if="inner.transform" description="Build Trisoft HTMLHelp HHP file">
+    <dirname property="input.dir" file="${args.input}"/>
+    
+    <xslt processor="trax" basedir="${dita.temp.dir}" destdir="${output.dir}" includesfile="${dita.temp.dir}${file.separator}${user.input.file.listfile}" classpathref="dost.class.path" style="${dita.plugin.trisoft.dita.ishhtmlhelp.dir}${file.separator}xsl${file.separator}ish.map2hhp.xsl">
+      <excludesfile name="${dita.temp.dir}${file.separator}${resourceonlyfile}" if="resourceonlyfile"/>
+      <param name="DITAEXT" expression="${dita.ext}" if="dita.ext"/>
+      <param name="OUTEXT" expression="${out.ext}" if="out.ext"/>
+      <param name="HHCNAME" expression="${dita.map.filename.root}.hhc"/>
+      <param name="INCLUDEFILE" expression="${args.htmlhelp.includefile}" if="args.htmlhelp.includefile"/>
+      <param name="REPORTFILE" expression="${ishreport.file}" if="ishreport.file"/>
+      <param name="ARGSLANGUAGE" expression="${args.language.lowercase}"/>
+      <mapper type="glob" from="${user.input.file}" to="${dita.map.filename.root}.hhp"/>
+    </xslt>
+  </target>
+  
+  <target name="ishhtmlhelp.convert.file">
+    <echo>Update encoding for ${input.filename} to ${ishhtmlhelp.encoding}</echo>
+    <propertyfile file="${dita.plugin.trisoft.dita.ishhtmlhelp.dir}${file.separator}filter${file.separator}replacefilter.${ishhtmlhelp.encoding}.properties" comment="Replace UNICODE characters or strings for code page ${ishhtmlhelp.encoding}">
+      <entry key="®" default="®"/>
+    </propertyfile>
+    <replace file="${input.filename}" encoding="UTF-8" replacefilterfile="${dita.plugin.trisoft.dita.ishhtmlhelp.dir}${file.separator}filter${file.separator}replacefilter.${ishhtmlhelp.encoding}.properties">
+    </replace>
+    <move file="${input.filename}" tofile="${input.filename}.original"/>
+    <copy file="${input.filename}.original" tofile="${input.filename}" filtering="true" encoding="utf-8" outputencoding="${ishhtmlhelp.encoding}" overwrite="true"/>
+  </target>
+  
+  <target name="ishhtmlhelp.set.codepage">
+    <script language="javascript">
+    
+      var lang = project.getProperty('args.language').toLowerCase();
+      project.setProperty('args.language.lowercase', lang);
+      
+      var input = new org.xml.sax.InputSource(new java.io.FileInputStream(project.getProperty("dita.plugin.trisoft.dita.ishhtmlhelp.dir") + '/config/lang-to-cp.xml'));
+      var xpath = javax.xml.xpath.XPathFactory.newInstance().newXPath();
+      var value = xpath.evaluate("/*/map[lang[starts-with(., '" + lang + "')]]/cp", input, javax.xml.xpath.XPathConstants.STRING);
+      if (value=='' &amp;&amp; lang.indexOf('-')&gt;0) {
+         xpath.reset();
+         input = new org.xml.sax.InputSource(new java.io.FileInputStream(project.getProperty("dita.plugin.trisoft.dita.ishhtmlhelp.dir") + '/config/lang-to-cp.xml'));
+         var value = xpath.evaluate("/*/map[lang[starts-with(., '" + lang.split('-')[0] + "')]]/cp", input, javax.xml.xpath.XPathConstants.STRING);
+      }
+      
+      if (value!='') {       
+        project.setProperty('ishhtmlhelp.encoding', value);
+      }
+   
+    </script> 
+    
+    
+    <property name="ishhtmlhelp.encoding" value="cp1252"/>
+  
+    <echo>Windows encoding: ${ishhtmlhelp.encoding}</echo>
+  </target>
+  
+   <property name="transtype" value="ishxpp">
+   </property>
+
+	 <property name="ishxpp.dir" value="${dita.dir}${file.separator}plugins${file.separator}ishXpp"/>
+
+   <target name="dita2ishxpp" depends="build-init, preprocess, merge2valid, merge2wellformed">
+
+      <echo message="SDL XPP preparation Plug-in, version 1.4.2"/>
+   </target>
+
+   <target name="merge2valid" description="Merge topics to valid instance" unless="wellformed">
+      <echo message="Merging to valid file"/>
+      <basename property="temp.base" file="${dita.temp.dir}${file.separator}${user.input.file}" suffix=".ditamap">
+      </basename>
+      <antcall target="merge">
+         <param name="input" value="${dita.temp.dir}${file.separator}${user.input.file}"/>
+         <param name="output" value="${dita.temp.dir}${file.separator}${temp.base}_temp.xml"/>
+      </antcall>
+      <antcall target="structuralize">
+         <param name="input" value="${dita.temp.dir}${file.separator}${temp.base}_temp.xml"/>
+         <param name="output" value="${dita.temp.dir}${file.separator}${temp.base}_temp2.xml"/>
+      </antcall>
+      <antcall target="generalize">
+         <param name="input" value="${dita.temp.dir}${file.separator}${temp.base}_temp2.xml"/>
+         <param name="output" value="${dita.temp.dir}${file.separator}${temp.base}_temp3.xml"/>
+      </antcall>
+      <antcall target="validate">
+         <param name="input" value="${dita.temp.dir}${file.separator}${temp.base}_temp3.xml"/>
+				<param name="output" value="${dita.map.output.dir}${file.separator}${dita.map.filename.root}.xml"/>              
+      </antcall>
+   </target>
+
+   <target name="merge2wellformed" description="Merge topics to wellformed instance" if="wellformed">
+      <echo message="Merging to wellformed file"/>
+      <basename property="temp.base" file="${dita.temp.dir}${file.separator}${user.input.file}" suffix=".ditamap">
+      </basename>
+      <antcall target="merge">
+         <param name="input" value="${dita.temp.dir}${file.separator}${user.input.file}"/>
+         <param name="output" value="${dita.temp.dir}${file.separator}${temp.base}_temp.xml"/>
+      </antcall>
+      <antcall target="structuralize">
+         <param name="input" value="${dita.temp.dir}${file.separator}${temp.base}_temp.xml"/>
+				<param name="output" value="${dita.map.output.dir}${file.separator}${dita.map.filename.root}.xml"/>                              
+      </antcall>
+   </target>
+
+	<target name="merge" description="Merge topics">
+       <pipeline message="topicmerge" inputmap="${input}" tempdir="${dita.temp.dir}">
+			<module class="org.dita.dost.module.TopicMergeModule">
+				<param name="output" location="${output}"/>
+			</module>
+		</pipeline>
+  </target>
+
+   <target name="structuralize">
+      <xslt processor="trax" in="${input}" out="${output}" style="${ishxpp.dir}${file.separator}xsl${file.separator}structuralize.xsl"> 
+      </xslt>
+   </target>
+
+   <target name="generalize">
+      <xslt processor="trax" in="${input}" out="${output}" style="${ishxpp.dir}${file.separator}xsl${file.separator}generalize.xsl">
+      </xslt>
+   </target>
+
+   <target name="validate">
+      <xslt processor="trax" in="${input}" out="${output}" style="${ishxpp.dir}${file.separator}xsl${file.separator}ditabase.xsl">
+      </xslt>
+   </target>
+
+
+
+  <target name="dita2tocjs" depends="build-init, preprocess, tocjsInit, map2tocjs, topic2tocjs, tocjsDefaultOutput">
+  </target>
+
+  <target name="tocjsInit">
+    <property name="html-version" value="xhtml"/>
+    <condition property="dita.plugin.com.sophos.tocjs.copydefaults" value="true">
+        <not>
+            <isset property="output.file"/>
+        </not>
+    </condition>
+    <property name="output.file" value="${output.dir}${file.separator}toctree.js"/>
+    <property name="out.ext" value=".html"/>
+  </target>
+
+  <target name="topic2tocjs" if="noMap">
+    <antcall target="dita.map.tocjs">
+      
+    </antcall>
+    <echo>The TocJS output type only supports ditamap files as input.</echo>
+  </target>
+
+  <target name="map2tocjs" unless="noMap">
+    <antcall target="dita.map.tocjs">
+      <param name="input" value="${dita.temp.dir}${file.separator}${user.input.file}"/>
+    </antcall>
+  </target>
+
+  <target name="dita.map.tocjs" description="generate merged for tocjs">
+    <xslt in="${input}" out="${output.file}" style="${dita.plugin.com.sophos.tocjs.dir}/xsl/tocjs.xsl">
+      <param name="contentwin" expression="${content.frame}" if="content.frame"/>
+      <param name="htmlext" expression="${out.ext}"/>
+      <xmlcatalog refid="dita.catalog"/>
+    </xslt>
+  </target>
+
+  <target name="tocjsDefaultOutput" if="dita.plugin.com.sophos.tocjs.copydefaults">
+      
+      <antcall target="tocjsDefaultXhtmlOutput"/>
+      <antcall target="tocjsDefaultFrameset"/>
+      
+      <copy todir="${output.dir}"><fileset dir="${dita.plugin.com.sophos.tocjs.dir}${file.separator}basefiles"><include name="**/*"/></fileset></copy>
+  </target>
+
+  <target name="tocjsDefaultXhtmlOutput" depends="copy-revflag, xhtml.topics, copy-css">
+      
+  </target>
+
+  <target name="tocjsDefaultFrameset" if="dita.plugin.com.sophos.tocjs.copydefaults">
+      
+      <xslt basedir="${dita.temp.dir}" destdir="${output.dir}" includesfile="${dita.temp.dir}${file.separator}${user.input.file.listfile}" extension="${out.ext}" style="${dita.plugin.com.sophos.tocjs.dir}${file.separator}xsl${file.separator}frameset.xsl">
+  	    <excludesfile name="${dita.temp.dir}${file.separator}${resourceonlyfile}" if="resourceonlyfile"/>
+        <param name="OUTEXT" expression="${out.ext}" if="out.ext"/>
+        <param name="CSSPATH" expression="${CSSPATH}" if="csspath"/>
+        <xmlcatalog refid="dita.catalog"/>
+      </xslt>
+  </target>
+
+
+    <import file="plugins/webworks/build_webworks.xml"/>
+
+  
+  
+    
+
+	<import file="${dita.dir}${file.separator}plugins${file.separator}Trisoft-CommonTargets.xml"/>
+  
+	<target name="dita2ishwebhelp" depends="build-init, preprocess, copy-revflag,                        xhtml.topics, copy-css, infoshare.build-framework"/>
+
+
+
+
+
+	
+	<property name="ishwebhelp.dir" value="${dita.dir}${file.separator}plugins${file.separator}ishWebHelp"/>
+
+	<target name="infoshare.build-framework">
+		<antcall target="copy-ish-resources">
+			<param name="resourcedir" value="${ishwebhelp.dir}${file.separator}resources"/>
+			<param name="resourcetargetdir" value="${output.dir}"/>
+		</antcall>
+		<antcall target="infoshare.TOC.html"/>
+		<antcall target="infoshare.index.html"/>
+		<antcall target="infoshare.search.html"/>
+		<antcall target="infoshare.localise-files"/>
+	</target>
+			
+	<target name="infoshare.TOC.html" description="Build HTML TOC file from ditamap and all nested DITA maps">
+		<condition property="out.ext" value=".html">
+			<not>
+				<isset property="out.ext"/>
+			</not>
+		</condition>
+		<condition property="args.xhtml.toc" value="toc">
+			<not>
+				<isset property="args.xhtml.toc"/>
+			</not>
+		</condition>
+		<condition property="args.xhtml.contenttarget" value="contentwin">
+			<not>
+				<isset property="args.xhtml.contenttarget"/>
+			</not>
+		</condition>
+		<dirname file="${dita.temp.dir}${file.separator}${user.input.file}" property="dita.merged.dir"/>
+
+
+		<pipeline message="topicmerge" inputmap="${dita.temp.dir}${file.separator}${user.input.file}" tempdir="${dita.temp.dir}">
+		  <module class="org.dita.dost.module.TopicMergeModule">
+			<param name="output" location="${dita.merged.dir}${file.separator}${dita.map.filename.root}_MERGED.xml"/>
+			<param name="style" location="${ishwebhelp.dir}${file.separator}xsl${file.separator}common${file.separator}topicmerge.xsl"/>
+		  </module>    
+		</pipeline>    
+
+
+		<xslt processor="trax" basedir="${dita.temp.dir}" destdir="${output.dir}" includes="${user.input.file}" style="${ishwebhelp.dir}${file.separator}xsl${file.separator}xslhtml${file.separator}infoshare.dita2htm.toc.xsl">
+			
+			<param name="WORKDIR" expression="${dita.merged.dir}${file.separator}.."/>	      
+			<param name="DITAEXT" expression="${dita.ext}" if="dita.ext"/>
+			<param name="OUTEXT" expression="${out.ext}" if="out.ext"/>
+			<param name="CSS" expression="${args.css.file}" if="args.css.file"/>
+			<param name="CSSPATH" expression="${user.csspath}" if="user.csspath"/>
+			<param name="contenttarget" expression="${args.xhtml.contenttarget}" if="args.xhtml.contenttarget"/>
+			<param name="OUTPUTCLASS" expression="${args.xhtml.toc.class}" if="args.xhtml.toc.class"/>
+			<mapper type="glob" from="*${dita.input.filename}" to="*${args.xhtml.toc}${out.ext}"/>
+		</xslt>
+		<echo>Build document navigation structure to allow next/previous functionality</echo>
+		
+		<condition property="args.xhtml.docnav" value="docnavigation">
+			<not>
+				<isset property="args.xhtml.docnav"/>
+			</not>
+		</condition> 
+		<condition property="docnav.ext" value=".js">
+			<not>
+				<isset property="docnav.ext"/>
+			</not>
+		</condition>		   
+		<xslt processor="trax" basedir="${dita.temp.dir}" out="${output.dir}${file.separator}${args.xhtml.docnav}${docnav.ext}" in="${dita.merged.dir}${file.separator}${dita.map.filename.root}_MERGED.xml" style="${ishwebhelp.dir}${file.separator}xsl${file.separator}xslhtml${file.separator}infoshare.dita2htm.navstruct.xsl">
+			
+			<param name="WORKDIR" expression="${dita.merged.dir}${file.separator}.."/>	      
+			<param name="DITAEXT" expression="${dita.ext}" if="dita.ext"/>
+			<param name="OUTEXT" expression="${docnav.ext}" if="docnav.ext"/>
+		</xslt>    
+	</target>
+
+	<target name="infoshare.index.html" description="Build HTML Index file">
+		<condition property="out.ext" value=".html">
+			<not>
+				<isset property="out.ext"/>
+			</not>
+		</condition>
+		<condition property="args.xhtml.index" value="indexpage">
+			<not>
+				<isset property="args.xhtml.index"/>
+			</not>
+		</condition>
+		<condition property="args.xhtml.contenttarget" value="contentwin">
+			<not>
+				<isset property="args.xhtml.contenttarget"/>
+			</not>
+		</condition>
+		<dirname file="${dita.temp.dir}${file.separator}${user.input.file}" property="dita.merged.dir"/>
+		
+		
+		<xslt processor="trax" in="${dita.merged.dir}${file.separator}${dita.map.filename.root}_MERGED.xml" out="${output.dir}${file.separator}${args.xhtml.index}${out.ext}" style="${ishwebhelp.dir}${file.separator}xsl${file.separator}xslhtml${file.separator}infoshare.dita2htm.index.xsl">
+			
+			<param name="WORKDIR" expression="${dita.merged.dir}${file.separator}.."/>
+			<param name="DITAEXT" expression="${dita.ext}" if="dita.ext"/>
+			<param name="OUTEXT" expression="${out.ext}" if="out.ext"/>
+			<param name="CSS" expression="${args.css.file}" if="args.css.file"/>
+			<param name="CSSPATH" expression="${user.csspath}" if="user.csspath"/>
+			<param name="contenttarget" expression="${args.xhtml.contenttarget}" if="args.xhtml.contenttarget"/>
+			<param name="OUTPUTCLASS" expression="${args.xhtml.toc.class}" if="args.xhtml.toc.class"/>
+			
+		</xslt>
+	</target>  	
+
+	<target name="infoshare.search.html" description="Build HTML Search file">
+		<condition property="searchdata.ext" value=".js">
+			<not>
+				<isset property="searchdata.ext"/>
+			</not>
+		</condition>
+		<condition property="args.xhtml.search" value="searchdata">
+			<not>
+				<isset property="args.xhtml.search"/>
+			</not>
+		</condition>
+		<condition property="args.xhtml.contenttarget" value="contentwin">
+			<not>
+				<isset property="args.xhtml.contenttarget"/>
+			</not>
+		</condition>
+		<dirname file="${dita.temp.dir}${file.separator}${user.input.file}" property="dita.merged.dir"/>
+		
+		
+		<xslt processor="trax" in="${dita.merged.dir}${file.separator}${dita.map.filename.root}_MERGED.xml" out="${output.dir}${file.separator}${args.xhtml.search}${searchdata.ext}" style="${ishwebhelp.dir}${file.separator}xsl${file.separator}xslhtml${file.separator}infoshare.dita2htm.search.xsl">
+			
+			<param name="WORKDIR" expression="${dita.merged.dir}${file.separator}.."/>	      
+			<param name="DITAEXT" expression="${dita.ext}" if="dita.ext"/>
+			<param name="OUTEXT" expression="${searchdata.ext}" if="searchdata.ext"/>
+			<param name="CSS" expression="${args.css.file}" if="args.css.file"/>
+			<param name="CSSPATH" expression="${user.csspath}" if="user.csspath"/>
+			<param name="contenttarget" expression="${args.xhtml.contenttarget}" if="args.xhtml.contenttarget"/>
+			<param name="OUTPUTCLASS" expression="${args.xhtml.toc.class}" if="args.xhtml.toc.class"/>
+			
+		</xslt>
+	</target>  	
+		
+	<target name="infoshare.localise-files" description="Build localized TriPane HTML files">
+		<dirname file="${dita.temp.dir}${file.separator}${user.input.file}" property="dita.merged.dir"/>
+		
+		<xslt processor="trax" in="${dita.merged.dir}${file.separator}..${file.separator}ishjobticket.xml" out="${output.dir}${file.separator}index.html" style="${ishwebhelp.dir}${file.separator}xsl${file.separator}xslhtml${file.separator}infoshare.dita2htm.tripane.xsl">
+			
+			<param name="pagename" expression="index"/>
+			<param name="WORKDIR" expression="${dita.merged.dir}${file.separator}.."/>	      	      
+			<param name="CSS" expression="${args.css.file}" if="args.css.file"/>
+			<param name="CSSPATH" expression="${user.csspath}" if="user.csspath"/>
+			<param name="contenttarget" expression="${args.xhtml.contenttarget}" if="args.xhtml.contenttarget"/>
+			<param name="OUTPUTCLASS" expression="${args.xhtml.toc.class}" if="args.xhtml.toc.class"/>
+			<outputproperty name="method" value="html"/>
+			<outputproperty name="omit-xml-declaration" value="yes"/>
+			<outputproperty name="encoding" value="UTF-8"/>
+			<outputproperty name="indent" value="yes"/>				
+		</xslt>			
+		
+		<xslt processor="trax" in="${dita.merged.dir}${file.separator}..${file.separator}ishjobticket.xml" out="${output.dir}${file.separator}header.html" style="${ishwebhelp.dir}${file.separator}xsl${file.separator}xslhtml${file.separator}infoshare.dita2htm.tripane.xsl">
+			
+			<param name="pagename" expression="header"/>
+			<param name="WORKDIR" expression="${dita.merged.dir}${file.separator}.."/>	      	      
+			<param name="CSS" expression="${args.css.file}" if="args.css.file"/>
+			<param name="CSSPATH" expression="${user.csspath}" if="user.csspath"/>
+			<param name="contenttarget" expression="${args.xhtml.contenttarget}" if="args.xhtml.contenttarget"/>
+			<param name="OUTPUTCLASS" expression="${args.xhtml.toc.class}" if="args.xhtml.toc.class"/>
+			<outputproperty name="method" value="html"/>
+			<outputproperty name="omit-xml-declaration" value="yes"/>
+			<outputproperty name="encoding" value="UTF-8"/>
+			<outputproperty name="indent" value="yes"/>				
+		</xslt>	
+		
+		<xslt processor="trax" in="${dita.merged.dir}${file.separator}..${file.separator}ishjobticket.xml" out="${output.dir}${file.separator}search.html" style="${ishwebhelp.dir}${file.separator}xsl${file.separator}xslhtml${file.separator}infoshare.dita2htm.tripane.xsl">
+			
+			<param name="pagename" expression="search"/>
+			<param name="WORKDIR" expression="${dita.merged.dir}${file.separator}.."/>	      	      
+			<param name="CSS" expression="${args.css.file}" if="args.css.file"/>
+			<param name="CSSPATH" expression="${user.csspath}" if="user.csspath"/>
+			<param name="contenttarget" expression="${args.xhtml.contenttarget}" if="args.xhtml.contenttarget"/>
+			<param name="OUTPUTCLASS" expression="${args.xhtml.toc.class}" if="args.xhtml.toc.class"/>
+			<outputproperty name="method" value="html"/>
+			<outputproperty name="omit-xml-declaration" value="yes"/>
+			<outputproperty name="encoding" value="UTF-8"/>
+			<outputproperty name="indent" value="yes"/>
+		</xslt>			
+		
+		<xslt processor="trax" in="${dita.merged.dir}${file.separator}..${file.separator}ishjobticket.xml" out="${output.dir}${file.separator}searchlabels.js" style="${ishwebhelp.dir}${file.separator}xsl${file.separator}xslhtml${file.separator}infoshare.dita2htm.tripane.xsl">
+			
+			<param name="pagename" expression="searchlabels"/>
+			<param name="WORKDIR" expression="${dita.merged.dir}${file.separator}.."/>	      	      
+			<param name="CSS" expression="${args.css.file}" if="args.css.file"/>
+			<param name="CSSPATH" expression="${user.csspath}" if="user.csspath"/>
+			<param name="contenttarget" expression="${args.xhtml.contenttarget}" if="args.xhtml.contenttarget"/>
+			<param name="OUTPUTCLASS" expression="${args.xhtml.toc.class}" if="args.xhtml.toc.class"/>
+			<outputproperty name="method" value="text"/>
+			<outputproperty name="omit-xml-declaration" value="yes"/>
+			<outputproperty name="encoding" value="UTF-8"/>
+			<outputproperty name="indent" value="yes"/>
+		</xslt>	
+
+	</target>
+		
+
+	<import file="${dita.dir}${file.separator}plugins${file.separator}Trisoft-CommonTargets.xml"/>
+	<import file="${dita.dir}${file.separator}plugins${file.separator}SupportedSoftware.xml"/>
+	
+	
+
+	<property name="ishpdf.dir" value="${dita.dir}${file.separator}plugins${file.separator}ishPdf"/>
+	
+    <property name="preprocess.copy-image.skip" value="true"/>
+
+	<dirname file="${dita.temp.dir}${file.separator}${user.input.file}${file.separator}.." property="work.dir"/>
+	
+	<target name="dita2ishpdf" depends="build-init, preprocess, map2ishpdf, topic2ishpdf"/>
+
+	<target name="topic2ishpdf" if="noMap">
+		<antcall target="copy-ish-resources">
+			<param name="resourcedir" value="${ishpdf.dir}${file.separator}resources"/>
+			<param name="resourcetargetdir" value="${work.dir}"/>
+		</antcall>
+		<antcall target="dita.topic.ishpdf">
+			<param name="input" value="${dita.temp.dir}${file.separator}${user.input.file}"/>
+			<param name="output" value="${work.dir}${file.separator}${dita.topic.filename.root}.fo"/>
+		</antcall>
+		<antcall target="dita.fo2pdf.xep">
+			<param name="input" value="${work.dir}${file.separator}${dita.map.filename.root}.fo"/>
+			<param name="output" value="${dita.map.output.dir}${file.separator}${dita.map.filename.root}.pdf"/>
+		</antcall>
+		<antcall target="dita.fo2pdf.ah">
+			<param name="input" value="${work.dir}${file.separator}${dita.topic.filename.root}.fo"/>
+			<param name="output" value="${dita.map.output.dir}${file.separator}${dita.topic.filename.root}.pdf"/>
+		</antcall>
+		<antcall target="dita.fo2pdf.pe">
+			<param name="input" value="${work.dir}${file.separator}${dita.map.filename.root}.fo"/>
+			<param name="output" value="${dita.map.output.dir}${file.separator}${dita.map.filename.root}.pdf"/>
+		</antcall>
+		<antcall target="dita.fo2pdf.fop">
+			<param name="input" value="${work.dir}${file.separator}${dita.map.filename.root}.fo"/>
+			<param name="output" value="${dita.map.output.dir}${file.separator}${dita.map.filename.root}.pdf"/>
+		</antcall>
+	</target>
+
+	<target name="map2ishpdf" unless="noMap">
+		<antcall target="copy-ish-resources">
+			<param name="resourcedir" value="${ishpdf.dir}${file.separator}resources"/>
+			<param name="resourcetargetdir" value="${work.dir}"/>
+		</antcall>	
+		<antcall target="dita.map.ishpdf">
+			<param name="input" value="${dita.temp.dir}${file.separator}${user.input.file}"/>
+			<param name="output" value="${work.dir}${file.separator}${dita.map.filename.root}.fo"/>
+		</antcall>
+		<antcall target="dita.fo2pdf.xep">
+			<param name="input" value="${work.dir}${file.separator}${dita.map.filename.root}.fo"/>
+			<param name="output" value="${dita.map.output.dir}${file.separator}${dita.map.filename.root}.pdf"/>
+		</antcall>
+		<antcall target="dita.fo2pdf.ah">
+			<param name="input" value="${work.dir}${file.separator}${dita.map.filename.root}.fo"/>
+			<param name="output" value="${dita.map.output.dir}${file.separator}${dita.map.filename.root}.pdf"/>
+		</antcall>
+		<antcall target="dita.fo2pdf.pe">
+			<param name="input" value="${work.dir}${file.separator}${dita.map.filename.root}.fo"/>
+			<param name="output" value="${dita.map.output.dir}${file.separator}${dita.map.filename.root}.pdf"/>
+		</antcall>
+		<antcall target="dita.fo2pdf.fop">
+			<param name="input" value="${work.dir}${file.separator}${dita.map.filename.root}.fo"/>
+			<param name="output" value="${dita.map.output.dir}${file.separator}${dita.map.filename.root}.pdf"/>
+		</antcall>
+	</target>
+
+	
+	<target name="dita.map.ishpdf" description="Build XSL-FO output from ditamap (InfoShare PDF Template)">
+		<echo>**----------------------------------**</echo>
+		<echo>ishpdf.dir: ${ishpdf.dir}</echo>
+		<echo>Topicmerge location: ${ishpdf.dir}${file.separator}xsl${file.separator}common${file.separator}topicmerge.xsl</echo>
+		<echo>args.xsl default value: ${ishpdf.dir}${file.separator}xsl${file.separator}xslfo${file.separator}infoshare.dita2fo.shell.xsl</echo>
+		<echo>**----------------------------------**</echo>
+		<condition property="args.xsl" value="${ishpdf.dir}${file.separator}xsl${file.separator}xslfo${file.separator}infoshare.dita2fo.shell.xsl">
+			<not>
+				<isset property="args.xsl"/>
+			</not>
+		</condition>
+		<dirname file="${dita.temp.dir}${file.separator}${user.input.file}" property="dita.merged.dir"/>
+   
+    <pipeline message="topicmerge" inputmap="${dita.temp.dir}${file.separator}${user.input.file}" tempdir="${dita.temp.dir}">
+      <module class="org.dita.dost.module.TopicMergeModule">
+        <param name="output" location="${dita.merged.dir}${file.separator}${dita.map.filename.root}_MERGED.pre"/>
+	    </module>
+	  </pipeline>
+	  
+	  <xslt processor="trax" basedir="${dita.temp.dir}" classpathref="dost.class.path" reloadstylesheet="${dita.preprocess.reloadstylesheet}" style="${ishpdf.dir}${file.separator}xsl${file.separator}common${file.separator}topicmerge.xsl" filenameparameter="file-being-processed" in="${dita.merged.dir}${file.separator}${dita.map.filename.root}_MERGED.pre" out="${dita.merged.dir}${file.separator}${dita.map.filename.root}_MERGED.xml">
+	  </xslt>
+
+		<xslt processor="trax" in="${dita.merged.dir}${file.separator}${dita.map.filename.root}_MERGED.xml" out="${output}" style="${args.xsl}">
+			
+			<param name="output-related-links" expression="${args.fo.output.rel.links}" if="args.fo.output.rel.links"/>
+			<param name="DITAEXT" expression="${dita.ext}" if="dita.ext"/>
+			<param name="DRAFT" expression="${args.draft}" if="args.draft"/>
+			<param name="ARTLBL" expression="${args.artlbl}" if="args.artlbl"/>
+			<param name="dflt-ext" expression="${fo.img.ext}" if="fo.img.ext"/>
+			<param name="WORKDIR" expression="${work.dir}"/>
+		</xslt>
+	</target>
+
+	
+	<target name="dita.topic.ishpdf" description="Build XSL-FO output from dita topic (InfoShare PDF Template)">
+		<condition property="args.xsl" value="${ishpdf.dir}${file.separator}xsl${file.separator}xslfo${file.separator}infoshare.dita2fo.shell.xsl">
+			<not>
+				<isset property="args.xsl"/>
+			</not>
+		</condition>
+		<xslt processor="trax" in="${input}" out="${output}" style="${args.xsl}">
+			
+			<param name="output-related-links" expression="${args.fo.output.rel.links}" if="args.fo.output.rel.links"/>
+			<param name="DITAEXT" expression="${dita.ext}" if="dita.ext"/>
+			<param name="DRAFT" expression="${args.draft}" if="args.draft"/>
+			<param name="ARTLBL" expression="${args.artlbl}" if="args.artlbl"/>
+			<param name="dflt-ext" expression="${fo.img.ext}" if="fo.img.ext"/>
+			<param name="WORKDIR" expression="${work.dir}"/>
+		</xslt>
+	</target>
+  
+
+  
+  <!-- Deprecated since 2.1 -->
+  <target name="help">
+    <echo level="info">See http://www.dita-ot.org/${otrelease}/</echo>
+  </target>
+
+</project>

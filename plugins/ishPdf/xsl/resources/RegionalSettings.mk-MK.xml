@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RegionalSettings xml:lang="mk-MK"><!--Macedonian (The Former Yugoslav Republic Of Macedonia)-->
+	<setting name="CountryDescription">The Former Yugoslav Republic Of Macedonia</setting>
+	<setting name="CountryCode">MK</setting>
+	<setting name="LanguageDescription">Macedonian</setting>
+	<setting name="LanguageCode">mk</setting>
+	<setting name="LanguageRegion">mk-MK</setting>
+</RegionalSettings>

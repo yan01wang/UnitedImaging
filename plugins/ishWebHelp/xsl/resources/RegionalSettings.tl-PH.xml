@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RegionalSettings xml:lang="tl-PH"><!--Tagalog (Philippines)-->
+	<setting name="CountryDescription">Philippines</setting>
+	<setting name="CountryCode">PH</setting>
+	<setting name="LanguageDescription">Tagalog</setting>
+	<setting name="LanguageCode">tl</setting>
+	<setting name="LanguageRegion">tl-PH</setting>
+</RegionalSettings>

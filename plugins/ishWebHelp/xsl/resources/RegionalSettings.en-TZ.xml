@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RegionalSettings xml:lang="en-TZ"><!--English (United Republic Of Tanzania)-->
+	<setting name="CountryDescription">United Republic Of Tanzania</setting>
+	<setting name="CountryCode">TZ</setting>
+	<setting name="LanguageDescription">English</setting>
+	<setting name="LanguageCode">en</setting>
+	<setting name="LanguageRegion">en-TZ</setting>
+</RegionalSettings>

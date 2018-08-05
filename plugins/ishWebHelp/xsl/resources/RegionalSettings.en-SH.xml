@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RegionalSettings xml:lang="en-SH"><!--English (Saint Helena)-->
+	<setting name="CountryDescription">Saint Helena</setting>
+	<setting name="CountryCode">SH</setting>
+	<setting name="LanguageDescription">English</setting>
+	<setting name="LanguageCode">en</setting>
+	<setting name="LanguageRegion">en-SH</setting>
+</RegionalSettings>

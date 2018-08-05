@@ -1,0 +1,4 @@
+﻿<plugin id="com.suitesol.dita.webworks">
+  <feature extension="dita.conductor.transtype.check" value="webworks" type="txt"/>
+  <feature extension="dita.conductor.target" value="build.xml" type="file"/>
+</plugin>

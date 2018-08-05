@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RegionalSettings xml:lang="fr-GP"><!--French (Guadeloupe)-->
+	<setting name="CountryDescription">Guadeloupe</setting>
+	<setting name="CountryCode">GP</setting>
+	<setting name="LanguageDescription">French</setting>
+	<setting name="LanguageCode">fr</setting>
+	<setting name="LanguageRegion">fr-GP</setting>
+</RegionalSettings>

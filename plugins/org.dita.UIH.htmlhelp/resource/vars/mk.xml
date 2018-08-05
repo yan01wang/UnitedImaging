@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--   
+This file is part of the DITA Open Toolkit project. 
+See the accompanying license.txt file for applicable licenses.
+-->
+<vars xmlns="http://www.idiominc.com/opentopic/vars">
+
+    <!-- 
+     
+      This file controls strings that appear in the published output.  
+      There is one version of this file per language.  To add support 
+      for a new language, simply create a copy of this file and name 
+      it using the <locale ISO code>.xml format.
+      
+    -->
+
+    <!-- 
+       Strings used in the headers and footers of pages.
+    -->
+
+  
+<!-- various labels (not author controlled) -->
+<variable id="Figure">Слика</variable>
+<variable id="Table">Табела</variable>
+<variable id="Next topic">Следна тема</variable>
+<variable id="Previous topic">Претходна тема</variable>
+<variable id="Parent topic">Матична тема</variable>
+<variable id="Required cleanup">Потребно средување</variable>
+<variable id="Draft comment">Прелиминарен коментар</variable>
+<variable id="Option">Избор</variable>
+<variable id="Description">Опис</variable>
+<variable id="Optional">Изборен</variable>
+<variable id="Required">Потребен</variable>
+<variable id="Skip visual syntax diagram">Прескокнете го визуелниот синтаксички дијаграм</variable>
+<variable id="Read syntax diagram">Прочитајте го синтаксичкиот дијаграм</variable>
+<variable id="Start of change">Почеток на промена</variable>
+<variable id="End of change">Крај на промена</variable>
+<variable id="Index">Индекс</variable>
+<variable id="Special characters">Специјални знаци</variable>
+<variable id="Numerics">Нумерици</variable>
+<variable id="End notes">Крајни забелешки</variable>
+<variable id="Artwork">Цртежи</variable>
+<variable id="Syntax">Синтакса</variable>
+<variable id="Type">Тип</variable>
+<variable id="Value">Вредност</variable>
+<!-- Text that goes before a link to a topic -->
+<variable id="intro-to-topic-link"></variable>
+
+<!-- peril notice labels -->
+<variable id="Note">Забелешка</variable>
+<variable id="Notes">Забелешки</variable>
+<variable id="Tip">Помошна информација</variable>
+<variable id="Fastpath">Прекутрупа</variable>
+<variable id="Important">Важно</variable>
+<variable id="Attention">Внимание</variable>
+<variable id="Caution">ПРЕДУПРЕДУВАЊЕ</variable>
+<variable id="Danger">ОПАСНОСТ</variable>
+<variable id="Remember">Запаметете</variable>
+<variable id="Revariableiction">Ограничување</variable>
+<variable id="Warning">Предупредување</variable>
+
+<!-- default title text for section level generated sections -->
+<variable id="Contents">Содржина</variable>
+<variable id="Related concepts">Сродни концепти</variable>
+<variable id="Related tasks">Сродни задачи</variable>
+<variable id="Related reference">Сродни референци</variable>
+<variable id="Related information">Сродни информации</variable>
+
+<variable id="Prerequisite">Потребно предзнаење</variable>
+<variable id="Prerequisites">Потребни предзнаења</variable>
+<variable id="or">or</variable>
+<variable id="figure-number-separator"> </variable>
+
+<!--Task section labels -->
+<variable id="task_context">За оваа активност</variable>
+<variable id="task_example">Пример</variable>
+<variable id="task_povariableeq">Што да направите следно</variable>
+<variable id="task_prereq">Пред да започнете</variable>
+<variable id="task_procedure">Процедура</variable>
+<variable id="task_procedure_unordered">Процедура</variable>
+<variable id="task_results">Резултати</variable>
+
+<variable id="Copyright">Авторски права</variable>
+
+<!-- Symbols -->
+<variable id="OpenQuote">"</variable>
+<variable id="CloseQuote">"</variable>
+<variable id="ColonSymbol">:</variable>
+</vars>

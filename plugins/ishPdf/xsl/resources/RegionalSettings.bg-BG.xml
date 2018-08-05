@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RegionalSettings xml:lang="bg-BG"><!--Bulgarian (Bulgaria)-->
+	<setting name="CountryDescription">Bulgaria</setting>
+	<setting name="CountryCode">BG</setting>
+	<setting name="LanguageDescription">Bulgarian</setting>
+	<setting name="LanguageCode">bg</setting>
+	<setting name="LanguageRegion">bg-BG</setting>
+</RegionalSettings>

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="ishpdf.build" basedir=".">
+	<import file="${dita.dir}${file.separator}plugins${file.separator}Trisoft-CommonTargets.xml"/>
+	<import file="${dita.dir}${file.separator}plugins${file.separator}SupportedSoftware.xml"/>
+	
+	<!-- 20090421/RS-DD
+	  <target name="dita2ishpdf" depends="build-init, preprocess, copy-ish-resources, infoshare.copy-files, map2ishpdf, topic2ishpdf"/>
+	  Removed infoshare.copy-files because ishPDF supports multilingual and compare having problems locating *.report.xml
+	  Note that ishPDF currently doesn't support $OUT redirection
+	-->
+
+	<property name="ishpdf.dir"  value="${dita.dir}${file.separator}plugins${file.separator}ishPdf" />
+	
+    <property name="preprocess.copy-image.skip" value="true" />
+
+	<dirname file="${dita.temp.dir}${file.separator}${user.input.file}${file.separator}.." property="work.dir" />
+	
+	<target name="dita2ishpdf" depends="build-init, preprocess, map2ishpdf, topic2ishpdf"/>
+
+	<target name="topic2ishpdf" if="noMap">
+		<antcall target="copy-ish-resources">
+			<param name="resourcedir" value="${ishpdf.dir}${file.separator}resources" />
+			<param name="resourcetargetdir" value="${work.dir}" />
+		</antcall>
+		<antcall target="dita.topic.ishpdf">
+			<param name="input" value="${dita.temp.dir}${file.separator}${user.input.file}" />
+			<param name="output" value="${work.dir}${file.separator}${dita.topic.filename.root}.fo" />
+		</antcall>
+		<antcall target="dita.fo2pdf.xep">
+			<param name="input" value="${work.dir}${file.separator}${dita.map.filename.root}.fo" />
+			<param name="output" value="${dita.map.output.dir}${file.separator}${dita.map.filename.root}.pdf" />
+		</antcall>
+		<antcall target="dita.fo2pdf.ah">
+			<param name="input" value="${work.dir}${file.separator}${dita.topic.filename.root}.fo" />
+			<param name="output" value="${dita.map.output.dir}${file.separator}${dita.topic.filename.root}.pdf" />
+		</antcall>
+		<antcall target="dita.fo2pdf.pe">
+			<param name="input" value="${work.dir}${file.separator}${dita.map.filename.root}.fo" />
+			<param name="output" value="${dita.map.output.dir}${file.separator}${dita.map.filename.root}.pdf" />
+		</antcall>
+		<antcall target="dita.fo2pdf.fop">
+			<param name="input" value="${work.dir}${file.separator}${dita.map.filename.root}.fo" />
+			<param name="output" value="${dita.map.output.dir}${file.separator}${dita.map.filename.root}.pdf" />
+		</antcall>
+	</target>
+
+	<target name="map2ishpdf" unless="noMap">
+		<antcall target="copy-ish-resources">
+			<param name="resourcedir" value="${ishpdf.dir}${file.separator}resources" />
+			<param name="resourcetargetdir" value="${work.dir}" />
+		</antcall>	
+		<antcall target="dita.map.ishpdf">
+			<param name="input" value="${dita.temp.dir}${file.separator}${user.input.file}" />
+			<param name="output" value="${work.dir}${file.separator}${dita.map.filename.root}.fo" />
+		</antcall>
+		<antcall target="dita.fo2pdf.xep">
+			<param name="input" value="${work.dir}${file.separator}${dita.map.filename.root}.fo" />
+			<param name="output" value="${dita.map.output.dir}${file.separator}${dita.map.filename.root}.pdf" />
+		</antcall>
+		<antcall target="dita.fo2pdf.ah">
+			<param name="input" value="${work.dir}${file.separator}${dita.map.filename.root}.fo" />
+			<param name="output" value="${dita.map.output.dir}${file.separator}${dita.map.filename.root}.pdf" />
+		</antcall>
+		<antcall target="dita.fo2pdf.pe">
+			<param name="input" value="${work.dir}${file.separator}${dita.map.filename.root}.fo" />
+			<param name="output" value="${dita.map.output.dir}${file.separator}${dita.map.filename.root}.pdf" />
+		</antcall>
+		<antcall target="dita.fo2pdf.fop">
+			<param name="input" value="${work.dir}${file.separator}${dita.map.filename.root}.fo" />
+			<param name="output" value="${dita.map.output.dir}${file.separator}${dita.map.filename.root}.pdf" />
+		</antcall>
+	</target>
+
+	<!-- Build XSL-FO output from ditamap -->
+	<target name="dita.map.ishpdf" description="Build XSL-FO output from ditamap (InfoShare PDF Template)">
+		<echo>**----------------------------------**</echo>
+		<echo>ishpdf.dir: ${ishpdf.dir}</echo>
+		<echo>Topicmerge location: ${ishpdf.dir}${file.separator}xsl${file.separator}common${file.separator}topicmerge.xsl</echo>
+		<echo>args.xsl default value: ${ishpdf.dir}${file.separator}xsl${file.separator}xslfo${file.separator}infoshare.dita2fo.shell.xsl</echo>
+		<echo>**----------------------------------**</echo>
+		<condition property="args.xsl" value="${ishpdf.dir}${file.separator}xsl${file.separator}xslfo${file.separator}infoshare.dita2fo.shell.xsl">
+			<not>
+				<isset property="args.xsl" />
+			</not>
+		</condition>
+		<dirname file="${dita.temp.dir}${file.separator}${user.input.file}" property="dita.merged.dir" />
+   
+    <pipeline message="topicmerge" 
+	    inputmap="${dita.temp.dir}${file.separator}${user.input.file}"
+	    tempdir="${dita.temp.dir}">
+      <module class="org.dita.dost.module.TopicMergeModule">
+        <param name="output" location="${dita.merged.dir}${file.separator}${dita.map.filename.root}_MERGED.pre"/>
+	    </module>
+	  </pipeline>
+	  
+	  <xslt
+	    processor="trax" basedir="${dita.temp.dir}"
+	    classpathref="dost.class.path"
+	    reloadstylesheet="${dita.preprocess.reloadstylesheet}"
+	    style="${ishpdf.dir}${file.separator}xsl${file.separator}common${file.separator}topicmerge.xsl" 
+	    filenameparameter="file-being-processed"
+	    in="${dita.merged.dir}${file.separator}${dita.map.filename.root}_MERGED.pre" out="${dita.merged.dir}${file.separator}${dita.map.filename.root}_MERGED.xml">
+	  </xslt>
+
+		<xslt processor="trax"
+		      in="${dita.merged.dir}${file.separator}${dita.map.filename.root}_MERGED.xml"
+		      out="${output}" style="${args.xsl}">
+			<!--<xmlcatalog refid="dita.catalog" />-->
+			<param name="output-related-links" expression="${args.fo.output.rel.links}" if="args.fo.output.rel.links" />
+			<param name="DITAEXT" expression="${dita.ext}" if="dita.ext" />
+			<param name="DRAFT" expression="${args.draft}" if="args.draft" />
+			<param name="ARTLBL" expression="${args.artlbl}" if="args.artlbl" />
+			<param name="dflt-ext" expression="${fo.img.ext}" if="fo.img.ext" />
+			<param name="WORKDIR" expression="${work.dir}"/>
+		</xslt>
+	</target>
+
+	<!-- Build XSL-FO output from dita topic -->
+	<target name="dita.topic.ishpdf" description="Build XSL-FO output from dita topic (InfoShare PDF Template)">
+		<condition property="args.xsl" value="${ishpdf.dir}${file.separator}xsl${file.separator}xslfo${file.separator}infoshare.dita2fo.shell.xsl">
+			<not>
+				<isset property="args.xsl" />
+			</not>
+		</condition>
+		<xslt processor="trax" in="${input}" out="${output}" style="${args.xsl}">
+			<!--<xmlcatalog refid="dita.catalog" />-->
+			<param name="output-related-links" expression="${args.fo.output.rel.links}" if="args.fo.output.rel.links" />
+			<param name="DITAEXT" expression="${dita.ext}" if="dita.ext" />
+			<param name="DRAFT" expression="${args.draft}" if="args.draft" />
+			<param name="ARTLBL" expression="${args.artlbl}" if="args.artlbl" />
+			<param name="dflt-ext" expression="${fo.img.ext}" if="fo.img.ext" />
+			<param name="WORKDIR" expression="${work.dir}"/>
+		</xslt>
+	</target>
+  
+</project>

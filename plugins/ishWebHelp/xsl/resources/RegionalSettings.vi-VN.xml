@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RegionalSettings xml:lang="vi-VN"><!--Vietnamese (Viet Nam)-->
+	<setting name="CountryDescription">Viet Nam</setting>
+	<setting name="CountryCode">VN</setting>
+	<setting name="LanguageDescription">Vietnamese</setting>
+	<setting name="LanguageCode">vi</setting>
+	<setting name="LanguageRegion">vi-VN</setting>
+</RegionalSettings>

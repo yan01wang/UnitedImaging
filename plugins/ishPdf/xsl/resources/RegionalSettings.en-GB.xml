@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RegionalSettings xml:lang="en-GB"><!--English (United Kingdom)-->
+	<setting name="CountryDescription">United Kingdom</setting>
+	<setting name="CountryCode">GB</setting>
+	<setting name="LanguageDescription">English</setting>
+	<setting name="LanguageCode">en</setting>
+	<setting name="LanguageRegion">en-GB</setting>
+</RegionalSettings>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RegionalSettings xml:lang="nl-AW"><!--Dutch (Aruba)-->
+	<setting name="CountryDescription">Aruba</setting>
+	<setting name="CountryCode">AW</setting>
+	<setting name="LanguageDescription">Dutch</setting>
+	<setting name="LanguageCode">nl</setting>
+	<setting name="LanguageRegion">nl-AW</setting>
+</RegionalSettings>

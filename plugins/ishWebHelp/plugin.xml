@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin id="org.dita.webhelp">
+  <feature extension="dita.conductor.transtype.check" value="ishwebhelp" type="html"/>
+  <feature extension="dita.conductor.target" value="integrator.xml" type="file"/>
+	<feature extension="dita.xsl.xhtml" value="xsl/xslhtml/infoshare.dita2htm.diff.xsl" type="file"/>  
+</plugin>

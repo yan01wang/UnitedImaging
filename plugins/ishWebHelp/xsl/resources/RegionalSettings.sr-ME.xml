@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RegionalSettings xml:lang="sr-ME"><!--Serbian (Montenegro)-->
+	<setting name="CountryDescription">Montenegro</setting>
+	<setting name="CountryCode">ME</setting>
+	<setting name="LanguageDescription">Serbian</setting>
+	<setting name="LanguageCode">sr</setting>
+	<setting name="LanguageRegion">sr-ME</setting>
+</RegionalSettings>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RegionalSettings xml:lang="lv-LV"><!--Latvian (Latvia)-->
+	<setting name="CountryDescription">Latvia</setting>
+	<setting name="CountryCode">LV</setting>
+	<setting name="LanguageDescription">Latvian</setting>
+	<setting name="LanguageCode">lv</setting>
+	<setting name="LanguageRegion">lv-LV</setting>
+</RegionalSettings>

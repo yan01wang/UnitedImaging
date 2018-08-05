@@ -1,0 +1,130 @@
+﻿<?xml version='1.0' encoding='UTF-8'?>
+<strings>
+  <!-- English US version -->
+  <str xml:lang="en" name="Artwork"></str>
+  <str xml:lang="en" name="Attention"></str>
+  <str xml:lang="en" name="Caution"></str>
+  <str xml:lang="en" name="Contents">Contents</str>
+  <str xml:lang="en" name="Context"></str>
+  <str xml:lang="en" name="Credo">Effectivity through Knowledge</str>
+  <str xml:lang="en" name="Danger"></str>
+  <str xml:lang="en" name="Document Number"></str>
+  <str xml:lang="en" name="End Notes"></str>
+  <str xml:lang="en" name="Example"></str>
+  <str xml:lang="en" name="Examples"></str>
+  <str xml:lang="en" name="Fastpath"></str>
+  <str xml:lang="en" name="Figure"></str>
+  <str xml:lang="en" name="Important"></str>
+  <str xml:lang="en" name="Index">Index</str>
+  <str xml:lang="en" name="Link Relations"></str>
+  <str xml:lang="en" name="Local topics"></str>
+  <str xml:lang="en" name="Next topic"></str>
+  <str xml:lang="en" name="Note"></str>
+  <str xml:lang="en" name="Notes"></str>
+  <str xml:lang="en" name="Optional"></str>
+  <str xml:lang="en" name="Parameters"></str>
+  <str xml:lang="en" name="Parent Link"></str>
+  <str xml:lang="en" name="Previous topic"></str>
+  <str xml:lang="en" name="Product"></str>
+  <str xml:lang="en" name="Purpose"></str>
+  <str xml:lang="en" name="Postrequisites"></str>
+  <str xml:lang="en" name="Prerequisites"></str>
+  <str xml:lang="en" name="related.links"></str>
+  <str xml:lang="en" name="related.links.text"></str>
+  <str xml:lang="en" name="Remember"></str>
+  <str xml:lang="en" name="Related concepts"></str>
+  <str xml:lang="en" name="Related tasks"></str>
+  <str xml:lang="en" name="Required"></str>
+  <str xml:lang="en" name="Result"></str>
+  <str xml:lang="en" name="Return to Top"></str>  
+  <str xml:lang="en" name="See page"></str>
+  <str xml:lang="en" name="Steps"></str>
+  <str xml:lang="en" name="Syntax"></str>
+  <str xml:lang="en" name="Table"></str>
+  <str xml:lang="en" name="Tip"></str>
+  <!-- Arabic version -->
+  <str xml:lang="ar" name="Artwork"></str>
+  <str xml:lang="ar" name="Attention"></str>
+  <str xml:lang="ar" name="Caution"></str>
+  <str xml:lang="ar" name="Contents">الدوليّة </str>
+  <str xml:lang="ar" name="Context"></str>
+  <str xml:lang="ar" name="Credo"></str>
+  <str xml:lang="ar" name="Danger"></str>
+  <str xml:lang="ar" name="Document Number"></str>
+  <str xml:lang="ar" name="End Notes"></str>
+  <str xml:lang="ar" name="Example"></str>
+  <str xml:lang="ar" name="Examples"></str>
+  <str xml:lang="ar" name="Fastpath"></str>
+  <str xml:lang="ar" name="Figure"></str>
+  <str xml:lang="ar" name="Important"></str>
+  <str xml:lang="ar" name="Index">أرقام </str>
+  <str xml:lang="ar" name="Link Relations"></str>
+  <str xml:lang="ar" name="Local topics"></str>
+  <str xml:lang="ar" name="Next topic"></str>
+  <str xml:lang="ar" name="Note"></str>
+  <str xml:lang="ar" name="Notes"></str>
+  <str xml:lang="ar" name="Optional"></str>
+  <str xml:lang="ar" name="Parameters"></str>
+  <str xml:lang="ar" name="Parent Link"></str>
+  <str xml:lang="ar" name="Previous topic"></str>
+  <str xml:lang="ar" name="Product"></str>
+  <str xml:lang="ar" name="Purpose"></str>
+  <str xml:lang="ar" name="Postrequisites"></str>
+  <str xml:lang="ar" name="Prerequisites"></str>
+  <str xml:lang="ar" name="related.links"></str>
+  <str xml:lang="ar" name="related.links.text"></str>
+  <str xml:lang="ar" name="Remember"></str>
+  <str xml:lang="ar" name="Related concepts"></str>
+  <str xml:lang="ar" name="Related tasks"></str>
+  <str xml:lang="ar" name="Required"></str>
+  <str xml:lang="ar" name="Result"></str>
+  <str xml:lang="ar" name="Return to Top"></str>  
+  <str xml:lang="ar" name="See page"></str>
+  <str xml:lang="ar" name="Steps"></str>
+  <str xml:lang="ar" name="Syntax"></str>
+  <str xml:lang="ar" name="Table"></str>
+  <str xml:lang="ar" name="Tip"></str>
+  <!-- French version -->
+  <str xml:lang="fr" name="Artwork"></str>
+  <str xml:lang="fr" name="Attention"></str>
+  <str xml:lang="fr" name="Caution"></str>
+  <str xml:lang="fr" name="Contents">Contenu</str>
+  <str xml:lang="fr" name="Context"></str>
+  <str xml:lang="fr" name="Credo"></str>
+  <str xml:lang="fr" name="Danger"></str>
+  <str xml:lang="fr" name="Document Number"></str>
+  <str xml:lang="fr" name="End Notes"></str>
+  <str xml:lang="fr" name="Example"></str>
+  <str xml:lang="fr" name="Examples"></str>
+  <str xml:lang="fr" name="Fastpath"></str>
+  <str xml:lang="fr" name="Figure"></str>
+  <str xml:lang="fr" name="Important"></str>
+  <str xml:lang="fr" name="Index">Index</str>
+  <str xml:lang="fr" name="Link Relations"></str>
+  <str xml:lang="fr" name="Local topics"></str>
+  <str xml:lang="fr" name="Next topic"></str>
+  <str xml:lang="fr" name="Note"></str>
+  <str xml:lang="fr" name="Notes"></str>
+  <str xml:lang="fr" name="Optional"></str>
+  <str xml:lang="fr" name="Parameters"></str>
+  <str xml:lang="fr" name="Parent Link"></str>
+  <str xml:lang="fr" name="Previous topic"></str>
+  <str xml:lang="fr" name="Product"></str>
+  <str xml:lang="fr" name="Purpose"></str>
+  <str xml:lang="fr" name="Postrequisites"></str>
+  <str xml:lang="fr" name="Prerequisites"></str>
+  <str xml:lang="fr" name="related.links"></str>
+  <str xml:lang="fr" name="related.links.text"></str>
+  <str xml:lang="fr" name="Remember"></str>
+  <str xml:lang="fr" name="Related concepts"></str>
+  <str xml:lang="fr" name="Related tasks"></str>
+  <str xml:lang="fr" name="Required"></str>
+  <str xml:lang="fr" name="Result"></str>
+  <str xml:lang="fr" name="Return to Top"></str>  
+  <str xml:lang="fr" name="See page"></str>
+  <str xml:lang="fr" name="Steps"></str>
+  <str xml:lang="fr" name="Syntax"></str>
+  <str xml:lang="fr" name="Table"></str>
+  <str xml:lang="fr" name="Tip"></str>
+</strings>
+

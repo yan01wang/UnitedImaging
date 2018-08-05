@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RegionalSettings xml:lang="is-IS"><!--Icelandic (Iceland)-->
+	<setting name="CountryDescription">Iceland</setting>
+	<setting name="CountryCode">IS</setting>
+	<setting name="LanguageDescription">Icelandic</setting>
+	<setting name="LanguageCode">is</setting>
+	<setting name="LanguageRegion">is-IS</setting>
+</RegionalSettings>

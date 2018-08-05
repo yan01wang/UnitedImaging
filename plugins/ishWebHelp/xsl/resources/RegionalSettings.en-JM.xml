@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RegionalSettings xml:lang="en-JM"><!--English (Jamaica)-->
+	<setting name="CountryDescription">Jamaica</setting>
+	<setting name="CountryCode">JM</setting>
+	<setting name="LanguageDescription">English</setting>
+	<setting name="LanguageCode">en</setting>
+	<setting name="LanguageRegion">en-JM</setting>
+</RegionalSettings>

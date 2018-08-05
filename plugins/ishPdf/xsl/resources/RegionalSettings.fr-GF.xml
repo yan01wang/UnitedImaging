@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RegionalSettings xml:lang="fr-GF"><!--French (French Guiana)-->
+	<setting name="CountryDescription">French Guiana</setting>
+	<setting name="CountryCode">GF</setting>
+	<setting name="LanguageDescription">French</setting>
+	<setting name="LanguageCode">fr</setting>
+	<setting name="LanguageRegion">fr-GF</setting>
+</RegionalSettings>

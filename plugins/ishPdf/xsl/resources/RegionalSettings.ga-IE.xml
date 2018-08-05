@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RegionalSettings xml:lang="ga-IE"><!--Irish (Ireland)-->
+	<setting name="CountryDescription">Ireland</setting>
+	<setting name="CountryCode">IE</setting>
+	<setting name="LanguageDescription">Irish</setting>
+	<setting name="LanguageCode">ga</setting>
+	<setting name="LanguageRegion">ga-IE</setting>
+</RegionalSettings>

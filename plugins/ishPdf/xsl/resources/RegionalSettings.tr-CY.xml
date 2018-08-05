@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RegionalSettings xml:lang="tr-CY"><!--Turkish (Cyprus)-->
+	<setting name="CountryDescription">Cyprus</setting>
+	<setting name="CountryCode">CY</setting>
+	<setting name="LanguageDescription">Turkish</setting>
+	<setting name="LanguageCode">tr</setting>
+	<setting name="LanguageRegion">tr-CY</setting>
+</RegionalSettings>

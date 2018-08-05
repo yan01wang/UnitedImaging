@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RegionalSettings xml:lang="el-GR"><!--Greek (Greece)-->
+	<setting name="CountryDescription">Greece</setting>
+	<setting name="CountryCode">GR</setting>
+	<setting name="LanguageDescription">Greek</setting>
+	<setting name="LanguageCode">el</setting>
+	<setting name="LanguageRegion">el-GR</setting>
+</RegionalSettings>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RegionalSettings xml:lang="th-TH"><!--Thai (Thailand)-->
+	<setting name="CountryDescription">Thailand</setting>
+	<setting name="CountryCode">TH</setting>
+	<setting name="LanguageDescription">Thai</setting>
+	<setting name="LanguageCode">th</setting>
+	<setting name="LanguageRegion">th-TH</setting>
+</RegionalSettings>

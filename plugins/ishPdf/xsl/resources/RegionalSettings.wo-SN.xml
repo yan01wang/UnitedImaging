@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RegionalSettings xml:lang="wo-SN"><!--Wolof (Senegal)-->
+	<setting name="CountryDescription">Senegal</setting>
+	<setting name="CountryCode">SN</setting>
+	<setting name="LanguageDescription">Wolof</setting>
+	<setting name="LanguageCode">wo</setting>
+	<setting name="LanguageRegion">wo-SN</setting>
+</RegionalSettings>

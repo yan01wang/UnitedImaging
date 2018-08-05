@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RegionalSettings xml:lang="fr-MC"><!--French (Monaco)-->
+	<setting name="CountryDescription">Monaco</setting>
+	<setting name="CountryCode">MC</setting>
+	<setting name="LanguageDescription">French</setting>
+	<setting name="LanguageCode">fr</setting>
+	<setting name="LanguageRegion">fr-MC</setting>
+</RegionalSettings>

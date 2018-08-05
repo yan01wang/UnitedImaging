@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RegionalSettings xml:lang="pl-PL"><!--Polish (Poland)-->
+	<setting name="CountryDescription">Poland</setting>
+	<setting name="CountryCode">PL</setting>
+	<setting name="LanguageDescription">Polish</setting>
+	<setting name="LanguageCode">pl</setting>
+	<setting name="LanguageRegion">pl-PL</setting>
+</RegionalSettings>

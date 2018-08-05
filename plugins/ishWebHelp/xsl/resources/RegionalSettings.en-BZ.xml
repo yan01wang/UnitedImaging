@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RegionalSettings xml:lang="en-BZ"><!--English (Belize)-->
+	<setting name="CountryDescription">Belize</setting>
+	<setting name="CountryCode">BZ</setting>
+	<setting name="LanguageDescription">English</setting>
+	<setting name="LanguageCode">en</setting>
+	<setting name="LanguageRegion">en-BZ</setting>
+</RegionalSettings>

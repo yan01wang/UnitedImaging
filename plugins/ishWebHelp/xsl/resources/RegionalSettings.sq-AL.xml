@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RegionalSettings xml:lang="sq-AL"><!--Albanian (Albania)-->
+	<setting name="CountryDescription">Albania</setting>
+	<setting name="CountryCode">AL</setting>
+	<setting name="LanguageDescription">Albanian</setting>
+	<setting name="LanguageCode">sq</setting>
+	<setting name="LanguageRegion">sq-AL</setting>
+</RegionalSettings>

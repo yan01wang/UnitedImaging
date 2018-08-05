@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RegionalSettings xml:lang="km-KH"><!--Khmer (Cambodia)-->
+	<setting name="CountryDescription">Cambodia</setting>
+	<setting name="CountryCode">KH</setting>
+	<setting name="LanguageDescription">Khmer</setting>
+	<setting name="LanguageCode">km</setting>
+	<setting name="LanguageRegion">km-KH</setting>
+</RegionalSettings>

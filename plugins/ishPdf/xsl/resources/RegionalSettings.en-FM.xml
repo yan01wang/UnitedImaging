@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RegionalSettings xml:lang="en-FM"><!--English (Federated States Of Micronesia)-->
+	<setting name="CountryDescription">Federated States Of Micronesia</setting>
+	<setting name="CountryCode">FM</setting>
+	<setting name="LanguageDescription">English</setting>
+	<setting name="LanguageCode">en</setting>
+	<setting name="LanguageRegion">en-FM</setting>
+</RegionalSettings>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RegionalSettings xml:lang="to-TO"><!--Tongan (Tonga)-->
+	<setting name="CountryDescription">Tonga</setting>
+	<setting name="CountryCode">TO</setting>
+	<setting name="LanguageDescription">Tongan</setting>
+	<setting name="LanguageCode">to</setting>
+	<setting name="LanguageRegion">to-TO</setting>
+</RegionalSettings>

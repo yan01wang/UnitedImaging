@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RegionalSettings xml:lang="es-MX"><!--Spanish (Mexico)-->
+	<setting name="CountryDescription">Mexico</setting>
+	<setting name="CountryCode">MX</setting>
+	<setting name="LanguageDescription">Spanish</setting>
+	<setting name="LanguageCode">es</setting>
+	<setting name="LanguageRegion">es-MX</setting>
+</RegionalSettings>

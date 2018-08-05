@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RegionalSettings xml:lang="ch-MP"><!--Chamorro (Northern Mariana Islands)-->
+	<setting name="CountryDescription">Northern Mariana Islands</setting>
+	<setting name="CountryCode">MP</setting>
+	<setting name="LanguageDescription">Chamorro</setting>
+	<setting name="LanguageCode">ch</setting>
+	<setting name="LanguageRegion">ch-MP</setting>
+</RegionalSettings>

@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<project name="org.dita.UIH">
+  <target name="dita2UIH-PDF.init">
+    <property name="customization.dir" location="${dita.plugin.org.dita.UIH.dir}/cfg"/>
+  </target>
+  <target name="dita2UIH-PDF" depends="dita2UIH-PDF.init, dita2pdf2"/>
+</project>

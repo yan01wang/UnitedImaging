@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RegionalSettings xml:lang="nl-BE"><!--Dutch (Belgium)-->
+	<setting name="CountryDescription">Belgium</setting>
+	<setting name="CountryCode">BE</setting>
+	<setting name="LanguageDescription">Dutch</setting>
+	<setting name="LanguageCode">nl</setting>
+	<setting name="LanguageRegion">nl-BE</setting>
+</RegionalSettings>

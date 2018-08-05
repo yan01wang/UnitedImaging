@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RegionalSettings xml:lang="tk-TM"><!--Turkmen (Turkmenistan)-->
+	<setting name="CountryDescription">Turkmenistan</setting>
+	<setting name="CountryCode">TM</setting>
+	<setting name="LanguageDescription">Turkmen</setting>
+	<setting name="LanguageCode">tk</setting>
+	<setting name="LanguageRegion">tk-TM</setting>
+</RegionalSettings>

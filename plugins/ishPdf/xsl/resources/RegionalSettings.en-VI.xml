@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RegionalSettings xml:lang="en-VI"><!--English (Virgin Islands, U.S.)-->
+	<setting name="CountryDescription">Virgin Islands, U.S.</setting>
+	<setting name="CountryCode">VI</setting>
+	<setting name="LanguageDescription">English</setting>
+	<setting name="LanguageCode">en</setting>
+	<setting name="LanguageRegion">en-VI</setting>
+</RegionalSettings>

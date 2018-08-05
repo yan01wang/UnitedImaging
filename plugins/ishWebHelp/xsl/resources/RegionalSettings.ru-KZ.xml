@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RegionalSettings xml:lang="ru-KZ"><!--Russian (Kazakhstan)-->
+	<setting name="CountryDescription">Kazakhstan</setting>
+	<setting name="CountryCode">KZ</setting>
+	<setting name="LanguageDescription">Russian</setting>
+	<setting name="LanguageCode">ru</setting>
+	<setting name="LanguageRegion">ru-KZ</setting>
+</RegionalSettings>

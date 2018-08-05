@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RegionalSettings xml:lang="ar-DJ"><!--Arabic (Djibouti)-->
+	<setting name="CountryDescription">Djibouti</setting>
+	<setting name="CountryCode">DJ</setting>
+	<setting name="LanguageDescription">Arabic</setting>
+	<setting name="LanguageCode">ar</setting>
+	<setting name="LanguageRegion">ar-DJ</setting>
+</RegionalSettings>

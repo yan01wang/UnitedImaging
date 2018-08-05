@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RegionalSettings xml:lang="sv-SE"><!--Swedish (Sweden)-->
+	<setting name="CountryDescription">Sweden</setting>
+	<setting name="CountryCode">SE</setting>
+	<setting name="LanguageDescription">Swedish</setting>
+	<setting name="LanguageCode">sv</setting>
+	<setting name="LanguageRegion">sv-SE</setting>
+</RegionalSettings>

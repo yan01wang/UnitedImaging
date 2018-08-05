@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+  <dirname property="input.dir" file="${args.input}" />
+  <property name="ishreport.file" value="${input.dir}${file.separator}${args.ishreport}" />
+
+  <!-- main target -->
+  <target name="dita2ishhtmlhelp" unless="noMap" depends="build-init, preprocess, ishhtmlhelp.set.codepage, 
+                     xhtml.topics, copy-css"  description="Trisoft HTML Help output processing">
+    <antcall target="dita.map.ishhtmlhelp"></antcall>
+    
+    <!--antcall target="dita.htmlhelp.convertlang"></antcall-->
+    <propertyfile file="${dita.plugin.trisoft.dita.ishhtmlhelp.dir}${file.separator}filter${file.separator}replacefilter.hhk.properties" comment="Replace strings in HHK files">
+      <entry key="&amp;apos;" default="'"/>
+    </propertyfile>
+    <replace encoding="UTF-8" file="${output.dir}${file.separator}${dita.map.filename.root}.hhk" 
+        replacefilterfile="${dita.plugin.trisoft.dita.ishhtmlhelp.dir}${file.separator}filter${file.separator}replacefilter.hhk.properties"/>
+    <antcall target="ishhtmlhelp.convert.file">
+      <param name="input.filename" value="${output.dir}${file.separator}${dita.map.filename.root}.hhk" />
+    </antcall>
+    <antcall target="ishhtmlhelp.convert.file">
+      <param name="input.filename" value="${output.dir}${file.separator}${dita.map.filename.root}.hhc" />
+    </antcall>
+    <antcall target="ishhtmlhelp.convert.file">
+      <param name="input.filename" value="${output.dir}${file.separator}${dita.map.filename.root}.hhp" />
+    </antcall>
+    <antcall target="compile.HTML.Help"></antcall>
+  </target>
+
+  <target name="dita.map.ishhtmlhelp"
+    depends="dita.map.htmlhelp.init, dita.map.htmlhelp.hhp, dita.map.htmlhelp.hhc, dita.map.htmlhelp.hhk, dita.out.map.ishhtmlhelp.hhp, dita.out.map.ishhtmlhelp.hhc, dita.out.map.htmlhelp.hhk">
+  </target>
+
+  <target name="dita.out.map.ishhtmlhelp.hhc"
+      depends="dita.map.htmlhelp.init" if="inner.transform"
+      description="Build HTMLHelp HHC file">
+      <xslt
+          basedir="${dita.temp.dir}"
+          destdir="${output.dir}"
+          includesfile="${dita.temp.dir}${file.separator}${user.input.file.listfile}"
+          classpathref="dost.class.path"
+          style="${dita.plugin.trisoft.dita.ishhtmlhelp.dir}/xsl/ish.map2hhc.xsl">
+      	<excludesfile name="${dita.temp.dir}${file.separator}${resourceonlyfile}" if="resourceonlyfile"/>
+          <param name="DITAEXT" expression="${dita.ext}" if="dita.ext" />
+          <param name="OUTEXT" expression="${out.ext}" if="out.ext" />
+          <mapper type="glob" from="${user.input.file}" to="${dita.map.filename.root}.hhc"/>
+        <xmlcatalog refid="dita.catalog"/>
+      </xslt>
+  </target>
+
+  <target name="dita.out.map.ishhtmlhelp.hhp"
+    depends="dita.map.htmlhelp.init" if="inner.transform"
+    description="Build Trisoft HTMLHelp HHP file">
+    <dirname property="input.dir" file="${args.input}" />
+    
+    <xslt processor="trax"
+      basedir="${dita.temp.dir}"
+      destdir="${output.dir}"
+      includesfile="${dita.temp.dir}${file.separator}${user.input.file.listfile}"
+      classpathref="dost.class.path"
+      style="${dita.plugin.trisoft.dita.ishhtmlhelp.dir}${file.separator}xsl${file.separator}ish.map2hhp.xsl">
+      <excludesfile name="${dita.temp.dir}${file.separator}${resourceonlyfile}" if="resourceonlyfile"/>
+      <param name="DITAEXT" expression="${dita.ext}" if="dita.ext" />
+      <param name="OUTEXT" expression="${out.ext}" if="out.ext" />
+      <param name="HHCNAME" expression="${dita.map.filename.root}.hhc" />
+      <param name="INCLUDEFILE" expression="${args.htmlhelp.includefile}"
+          if="args.htmlhelp.includefile" />
+      <param name="REPORTFILE" expression="${ishreport.file}"  if="ishreport.file" />
+      <param name="ARGSLANGUAGE" expression="${args.language.lowercase}" />
+      <mapper type="glob" from="${user.input.file}" to="${dita.map.filename.root}.hhp"/>
+    </xslt>
+  </target>
+  
+  <target name="ishhtmlhelp.convert.file">
+    <echo>Update encoding for ${input.filename} to ${ishhtmlhelp.encoding}</echo>
+    <propertyfile file="${dita.plugin.trisoft.dita.ishhtmlhelp.dir}${file.separator}filter${file.separator}replacefilter.${ishhtmlhelp.encoding}.properties"
+      comment="Replace UNICODE characters or strings for code page ${ishhtmlhelp.encoding}">
+      <entry key="®" default="®"/>
+    </propertyfile>
+    <replace file="${input.filename}" encoding="UTF-8" 
+      replacefilterfile="${dita.plugin.trisoft.dita.ishhtmlhelp.dir}${file.separator}filter${file.separator}replacefilter.${ishhtmlhelp.encoding}.properties">
+    </replace>
+    <move file="${input.filename}" tofile="${input.filename}.original" />
+    <copy file="${input.filename}.original" tofile="${input.filename}" filtering="true" 
+      encoding="utf-8" outputencoding="${ishhtmlhelp.encoding}" overwrite="true"/>
+  </target>
+  
+  <target name="ishhtmlhelp.set.codepage">
+    <script language="javascript">
+    <![CDATA[
+      var lang = project.getProperty('args.language').toLowerCase();
+      project.setProperty('args.language.lowercase', lang);
+      
+      var input = new org.xml.sax.InputSource(new java.io.FileInputStream(project.getProperty("dita.plugin.trisoft.dita.ishhtmlhelp.dir") + '/config/lang-to-cp.xml'));
+      var xpath = javax.xml.xpath.XPathFactory.newInstance().newXPath();
+      var value = xpath.evaluate("/*/map[lang[starts-with(., '" + lang + "')]]/cp", input, javax.xml.xpath.XPathConstants.STRING);
+      if (value=='' && lang.indexOf('-')>0) {
+         xpath.reset();
+         input = new org.xml.sax.InputSource(new java.io.FileInputStream(project.getProperty("dita.plugin.trisoft.dita.ishhtmlhelp.dir") + '/config/lang-to-cp.xml'));
+         var value = xpath.evaluate("/*/map[lang[starts-with(., '" + lang.split('-')[0] + "')]]/cp", input, javax.xml.xpath.XPathConstants.STRING);
+      }
+      
+      if (value!='') {       
+        project.setProperty('ishhtmlhelp.encoding', value);
+      }
+   ]]>
+    </script> 
+    
+    <!-- default: -->
+    <property name="ishhtmlhelp.encoding" value="cp1252"/>
+  
+    <echo>Windows encoding: ${ishhtmlhelp.encoding}</echo>
+  </target>
+</project>

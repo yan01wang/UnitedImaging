@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RegionalSettings xml:lang="fr-ML"><!--French (Mali)-->
+	<setting name="CountryDescription">Mali</setting>
+	<setting name="CountryCode">ML</setting>
+	<setting name="LanguageDescription">French</setting>
+	<setting name="LanguageCode">fr</setting>
+	<setting name="LanguageRegion">fr-ML</setting>
+</RegionalSettings>

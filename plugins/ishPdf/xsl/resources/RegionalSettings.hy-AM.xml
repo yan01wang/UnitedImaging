@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RegionalSettings xml:lang="hy-AM"><!--Armenian (Armenia)-->
+	<setting name="CountryDescription">Armenia</setting>
+	<setting name="CountryCode">AM</setting>
+	<setting name="LanguageDescription">Armenian</setting>
+	<setting name="LanguageCode">hy</setting>
+	<setting name="LanguageRegion">hy-AM</setting>
+</RegionalSettings>

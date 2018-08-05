@@ -1,0 +1,233 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<project name="dita2webworks" default="dita2webworks">
+    <!--property name="dita.zip" value="no"/>
+    <property name="clean.output.dir" value="yes"/-->
+    <property name="clean.temp" value="yes"/>
+
+
+
+    <target name="echo">
+        <echo>*****************************************************************</echo>
+        <echo>* args.input = ${args.input}</echo>
+        <echo>* output.dir = ${output.dir}</echo>
+        <echo>* args.stationery = ${args.stationery}</echo>
+        <echo>* transtype = ${transtype}</echo>
+        <echo>* args.target = ${args.target}</echo>
+        <echo>* dita.temp.dir = ${dita.temp.dir}</echo>
+        <echo>* clean.output.dir = ${clean.output.dir}</echo>
+        <echo>* dita.zip = ${dita.zip}</echo>
+        <echo>* args.zipfile = ${args.zipfile}</echo>
+        <echo>* env.TEMP = ${env.TEMP}</echo>
+        <echo>*****************************************************************</echo>
+    </target>
+
+    <target name="set-conditions">
+        <condition property="createzip">
+            <not>
+                <equals arg1="${dita.zip}" arg2="no"/>
+            </not>
+
+        </condition>
+
+        <condition property="nocreatezip">
+            <equals arg1="${dita.zip}" arg2="no"/>
+        </condition>
+
+        <condition property="deploy" value='--deployfolder="${output.dir}"'>
+            <equals arg1="${dita.zip}" arg2="no"/>
+        </condition>
+
+        <condition property="deploy" value="--nodeploy">
+            <not>
+                <equals arg1="${dita.zip}" arg2="no"/>
+            </not>
+
+        </condition>
+
+        <condition property="clean" value="${clean.output.dir}">
+            <or>
+                <not>
+                    <equals arg1="${dita.zip}" arg2="yes"/>
+                </not>
+                <not>
+                    <isset property="args.zipfile" />
+                </not>
+            </or>
+        </condition>
+
+        <condition property="clean" value="no">
+            <and>
+                <equals arg1="${dita.zip}" arg2="yes"/>
+                <isset property="args.zipfile" />
+            </and>
+        </condition>
+
+        <condition property="out.zipfile" value="${args.zipfile}">
+            <isset property="args.zipfile" />
+        </condition>
+        
+       
+	
+
+
+        <condition property="out.zipfile" value="${dita.map.filename.root}.zip">
+            <not>
+                <isset property="args.zipfile" />
+            </not>
+        </condition>
+
+ 		<available file="${dita.input.valfile}" type="file"
+           property="valfile.present"/>
+
+
+		<condition property="copyditaval" value="yes">
+             <and>
+                <isset property="dita.input.valfile" />
+                <isset property="valfile.present" />
+             </and>
+        </condition>
+
+
+        <condition property="cleanarg">
+            <and>
+                <available file="${output.dir}${file.separator}${dita.map.filename.root}" type="dir"/>
+                <equals arg1="${clean}" arg2="yes"/>
+            </and>
+        </condition>
+
+        <condition property="target" value="--target=${args.target}">
+            <and>
+                <isset property="args.target" />
+                <not>
+                    <equals arg1="${args.target}" arg2=""/>
+                </not>
+            </and>
+        </condition>
+        <condition property="target" value="">
+            <or>
+                <not>
+                    <isset property="args.target" />
+                </not>
+                <equals arg1="${args.target}" arg2=""/>
+            </or>
+        </condition>
+
+		<tempfile property="temp.file" destDir="${env.TEMP}"/>
+
+		<property name="tempdir" value="${temp.file}" />
+		<mkdir dir="${tempdir}"/>
+				
+        <property name="wrp" value="${tempdir}${file.separator}build.wrp"/>
+
+        <dita-ot-fail id="DOTAWW001F" params="%1=${args.stationery}">
+            <condition>
+                <or>
+                    <not>
+                        <isset property="args.stationery" />
+                    </not>
+                    <and>
+                        <isset property="args.stationery" />
+                        <not>
+                            <available file="${args.stationery}" type="file" />
+                        </not>
+                    </and>
+                </or>
+            </condition>
+        </dita-ot-fail>
+
+        <dita-ot-fail id="DOTAWW003F">
+            <condition>
+                <or>
+                    <not>
+                        <isset property="args.target" />
+                    </not>
+                    <equals arg1="${args.target}" arg2=""/>
+                </or>
+            </condition>
+        </dita-ot-fail>
+<echo>end of set-condition:</echo>
+
+    </target>
+
+    <target name="dita2webworks" depends="build-init, echo, set-conditions, clean-out, copy-ditaval, create-wrp, 
+                                          run-automap,  zipfiles">
+    </target>
+
+
+    <target name="create-wrp">
+        <echo file="${wrp}">
+&lt;Project Version="1.1" ProjectID="1" xmlns="urn:WebWorks-Publish-Project">
+    &lt;Origin>
+        &lt;Path>${args.stationery}&lt;/Path>
+    &lt;/Origin>
+    &lt;Groups>
+        &lt;Group Name="${dita.map.filename.root}" GroupID="2">
+            &lt;Document Type="normal" DocumentID="3" Path="${args.input}" />
+        &lt;/Group>
+    &lt;/Groups>
+&lt;/Project>
+        </echo>
+    </target>
+
+    <target name="run-automap">
+        <echo>*****************************************************************</echo>
+        <echo>* tempdir = ${tempdir}</echo>
+        <echo>* deploy = ${deploy}</echo>
+        <echo>* args.target = ${args.target}</echo>
+        <echo>* cleanarg = ${cleanarg}</echo>
+        <echo>* transtype = ${transtype}</echo>
+        <echo>* args.target = ${args.target}</echo>
+        <echo>* wrp = ${wrp}</echo>
+        <echo>* user.name = ${user.name}</echo>
+        <echo>* env.USERNAME = ${env.USERNAME}</echo>
+        <echo>* env.HOMEPATH = ${env.HOMEPATH}</echo>
+        <echo>* env.USERPROFILE = ${env.USERPROFILE}</echo>
+        <echo>* env.USERDOMAIN = ${env.USERDOMAIN}</echo>
+        <echo>* env.APPDATA = ${env.APPDATA}</echo>
+        <echo>*****************************************************************</echo>
+
+        <!--<exec executable="C:\Program Files\WebWorks\ePublisher AutoMap\WebWorks.Automap.exe">
+            <arg value="-k"/>
+        </exec>-->
+        <exec executable="">
+            <arg value="-k"/>
+        </exec>        
+        <echo>*****************************************************************</echo>
+
+        <!--<exec executable="C:\Program Files\WebWorks\ePublisher AutoMap\WebWorks.Automap.exe">
+            <arg value="${deploy}"/>
+            <arg value="${target}"/>
+            <arg value='"${wrp}"'/>
+        </exec>-->
+        <exec executable="">
+            <arg value="${deploy}"/>
+            <arg value="${target}"/>
+            <arg value='"${wrp}"'/>
+        </exec>        
+    </target>
+
+    <target name="zipfiles" if="createzip">
+        <echo>creating zip file: ${output.dir}${file.separator}${out.zipfile}</echo>
+        <zip destfile="${output.dir}${file.separator}${out.zipfile}"
+           basedir="${tempdir}${file.separator}Output"  />
+    </target>
+
+    <target name="clean-out" if="cleanarg">
+        <echo>deleting files from: ${output.dir}${file.separator}${dita.map.filename.root}</echo>
+        <!--zip destfile="${output.dir}${file.separator}${args.zipfile}"
+           basedir="${dita.temp.dir}${file.separator}deploy"  /-->
+        <delete includeemptydirs="true" quiet="true">
+            <fileset dir="${output.dir}${file.separator}${dita.map.filename.root}" includes="**/*"></fileset>
+        </delete>
+    </target>
+
+	<target name="copy-ditaval" if="copyditaval">
+	<dirname property="dita.input.dirname" file="${args.input}" />
+	
+        <echo>Copying: ${dita.input.valfile} to ${dita.map.filename.root}</echo>
+          <copy file="${dita.input.valfile}" tofile="${dita.input.dirname}${file.separator}${dita.map.filename.root}.valfile"/>
+
+    </target>
+    
+</project>

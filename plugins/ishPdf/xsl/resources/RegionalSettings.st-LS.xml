@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RegionalSettings xml:lang="st-LS"><!--Sesotho (=Southern Sotho) (Lesotho)-->
+	<setting name="CountryDescription">Lesotho</setting>
+	<setting name="CountryCode">LS</setting>
+	<setting name="LanguageDescription">Sesotho (=Southern Sotho)</setting>
+	<setting name="LanguageCode">st</setting>
+	<setting name="LanguageRegion">st-LS</setting>
+</RegionalSettings>

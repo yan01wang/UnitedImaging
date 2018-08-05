@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RegionalSettings xml:lang="my-MM"><!--Burmese (Myanmar)-->
+	<setting name="CountryDescription">Myanmar</setting>
+	<setting name="CountryCode">MM</setting>
+	<setting name="LanguageDescription">Burmese</setting>
+	<setting name="LanguageCode">my</setting>
+	<setting name="LanguageRegion">my-MM</setting>
+</RegionalSettings>

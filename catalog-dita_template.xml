@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+		This file is part of the DITA Open Toolkit project.
+		See the accompanying license.txt file for applicable licenses.
+-->
+<!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. -->
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog"
+         xmlns:dita="http://dita-ot.sourceforge.net">
+
+	<!-- Some SDL Trisoft InfoShare integration remarks...                  -->
+	<!-- SINGLE SOURCE CATALOG AND DTDS                                     -->
+	<!-- DITA-OT uses catalog-dita_template.xml to generate                 -->
+	<!-- catalog-dita.xml upon each call. Trisoft InfoShare chooses to      -->
+	<!-- single-source all catalogs and DTDs, therefor we issue a           -->
+	<!-- nextCatalog statement here to forward all catalog requests to our  -->
+	<!-- DTD.                                                               -->
+	<!-- INSTALLATION REMARK                                                -->
+	<!-- DITA-OT uses Apaches RESOLVER.JAR which is JAVA based. Java does   -->
+	<!-- not know how to handle backslashes(\). So all paths need to have   -->
+	<!-- forward slashes(/) and Trisoft InstallTool doesn't know how to     -->
+	<!-- handle this!! Because most installations of Web and Data usually   -->
+	<!-- handle this!! Because most installations of App, Web and Data      -->
+	<!-- usually happen on the same disk we choose to use relative paths!   -->
+	
+	<dita:extension id="dita.catalog.plugin-info" behavior="org.dita.dost.platform.ImportPluginCatalogAction"/>
+
+	<nextCatalog catalog="../../../../Web/Author/ASP/DocTypes/catalog.xml" />
+		 
+  <!-- Java properties file DTD -->
+  
+  <system systemId="http://java.sun.com/dtd/properties.dtd" uri="dtd/properties.dtd"/>
+
+   <dita:extension id="dita.specialization.catalog"
+                   behavior="org.dita.dost.platform.InsertAction"/>
+   <dita:extension id="dita.specialization.catalog.relative"
+                   behavior="org.dita.dost.platform.ImportCatalogActionRelative"/>
+  
+</catalog>

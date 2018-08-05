@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RegionalSettings xml:lang="fr-BJ"><!--French (Benin)-->
+	<setting name="CountryDescription">Benin</setting>
+	<setting name="CountryCode">BJ</setting>
+	<setting name="LanguageDescription">French</setting>
+	<setting name="LanguageCode">fr</setting>
+	<setting name="LanguageRegion">fr-BJ</setting>
+</RegionalSettings>

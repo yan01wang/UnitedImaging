@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RegionalSettings xml:lang="zh-HK"><!--Chinese (Hong Kong)-->
+	<setting name="CountryDescription">Hong Kong</setting>
+	<setting name="CountryCode">HK</setting>
+	<setting name="LanguageDescription">Chinese</setting>
+	<setting name="LanguageCode">zh</setting>
+	<setting name="LanguageRegion">zh-HK</setting>
+</RegionalSettings>

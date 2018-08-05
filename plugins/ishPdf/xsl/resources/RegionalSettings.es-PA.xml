@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RegionalSettings xml:lang="es-PA"><!--Spanish (Panama)-->
+	<setting name="CountryDescription">Panama</setting>
+	<setting name="CountryCode">PA</setting>
+	<setting name="LanguageDescription">Spanish</setting>
+	<setting name="LanguageCode">es</setting>
+	<setting name="LanguageRegion">es-PA</setting>
+</RegionalSettings>

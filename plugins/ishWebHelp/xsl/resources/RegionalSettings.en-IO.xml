@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RegionalSettings xml:lang="en-IO"><!--en (British Indian Ocean Territory)-->
+	<setting name="CountryDescription">British Indian Ocean Territory</setting>
+	<setting name="CountryCode">IO</setting>
+	<setting name="LanguageDescription">en</setting>
+	<setting name="LanguageCode">en</setting>
+	<setting name="LanguageRegion">en-IO</setting>
+</RegionalSettings>

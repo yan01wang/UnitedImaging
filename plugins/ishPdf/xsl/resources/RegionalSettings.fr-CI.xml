@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RegionalSettings xml:lang="fr-CI"><!--French (Côte D'ivoire)-->
+	<setting name="CountryDescription">Côte D'ivoire</setting>
+	<setting name="CountryCode">CI</setting>
+	<setting name="LanguageDescription">French</setting>
+	<setting name="LanguageCode">fr</setting>
+	<setting name="LanguageRegion">fr-CI</setting>
+</RegionalSettings>

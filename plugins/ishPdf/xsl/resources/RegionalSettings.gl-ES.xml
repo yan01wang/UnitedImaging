@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RegionalSettings xml:lang="gl-ES"><!--Galician (Spain)-->
+	<setting name="CountryDescription">Spain</setting>
+	<setting name="CountryCode">ES</setting>
+	<setting name="LanguageDescription">Galician</setting>
+	<setting name="LanguageCode">gl</setting>
+	<setting name="LanguageRegion">gl-ES</setting>
+</RegionalSettings>

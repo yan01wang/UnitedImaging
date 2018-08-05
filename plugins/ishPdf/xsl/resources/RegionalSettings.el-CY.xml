@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RegionalSettings xml:lang="el-CY"><!--Greek (Cyprus)-->
+	<setting name="CountryDescription">Cyprus</setting>
+	<setting name="CountryCode">CY</setting>
+	<setting name="LanguageDescription">Greek</setting>
+	<setting name="LanguageCode">el</setting>
+	<setting name="LanguageRegion">el-CY</setting>
+</RegionalSettings>

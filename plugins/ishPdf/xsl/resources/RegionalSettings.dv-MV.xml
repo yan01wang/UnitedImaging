@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RegionalSettings xml:lang="dv-MV"><!--Divehi (Maldives)-->
+	<setting name="CountryDescription">Maldives</setting>
+	<setting name="CountryCode">MV</setting>
+	<setting name="LanguageDescription">Divehi</setting>
+	<setting name="LanguageCode">dv</setting>
+	<setting name="LanguageRegion">dv-MV</setting>
+</RegionalSettings>

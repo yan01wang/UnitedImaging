@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RegionalSettings xml:lang="eu-ES"><!--Basque (Spain)-->
+	<setting name="CountryDescription">Spain</setting>
+	<setting name="CountryCode">ES</setting>
+	<setting name="LanguageDescription">Basque</setting>
+	<setting name="LanguageCode">eu</setting>
+	<setting name="LanguageRegion">eu-ES</setting>
+</RegionalSettings>

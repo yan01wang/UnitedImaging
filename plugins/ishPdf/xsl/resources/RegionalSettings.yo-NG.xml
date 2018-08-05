@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RegionalSettings xml:lang="yo-NG"><!--Yoruba (Nigeria)-->
+	<setting name="CountryDescription">Nigeria</setting>
+	<setting name="CountryCode">NG</setting>
+	<setting name="LanguageDescription">Yoruba</setting>
+	<setting name="LanguageCode">yo</setting>
+	<setting name="LanguageRegion">yo-NG</setting>
+</RegionalSettings>

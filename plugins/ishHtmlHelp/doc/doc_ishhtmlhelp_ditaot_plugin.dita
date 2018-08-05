@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="doc_ishhtmlhelp_ditaot_plugin" xml:lang="en"> 
+  <title>Concept of ishhtmlhelp DITA-OT plugin</title> 
+  <shortdesc> 
+  </shortdesc> 
+  <conbody> 
+	 <section id="section_2E7A9BECC0444A7B8F344F597A3EFB60"> 
+		<title>Main features</title>
+		<p>Applies the standard htmlhelp DITA-OT transtype processing and extends it with the following features:
+		</p>
+		<ul id="ul_E747527CAE324FA28D94D2D2A50EBEFB">
+		  <li id="li_FEC50A8A8E0548128C155E517204009F">Override or set the output language via command-line.
+		  </li>		
+		  <li id="li_6DA85B2383D84CB4A8E4C204CA27CC8A">Applies locale specific
+			 code page conversion for HHP, HHC and HHK files to enable correct HTMLHelp
+			 output for any language supported by the HTMLHelp viewer. 
+		  </li>
+		  <li id="li_1A17CB04AF92443491EC53C20D3C06F0">Customizable character replacement rules during code page conversion. 
+			 This can be used to replace characters that are part of the product name and do not exist in the target language by their target language equivalent.
+		  </li>
+		  <li id="li_7A9B8D89D28544DD81BCC11761E299C2">Customizable character replacement rules for HHK file. This can be used to replace characters that are part of the product name and do not exist in the target language by their target language equivalent.
+		  </li>
+		</ul> 
+	 </section> 
+	 <section> 
+		<title>Transtype</title>
+		<p>ishhtmlhelp</p>
+	 </section> 	 
+	 <section> 
+		<title>Default codepage</title>
+		<p>cp1252</p>
+	 </section> 	 
+	 <section id="section_902EE68B63AB4B6E853B359784C15C70"> 
+		<title>Processing requirements</title> 
+		<p>This plugin has been added to the DITA-OT plugin folder on a LiveContent Architect out-of-the-box Installation. 
+			The out-of-the-box publish command file ("dita-ot-ishhtmlhelp.cmd") will pass the required language parameter, via the <parmname>-Dargs.language</parmname> parameter.
+		</p>
+		<p>This plugin also works in a stand-alone DITA-OT environment as long as the required language parameter <varname>-Dargs.language</varname> is passed when applying the 
+		  <varname>ishhtmlhelp</varname> template.
+		</p>
+		<note>
+		  <p>The plugin can be extended in the future to read the 
+			 <varname>args.language</varname> variable from the 
+			 <filepath>ditamap</filepath> input if not set.
+		  </p>
+		</note>
+	 </section> 
+	 <section id="section_04371DB154BB43BCAA526A065C7A1DDC"> 
+		<title>Compatibility</title> 
+		<ul id="ul_EDEDACE1532F4DB99DB61B7514870C37">
+		  <li id="li_B509424D5BD24AA195488E24D80A4FBA">This plugin has proven to work for 1.7.5. 
+		  </li>
+		  <li id="li_BAFA936132ED4B0084D8168A9CB099A0">The <varname>-Dargs.language</varname> argument can be a valid two letter ISO language code or a four letter locale code using a hyphen as separator.
+		  </li>
+		  <li id="li_5B6E9C91B9F84D53802BBA0119D139FA">All known supported code pages and language codes have been pre-configured.
+		  </li>
+		</ul>
+	 </section> 
+	 <section id="section_26B98FE0429C450A8E2385E9F1949BDC"> 
+		<title>Configuration options</title>
+		<p>Call the <varname>ishhtmlhelp</varname> transtype once. This will create the following files in the <filepath>filter</filepath> subdirectory:
+		<ul id="ul_017A4D17AF1F4DB6886A3EA0DEDBCC26">
+		  <li
+			id="li_497BDF7FD4494C58925F5EAFDA4BF81D"><filepath>replacefilter.hhk.properties</filepath>
+		  </li>
+		  <li
+			id="li_BD53631512374B1EBDC2AA029788AF99"><filepath>replacefilter.&lt;codepage&gt;.properties</filepath> where &lt;codepage&gt; is a windows code page name.
+		  </li>
+		</ul>
+		</p> 
+		<p>The default content of a code page properties file is: 
+		  <codeblock>#Replace UNICODE characters or strings for code page &lt;codepage&gt;
+#Tue, 28 May 2013 22:41:11 +0200
+
+\u00ae=\u00ae</codeblock>which represents a replacement of the ® by the ® character itself.
+		  To replace this character by 
+		  <b>(R)</b> for example, update the last line as follows:
+		  <codeblock>\u00ae=(R)</codeblock>
+		</p>
+		<p>It is also possible to add lines for other characters or string replacement rules.
+		</p>
+		<p>The default 
+		  <filepath>replacefilter.hhk.properties</filepath> content is:
+		  <codeblock>#Replace strings in HHK files
+#Tue, 28 May 2013 22:50:09 +0200
+
+&amp;apos;='
+</codeblock>
+		</p>
+		<note>
+		  <p>The replacement rules are pure character based and not XML aware.
+			 Any character outside the ASCII range need to be escaped.
+		  </p>
+		</note>
+		<p>Update <filepath>config/lang-to-cp.xl</filepath> if
+		<ul id="ul_B832933FEFFB4361ABBE040563FF95A3">
+		  <li id="li_52B354B5B587473B97198571D0391B12">A locale to code page mapping is missing.</li>
+		  <li id="li_F6CD05CBE1514C0790A302E48CE1AB4E">Non-ISO language codes or locale codes are used.</li>
+		  <li id="li_2BCD4C4FDB324864BEA9E87DC7286F72">To overwrite the default mapping for example to map 
+			 <keyword>zh</keyword> to 
+			 <keyword>Big5</keyword> (Traditional Chinese) instead of the default 
+			 <keyword>GB2312</keyword> for Simplified Chinese.
+		  </li>
+		</ul>
+		</p>
+	 </section> 
+	 <section id="section_C9CA41C29F7440CFBF9F8688FD4649A1"> 
+		<title>Customisation options</title>
+		<p>The <varname>ishhtmlhelp</varname> transtype does not have extension points.</p>
+		<p>For customisation requirements that cannot be accomplished by the above mentioned configuration options, create a new transtype and re-use the targets from the <varname>ishhtmlhelp</varname> transtype where possible.</p>
+	 </section> 
+  </conbody>
+</concept>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RegionalSettings xml:lang="rn-BI"><!--Kirundi (Burundi)-->
+	<setting name="CountryDescription">Burundi</setting>
+	<setting name="CountryCode">BI</setting>
+	<setting name="LanguageDescription">Kirundi</setting>
+	<setting name="LanguageCode">rn</setting>
+	<setting name="LanguageRegion">rn-BI</setting>
+</RegionalSettings>

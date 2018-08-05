@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RegionalSettings xml:lang="uz-UZ"><!--Uzbek (Uzbekistan)-->
+	<setting name="CountryDescription">Uzbekistan</setting>
+	<setting name="CountryCode">UZ</setting>
+	<setting name="LanguageDescription">Uzbek</setting>
+	<setting name="LanguageCode">uz</setting>
+	<setting name="LanguageRegion">uz-UZ</setting>
+</RegionalSettings>

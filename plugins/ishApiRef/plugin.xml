@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin id="trisoft.dita.apiref">
+  <feature extension="dita.xsl.xhtml" file="xsl/infoshare.dita2htm.elems.apiref.xsl"/>
+</plugin>

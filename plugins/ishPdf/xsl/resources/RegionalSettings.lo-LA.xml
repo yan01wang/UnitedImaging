@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RegionalSettings xml:lang="lo-LA"><!--Lao (Lao People's Democratic Republic)-->
+	<setting name="CountryDescription">Lao People's Democratic Republic</setting>
+	<setting name="CountryCode">LA</setting>
+	<setting name="LanguageDescription">Lao</setting>
+	<setting name="LanguageCode">lo</setting>
+	<setting name="LanguageRegion">lo-LA</setting>
+</RegionalSettings>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RegionalSettings xml:lang="en-BM"><!--English (Bermuda)-->
+	<setting name="CountryDescription">Bermuda</setting>
+	<setting name="CountryCode">BM</setting>
+	<setting name="LanguageDescription">English</setting>
+	<setting name="LanguageCode">en</setting>
+	<setting name="LanguageRegion">en-BM</setting>
+</RegionalSettings>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RegionalSettings xml:lang="ig-NG"><!--Igbo (Nigeria)-->
+	<setting name="CountryDescription">Nigeria</setting>
+	<setting name="CountryCode">NG</setting>
+	<setting name="LanguageDescription">Igbo</setting>
+	<setting name="LanguageCode">ig</setting>
+	<setting name="LanguageRegion">ig-NG</setting>
+</RegionalSettings>

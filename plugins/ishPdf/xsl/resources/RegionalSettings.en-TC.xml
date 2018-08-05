@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RegionalSettings xml:lang="en-TC"><!--English (Turks And Caicos Islands)-->
+	<setting name="CountryDescription">Turks And Caicos Islands</setting>
+	<setting name="CountryCode">TC</setting>
+	<setting name="LanguageDescription">English</setting>
+	<setting name="LanguageCode">en</setting>
+	<setting name="LanguageRegion">en-TC</setting>
+</RegionalSettings>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RegionalSettings xml:lang="en-SL"><!--English (Sierra Leone)-->
+	<setting name="CountryDescription">Sierra Leone</setting>
+	<setting name="CountryCode">SL</setting>
+	<setting name="LanguageDescription">English</setting>
+	<setting name="LanguageCode">en</setting>
+	<setting name="LanguageRegion">en-SL</setting>
+</RegionalSettings>

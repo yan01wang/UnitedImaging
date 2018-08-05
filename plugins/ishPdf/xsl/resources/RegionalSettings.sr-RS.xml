@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RegionalSettings xml:lang="sr-RS"><!--Serbian (Serbia)-->
+	<setting name="CountryDescription">Serbia</setting>
+	<setting name="CountryCode">RS</setting>
+	<setting name="LanguageDescription">Serbian</setting>
+	<setting name="LanguageCode">sr</setting>
+	<setting name="LanguageRegion">sr-RS</setting>
+</RegionalSettings>

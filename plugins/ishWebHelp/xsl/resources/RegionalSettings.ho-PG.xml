@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RegionalSettings xml:lang="ho-PG"><!--Hiri Motu (Papua New Guinea)-->
+	<setting name="CountryDescription">Papua New Guinea</setting>
+	<setting name="CountryCode">PG</setting>
+	<setting name="LanguageDescription">Hiri Motu</setting>
+	<setting name="LanguageCode">ho</setting>
+	<setting name="LanguageRegion">ho-PG</setting>
+</RegionalSettings>

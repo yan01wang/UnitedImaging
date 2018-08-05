@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RegionalSettings xml:lang="fr-SC"><!--French (Seychelles)-->
+	<setting name="CountryDescription">Seychelles</setting>
+	<setting name="CountryCode">SC</setting>
+	<setting name="LanguageDescription">French</setting>
+	<setting name="LanguageCode">fr</setting>
+	<setting name="LanguageRegion">fr-SC</setting>
+</RegionalSettings>

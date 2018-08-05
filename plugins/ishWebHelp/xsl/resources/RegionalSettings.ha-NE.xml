@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RegionalSettings xml:lang="ha-NE"><!--Hausa (Niger)-->
+	<setting name="CountryDescription">Niger</setting>
+	<setting name="CountryCode">NE</setting>
+	<setting name="LanguageDescription">Hausa</setting>
+	<setting name="LanguageCode">ha</setting>
+	<setting name="LanguageRegion">ha-NE</setting>
+</RegionalSettings>

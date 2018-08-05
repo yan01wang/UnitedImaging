@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RegionalSettings xml:lang="bs-BA"><!--Bosnian (Bosnia And Herzegovina)-->
+	<setting name="CountryDescription">Bosnia And Herzegovina</setting>
+	<setting name="CountryCode">BA</setting>
+	<setting name="LanguageDescription">Bosnian</setting>
+	<setting name="LanguageCode">bs</setting>
+	<setting name="LanguageRegion">bs-BA</setting>
+</RegionalSettings>

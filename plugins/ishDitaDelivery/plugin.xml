@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin id="trisoft.dita.delivery">
+    <!-- extension points -->
+    <!-- extensions --> 
+    <feature extension="dita.conductor.transtype.check" value="ishditadelivery" type="html"/>
+	<feature extension="dita.conductor.target.relative" file="integrator.xml" />
+	<feature extension="dita.xsl.mapref" file="xsl/ditadelivery-mapref-plugin.xsl"/>	
+	<transtype name="ishditadelivery" desc="DITA Delivery"/>
+	<require plugin="org.dita.xhtml"/>
+</plugin>

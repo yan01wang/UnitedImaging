@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RegionalSettings xml:lang="ca-AD"><!--Catalan (Andorra)-->
+	<setting name="CountryDescription">Andorra</setting>
+	<setting name="CountryCode">AD</setting>
+	<setting name="LanguageDescription">Catalan</setting>
+	<setting name="LanguageCode">ca</setting>
+	<setting name="LanguageRegion">ca-AD</setting>
+</RegionalSettings>

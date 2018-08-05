@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RegionalSettings xml:lang="en-AS"><!--English (American Samoa)-->
+	<setting name="CountryDescription">American Samoa</setting>
+	<setting name="CountryCode">AS</setting>
+	<setting name="LanguageDescription">English</setting>
+	<setting name="LanguageCode">en</setting>
+	<setting name="LanguageRegion">en-AS</setting>
+</RegionalSettings>

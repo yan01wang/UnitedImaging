@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RegionalSettings xml:lang="fr-CD"><!--French (The Democratic Republic Of Congo)-->
+	<setting name="CountryDescription">The Democratic Republic Of Congo</setting>
+	<setting name="CountryCode">CD</setting>
+	<setting name="LanguageDescription">French</setting>
+	<setting name="LanguageCode">fr</setting>
+	<setting name="LanguageRegion">fr-CD</setting>
+</RegionalSettings>

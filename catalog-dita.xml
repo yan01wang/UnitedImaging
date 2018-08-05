@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. See the accompanying license.txt file for applicable licenses.
+--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog" xmlns:dita="http://dita-ot.sourceforge.net">
+
+	<!-- Some SDL Trisoft InfoShare integration remarks...                  -->
+	<!-- SINGLE SOURCE CATALOG AND DTDS                                     -->
+	<!-- DITA-OT uses catalog-dita_template.xml to generate                 -->
+	<!-- catalog-dita.xml upon each call. Trisoft InfoShare chooses to      -->
+	<!-- single-source all catalogs and DTDs, therefor we issue a           -->
+	<!-- nextCatalog statement here to forward all catalog requests to our  -->
+	<!-- DTD.                                                               -->
+	<!-- INSTALLATION REMARK                                                -->
+	<!-- DITA-OT uses Apaches RESOLVER.JAR which is JAVA based. Java does   -->
+	<!-- not know how to handle backslashes(\). So all paths need to have   -->
+	<!-- forward slashes(/) and Trisoft InstallTool doesn't know how to     -->
+	<!-- handle this!! Because most installations of Web and Data usually   -->
+	<!-- handle this!! Because most installations of App, Web and Data      -->
+	<!-- usually happen on the same disk we choose to use relative paths!   -->
+	
+	<rewriteURI uriStartString="plugin:com.sdl.ishxpp:" rewritePrefix="plugins/ishXpp/"/><rewriteURI uriStartString="plugin:org.dita.base:" rewritePrefix="./"/><rewriteURI uriStartString="plugin:org.dita.pdf2.xep:" rewritePrefix="plugins/org.dita.pdf2.xep/"/><rewriteURI uriStartString="plugin:org.dita.eclipsehelp:" rewritePrefix="plugins/org.dita.eclipsehelp/"/><rewriteURI uriStartString="plugin:org.dita.specialization.dita11:" rewritePrefix="plugins/org.dita.specialization.dita11/"/><rewriteURI uriStartString="plugin:org.dita.troff:" rewritePrefix="plugins/org.dita.troff/"/><rewriteURI uriStartString="plugin:org.dita.eclipsecontent:" rewritePrefix="plugins/org.dita.eclipsecontent/"/><rewriteURI uriStartString="plugin:com.suitesol.dita.webworks:" rewritePrefix="plugins/webworks/"/><rewriteURI uriStartString="plugin:org.dita.specialization.eclipsemap:" rewritePrefix="plugins/org.dita.specialization.eclipsemap/"/><rewriteURI uriStartString="plugin:org.dita.wordrtf:" rewritePrefix="plugins/org.dita.wordrtf/"/><rewriteURI uriStartString="plugin:org.dita.xhtml:" rewritePrefix="plugins/org.dita.xhtml/"/><rewriteURI uriStartString="plugin:org.oasis-open.dita.v1_2:" rewritePrefix="plugins/org.oasis-open.dita.v1_2/"/><rewriteURI uriStartString="plugin:org.oasis-open.dita.v1_3:" rewritePrefix="plugins/org.oasis-open.dita.v1_3/"/><rewriteURI uriStartString="plugin:org.dita.UIH.html5:" rewritePrefix="plugins/org.dita.UIH.html5/"/><rewriteURI uriStartString="plugin:org.dita.htmlhelp:" rewritePrefix="plugins/org.dita.htmlhelp/"/><rewriteURI uriStartString="plugin:com.sophos.tocjs:" rewritePrefix="plugins/com.sophos.tocjs/"/><rewriteURI uriStartString="plugin:org.dita.pdf2.fop:" rewritePrefix="plugins/org.dita.pdf2.fop/"/><rewriteURI uriStartString="plugin:org.dita.webhelp:" rewritePrefix="plugins/ishWebHelp/"/><rewriteURI uriStartString="plugin:trisoft.dita.delivery:" rewritePrefix="plugins/ishDitaDelivery/"/><rewriteURI uriStartString="plugin:trisoft.dita.apiref:" rewritePrefix="plugins/ishApiRef/"/><rewriteURI uriStartString="plugin:trisoft.dita.pdf:" rewritePrefix="plugins/ishPdf/"/><rewriteURI uriStartString="plugin:org.dita.pdf2.axf:" rewritePrefix="plugins/org.dita.pdf2.axf/"/><rewriteURI uriStartString="plugin:org.dita.html5:" rewritePrefix="plugins/org.dita.html5/"/><rewriteURI uriStartString="plugin:org.dita.javahelp:" rewritePrefix="plugins/org.dita.javahelp/"/><rewriteURI uriStartString="plugin:org.dita.odt:" rewritePrefix="plugins/org.dita.odt/"/><rewriteURI uriStartString="plugin:org.dita.UIH:" rewritePrefix="plugins/org.dita.UIH.pdf/"/><rewriteURI uriStartString="plugin:trisoft.dita.ishhtmlhelp:" rewritePrefix="plugins/ishHtmlHelp/"/><rewriteURI uriStartString="plugin:org.dita.pdf2:" rewritePrefix="plugins/org.dita.pdf2/"/><rewriteURI uriStartString="plugin:org.dita.docbook:" rewritePrefix="plugins/org.dita.docbook/"/>
+
+	<nextCatalog catalog="../../../../Web/Author/ASP/DocTypes/catalog.xml"/>
+		 
+  <!-- Java properties file DTD -->
+  
+  <system systemId="http://java.sun.com/dtd/properties.dtd" uri="dtd/properties.dtd"/>
+
+   
+   <nextCatalog catalog="plugins/org.oasis-open.dita.v1_3/catalog.xml"/><nextCatalog catalog="plugins/org.oasis-open.dita.v1_2/catalog.xml"/><nextCatalog catalog="plugins/org.dita.pdf2/cfg/catalog.xml"/><nextCatalog catalog="plugins/org.dita.UIH.pdf/catalog.xml"/><nextCatalog catalog="plugins/org.dita.specialization.dita11/catalog.xml"/><nextCatalog catalog="plugins/org.dita.specialization.eclipsemap/catalog.xml"/>
+  
+</catalog>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RegionalSettings xml:lang="he-IL"><!--Hebrew (Israel)-->
+	<setting name="CountryDescription">Israel</setting>
+	<setting name="CountryCode">IL</setting>
+	<setting name="LanguageDescription">Hebrew</setting>
+	<setting name="LanguageCode">he</setting>
+	<setting name="LanguageRegion">he-IL</setting>
+</RegionalSettings>

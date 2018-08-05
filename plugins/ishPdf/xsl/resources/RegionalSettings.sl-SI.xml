@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RegionalSettings xml:lang="sl-SI"><!--Slovenian (Slovenia)-->
+	<setting name="CountryDescription">Slovenia</setting>
+	<setting name="CountryCode">SI</setting>
+	<setting name="LanguageDescription">Slovenian</setting>
+	<setting name="LanguageCode">sl</setting>
+	<setting name="LanguageRegion">sl-SI</setting>
+</RegionalSettings>

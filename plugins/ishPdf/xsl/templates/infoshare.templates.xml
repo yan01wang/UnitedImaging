@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<templates>
+	<template outputformat="pdf (a5 booklet)" filename="infoshare.template.booklet.xml"/>
+	<template outputformat="pdf (a4 manual)" filename="infoshare.template.manual.xml"/>
+	<!-- north American paper sizes -->
+	<template outputformat="pdf (letter manual)" filename="infoshare.template.letter.xml"/>
+	<template outputformat="pdf (legal manual)" filename="infoshare.template.legal.xml"/>
+	<template outputformat="pdf (junior legal manual)" filename="infoshare.template.juniorlegal.xml"/>
+	<template outputformat="pdf (ledger)" filename="infoshare.template.ledger.xml"/>
+	<template outputformat="pdf (tabloid)" filename="infoshare.template.tabloid.xml"/>
+</templates>

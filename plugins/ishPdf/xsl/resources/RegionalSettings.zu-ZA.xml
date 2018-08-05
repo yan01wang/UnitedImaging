@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RegionalSettings xml:lang="zu-ZA"><!--Zulu (South Africa)-->
+	<setting name="CountryDescription">South Africa</setting>
+	<setting name="CountryCode">ZA</setting>
+	<setting name="LanguageDescription">Zulu</setting>
+	<setting name="LanguageCode">zu</setting>
+	<setting name="LanguageRegion">zu-ZA</setting>
+</RegionalSettings>

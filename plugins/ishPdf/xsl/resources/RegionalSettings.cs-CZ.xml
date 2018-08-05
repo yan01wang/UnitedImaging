@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RegionalSettings xml:lang="cs-CZ"><!--Czech (Czech Republic)-->
+	<setting name="CountryDescription">Czech Republic</setting>
+	<setting name="CountryCode">CZ</setting>
+	<setting name="LanguageDescription">Czech</setting>
+	<setting name="LanguageCode">cs</setting>
+	<setting name="LanguageRegion">cs-CZ</setting>
+</RegionalSettings>

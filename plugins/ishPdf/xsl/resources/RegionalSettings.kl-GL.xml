@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RegionalSettings xml:lang="kl-GL"><!--Kalaallisut (Greenland)-->
+	<setting name="CountryDescription">Greenland</setting>
+	<setting name="CountryCode">GL</setting>
+	<setting name="LanguageDescription">Kalaallisut</setting>
+	<setting name="LanguageCode">kl</setting>
+	<setting name="LanguageRegion">kl-GL</setting>
+</RegionalSettings>

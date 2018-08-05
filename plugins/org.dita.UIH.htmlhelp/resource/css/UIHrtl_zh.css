@@ -1,0 +1,470 @@
+/************* normal ****************/
+.breadcrumb a{
+	text-decoration:none;
+	color:rgb(14,52,229);
+}
+.familylinks a{
+	text-decoration:none;
+	color:rgb(14,52,229);
+}
+.outer_body{
+	 color:rgb(51,51,51);
+	 /*font-family:"Microsoft YaHei" !important;*/
+	 font-family:"\5FAE\8F6F\96C5\9ED1";
+	 font-size: 10.0pt;
+	 font-style: normal;
+	 font-variant: normal;
+	 font-weight: normal;
+	 margin-bottom: 5.0pt;
+     margin-right: 5.0pt;
+	 margin-left: 5.0pt;
+     margin-top: 5.0pt;
+}
+div.body{
+	 margin-bottom: 0;
+	 margin-left: 24pt;
+	 margin-right:24pt;
+	 margin-top: 12pt;
+	 text-align: justify;
+	 text-indent: 0pt;
+     text-transform: none;
+     vertical-align: baseline;
+}
+.b{
+	font-weight: bold;
+}
+.uicontrol {
+    font-weight: bold;
+}
+.italic {
+    font-style: italic;
+}
+
+.underlined {
+    text-decoration: underline;
+}
+.footerDiv{
+	display:block;
+	margin-top:30pt;
+}
+.footer{
+	margin:0;
+	color: black;
+	font-family:"\5FAE\8F6F\96C5\9ED1";
+	font-size: 9.0pt;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	text-align: justify;
+	text-indent: 0pt;
+	text-transform: none;
+	vertical-align: baseline;
+}
+.footer table{
+	width:100%;
+	border-collapse:collapse;
+}
+.footer table td{
+	vertical-align:top;
+	height:40pt;
+}
+
+/*图注表格*/
+.figNote{
+	width:40%;
+	color:black;
+	font-size:10pt;
+	font-family:"Microsoft YaHei" !important;
+}
+/*图注两列一行*/
+.figNote .msgblock{
+	margin:0;
+	color:black;
+	font-size:10pt;
+	font-family:"Microsoft YaHei" !important;
+}
+/*图注两列多行*/
+.figNote .entry{
+	padding:0;
+	color:black;
+	font-size:10pt;
+	font-family:"Microsoft YaHei" !important;
+}
+h1{
+  color:black;
+  font-size: 16.0pt;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  margin-top:20pt;
+  margin-left: 24pt;
+  margin-bottom: 10.0pt;
+  line-height:25pt;
+  text-align: Left;
+  text-indent: 0pt;
+  text-transform: none;
+  vertical-align: baseline;
+}
+h2{
+	color:black;
+	font-size:14pt;
+	font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+	text-align: Left;
+    text-indent: 0pt;
+    text-transform: none;
+    vertical-align: baseline;
+	margin-top:20pt;
+    margin-bottom: 10.0pt;
+	line-height:20pt;
+}
+h3{
+	color:black;
+	margin-top:16pt;
+	margin-bottom:9pt;
+	line-height:20pt;
+	font-size:12pt;
+}
+h4{
+	color:black;
+	margin-top:15pt;
+	margin-bottom:5pt;
+}
+.sectiontitle{
+	margin-bottom:0;
+}
+p{
+  margin:0;
+  margin-top:2pt;
+  margin-bottom:2pt;
+}
+ul{
+	list-style-type:square;
+	margin-top:5pt;
+	margin-bottom:5pt;
+}
+
+ul ul{
+	list-style-type:none;
+	margin-top:2pt;
+	margin-bottom:2pt;
+	margin-left:0;
+}
+li{
+	margin:0;
+}
+
+.choices{
+	margin-left:12pt;
+}
+/*BLACK SQUARE ICON*/
+.listIcon{
+	float:left;
+	width:10pt;
+    height: 10pt;
+    display: table-cell;
+    text-align: center;
+}
+.listIcon img{
+	vertical-align: middle;
+	width:7pt;
+	height:7pt;
+}
+/*BLACK RUMOUS*/
+.sublistIcon{
+	float:left;
+	vertical-align:middle;
+	width:10pt;
+	text-align:left;
+	line-height:13pt;
+}
+.ullinks{
+	list-style-type:none;
+	margin-left:24pt;
+}
+.ullinks a{
+	color:#3366cc;
+	font-size:11pt;
+	font-weight:normal;
+	line-height:20pt;
+}
+.xref{
+	text-decoration:none;
+	color:rgb(14,52,229);
+}
+dl{
+	margin-top:2pt;
+}
+dt{
+	float:left;
+}
+
+/*************************************/
+/**************figure*****************/
+.figborder {
+    border-style: solid;
+    padding-left: 3px;
+    border-width: 2px;
+    padding-right: 3px;
+    margin-top: 1em;
+    border-color: Silver;
+}
+
+.figsides {
+    border-left: 2px solid;
+    padding-left: 3px;
+    border-right: 2px solid;
+    padding-right: 3px;
+    margin-top: 1em;
+    border-color: Silver;
+}
+
+.figtop {
+    border-top: 2px solid;
+    margin-top: 1em;
+    border-color: Silver;
+}
+
+.figbottom {
+    border-bottom: 2px solid;
+    border-color: Silver;
+}
+
+.figtopbot {
+    border-top: 2px solid;
+    border-bottom: 2px solid;
+    margin-top: 1em;
+    border-color: Silver;
+}
+/*************************************/
+/***************image*****************/
+
+/*
+内嵌图片边距设置
+*/
+.inline_image{
+	margin-left:0.5em;
+	margin-right:0.5em;
+}
+div.imageleft {
+    text-align: left;
+}
+
+div.imagecenter {
+    text-align: center;
+}
+
+div.imageright {
+    text-align: right;
+}
+
+div.imagejustify {
+    text-align: justify;
+}
+/*************************************/
+/***************copyright*************/
+.copyrightTable{
+	width:80%;
+	margin-left:10%;
+	font-size: 9.0pt;
+	font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+	color:black;
+}
+.copyrightImg{
+	width:10%;
+	padding-left:20pt;
+	vertical-align:top;
+}
+.copyrightImg img{
+	margin-top:8pt;
+}
+/*************************************/
+/************* note ******************/
+.note{
+	color:black;
+	width:50%;
+	margin-bottom:10pt;
+	margin-top:10pt;
+	padding:0;
+	border:0;
+	border-collapse:collapse;
+}
+.note td{
+	border:0.5pt solid black;
+}
+
+.other td{
+	border:0;
+}
+.note p{
+	margin:0;
+	
+}
+.note ul li{
+	margin-bottom:2pt;
+	margin-top:2pt;
+	line-height:13pt;
+	font-size:10pt;
+}
+
+.note img{
+	width:20pt;
+	height:20pt;
+}
+.dangertitle,.warningtitle,.cautiontitle,.notetitle{
+	text-align:center;
+	line-height:20pt;
+	font-size: 12.0pt;
+	color:black;
+	padding:0;
+}
+.dangertitle{
+	background-color:rgb(255,26,34);
+	color:white;
+	padding:0;
+}
+.warningtitle{
+	background-color:rgb(250,166,26);
+}
+.cautiontitle{
+	background-color:rgb(255,230,0);
+}
+.notetitle{
+	color:white;
+	font-style:italic;
+	background-color:rgb(0,122,192);
+}
+.othertitle {
+	background-color:rgb(175.95,197.88,205.02);
+	text-align:left;
+}
+.othertitle td:first-child{
+	width:10%;
+	text-align:center;
+	vertical-align:middle;
+}
+li li li table{
+	margin-left:-38pt;
+}
+li li table{
+	margin-left:-28pt;
+}
+li table{
+    margin-left:-12pt;
+}
+/*SafetyInfoBullet*/
+.noteIcon{
+	float:left;
+}
+/*************************************/
+/************* table *****************/
+.table,.simpletable{
+	width:90%;
+	border-spacing:0;
+	border-collapse: collapse;
+	margin-bottom: 12.0pt;
+	margin-right: 0pt;
+	margin-top: 10pt;
+	padding:5em;
+	font-size:9pt;
+	border-color:rgb(175.95,197.88,205.02);
+}
+.simpletable{
+	width:40%;
+	color:black;
+	font-size:10pt;
+	font-family:"Microsoft YaHei" !important;
+}
+.simpletable .stentry{
+	padding:0;
+}
+.figcap,.tablecap{
+	color:black;
+	display:block;
+	text-align:left;
+	margin-bottom:0pt;
+	margin-top:0pt;
+	font-size:10pt;
+	line-height:14pt;
+}
+
+.tablecap{
+	margin-top:7pt;
+	margin-bottom:-5pt;
+}
+thead tr{
+	background-color:rgb(175.95,197.88,205.02);
+}
+thead tr th{
+	font-weight:normal;
+}
+
+.cellrowborder {
+  border-bottom: solid 0.5pt rgb(175.95,197.88,205.02);
+  border-left: 0;
+  border-right: solid 0.5pt rgb(175.95,197.88,205.02);
+  border-top: 0;
+}
+
+.row-nocellborder {
+  border-bottom: solid 0.5pt rgb(175.95,197.88,205.02);
+  border-left: 0;
+  border-top: 0;
+  border-right:0;
+}
+
+.cell-norowborder {
+  border-left: 0;
+  border-right: solid 0.5pt rgb(175.95,197.88,205.02);
+  border-top: 0;
+  border-bottom:0;
+}
+
+.nocellnorowborder {
+  border: 0;
+}
+
+.info table{
+	margin-left:-16pt;
+}
+/*************************************/
+
+/*************** task ***************/
+ol{
+	margin-bottom:0;
+	margin-top:0;
+	margin-left:17pt;
+}
+/*bullted TRAINGLE ICON*/
+.bulltedIcon{
+	width:10pt;
+	height:14pt;
+	float:left;
+	text-align:center;
+	vertical-align:middle;
+	margin-right:5pt;
+}
+.bulltedIcon img{
+	margin-top:3pt;
+	margin-right:3pt;
+	width:8pt;
+	height:8pt;
+}
+/*bulltedstep*/
+.step{
+	margin-bottom:5pt;
+	margin-top:5pt;
+	line-height:14pt;
+	font-size:10pt;
+}
+/*bulltedsubstep*/
+.substep{
+	margin-bottom:2pt;
+	margin-top:2pt;
+	line-height:14pt;
+	font-size:10pt;
+}
+/*************************************/

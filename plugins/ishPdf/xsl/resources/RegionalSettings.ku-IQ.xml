@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RegionalSettings xml:lang="ku-IQ"><!--Kurdish (Iraq)-->
+	<setting name="CountryDescription">Iraq</setting>
+	<setting name="CountryCode">IQ</setting>
+	<setting name="LanguageDescription">Kurdish</setting>
+	<setting name="LanguageCode">ku</setting>
+	<setting name="LanguageRegion">ku-IQ</setting>
+</RegionalSettings>

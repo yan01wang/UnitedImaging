@@ -1,0 +1,2194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RegionalSettingsList>
+	<RegionalSettings xml:lang="fr-AD">
+		<setting name="CountryDescription">Andorra</setting>
+		<setting name="CountryCode">AD</setting>
+		<setting name="LanguageDescription">French</setting>
+		<setting name="LanguageCode">fr</setting>
+		<setting name="LanguageRegion">fr-AD</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="ca-AD">
+		<setting name="CountryDescription">Andorra</setting>
+		<setting name="CountryCode">AD</setting>
+		<setting name="LanguageDescription">Catalan</setting>
+		<setting name="LanguageCode">ca</setting>
+		<setting name="LanguageRegion">ca-AD</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="ar-AE">
+		<setting name="CountryDescription">United Arab Emirates</setting>
+		<setting name="CountryCode">AE</setting>
+		<setting name="LanguageDescription">Arabic</setting>
+		<setting name="LanguageCode">ar</setting>
+		<setting name="LanguageRegion">ar-AE</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="ps-AF">
+		<setting name="CountryDescription">Afghanistan</setting>
+		<setting name="CountryCode">AF</setting>
+		<setting name="LanguageDescription">Pashtu</setting>
+		<setting name="LanguageCode">ps</setting>
+		<setting name="LanguageRegion">ps-AF</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="fa-AF">
+		<setting name="CountryDescription">Afghanistan</setting>
+		<setting name="CountryCode">AF</setting>
+		<setting name="LanguageDescription">Persian/Farsi</setting>
+		<setting name="LanguageCode">fa</setting>
+		<setting name="LanguageRegion">fa-AF</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="en-AG">
+		<setting name="CountryDescription">Antigua And Barbuda</setting>
+		<setting name="CountryCode">AG</setting>
+		<setting name="LanguageDescription">English</setting>
+		<setting name="LanguageCode">en</setting>
+		<setting name="LanguageRegion">en-AG</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="en-AL">
+		<setting name="CountryDescription">Anguilla</setting>
+		<setting name="CountryCode">AI</setting>
+		<setting name="LanguageDescription">English</setting>
+		<setting name="LanguageCode">en</setting>
+		<setting name="LanguageRegion">en-AL</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="sq-AL">
+		<setting name="CountryDescription">Albania</setting>
+		<setting name="CountryCode">AL</setting>
+		<setting name="LanguageDescription">Albanian</setting>
+		<setting name="LanguageCode">sq</setting>
+		<setting name="LanguageRegion">sq-AL</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="hy-AM">
+		<setting name="CountryDescription">Armenia</setting>
+		<setting name="CountryCode">AM</setting>
+		<setting name="LanguageDescription">Armenian</setting>
+		<setting name="LanguageCode">hy</setting>
+		<setting name="LanguageRegion">hy-AM</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="nl-AN">
+		<setting name="CountryDescription">Netherlands Antilles</setting>
+		<setting name="CountryCode">AN</setting>
+		<setting name="LanguageDescription">Dutch</setting>
+		<setting name="LanguageCode">nl</setting>
+		<setting name="LanguageRegion">nl-AN</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="pt-AO">
+		<setting name="CountryDescription">Angola</setting>
+		<setting name="CountryCode">AO</setting>
+		<setting name="LanguageDescription">Portugese</setting>
+		<setting name="LanguageCode">pt</setting>
+		<setting name="LanguageRegion">pt-AO</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="es-AR">
+		<setting name="CountryDescription">Argentina</setting>
+		<setting name="CountryCode">AR</setting>
+		<setting name="LanguageDescription">Spanish</setting>
+		<setting name="LanguageCode">es</setting>
+		<setting name="LanguageRegion">es-AR</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="sm-AS">
+		<setting name="CountryDescription">American Samoa</setting>
+		<setting name="CountryCode">AS</setting>
+		<setting name="LanguageDescription">Samoan</setting>
+		<setting name="LanguageCode">sm</setting>
+		<setting name="LanguageRegion">sm-AS</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="en-AS">
+		<setting name="CountryDescription">American Samoa</setting>
+		<setting name="CountryCode">AS</setting>
+		<setting name="LanguageDescription">English</setting>
+		<setting name="LanguageCode">en</setting>
+		<setting name="LanguageRegion">en-AS</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="de-AT">
+		<setting name="CountryDescription">Austria</setting>
+		<setting name="CountryCode">AT</setting>
+		<setting name="LanguageDescription">German</setting>
+		<setting name="LanguageCode">de</setting>
+		<setting name="LanguageRegion">de-AT</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="en-AU">
+		<setting name="CountryDescription">Australia</setting>
+		<setting name="CountryCode">AU</setting>
+		<setting name="LanguageDescription">English</setting>
+		<setting name="LanguageCode">en</setting>
+		<setting name="LanguageRegion">en-AU</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="nl-AW">
+		<setting name="CountryDescription">Aruba</setting>
+		<setting name="CountryCode">AW</setting>
+		<setting name="LanguageDescription">Dutch</setting>
+		<setting name="LanguageCode">nl</setting>
+		<setting name="LanguageRegion">nl-AW</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="az-AZ">
+		<setting name="CountryDescription">Azerbaijan</setting>
+		<setting name="CountryCode">AZ</setting>
+		<setting name="LanguageDescription">Azerbaijani</setting>
+		<setting name="LanguageCode">az</setting>
+		<setting name="LanguageRegion">az-AZ</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="bs-BA">
+		<setting name="CountryDescription">Bosnia And Herzegovina</setting>
+		<setting name="CountryCode">BA</setting>
+		<setting name="LanguageDescription">Bosnian</setting>
+		<setting name="LanguageCode">bs</setting>
+		<setting name="LanguageRegion">bs-BA</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="hr-BA">
+		<setting name="CountryDescription">Bosnia And Herzegovina</setting>
+		<setting name="CountryCode">BA</setting>
+		<setting name="LanguageDescription">Croatian</setting>
+		<setting name="LanguageCode">hr</setting>
+		<setting name="LanguageRegion">hr-BA</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="sr-BA">
+		<setting name="CountryDescription">Bosnia And Herzegovina</setting>
+		<setting name="CountryCode">BA</setting>
+		<setting name="LanguageDescription">Serbian</setting>
+		<setting name="LanguageCode">sr</setting>
+		<setting name="LanguageRegion">sr-BA</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="en-BB">
+		<setting name="CountryDescription">Barbados</setting>
+		<setting name="CountryCode">BB</setting>
+		<setting name="LanguageDescription">English</setting>
+		<setting name="LanguageCode">en</setting>
+		<setting name="LanguageRegion">en-BB</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="bn-BD">
+		<setting name="CountryDescription">Bangladesh</setting>
+		<setting name="CountryCode">BD</setting>
+		<setting name="LanguageDescription">Bengali</setting>
+		<setting name="LanguageCode">bn</setting>
+		<setting name="LanguageRegion">bn-BD</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="nl-BE">
+		<setting name="CountryDescription">Belgium</setting>
+		<setting name="CountryCode">BE</setting>
+		<setting name="LanguageDescription">Dutch</setting>
+		<setting name="LanguageCode">nl</setting>
+		<setting name="LanguageRegion">nl-BE</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="fr-BE">
+		<setting name="CountryDescription">Belgium</setting>
+		<setting name="CountryCode">BE</setting>
+		<setting name="LanguageDescription">French</setting>
+		<setting name="LanguageCode">fr</setting>
+		<setting name="LanguageRegion">fr-BE</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="de-BE">
+		<setting name="CountryDescription">Belgium</setting>
+		<setting name="CountryCode">BE</setting>
+		<setting name="LanguageDescription">German</setting>
+		<setting name="LanguageCode">de</setting>
+		<setting name="LanguageRegion">de-BE</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="fr-BF">
+		<setting name="CountryDescription">Burkina Faso</setting>
+		<setting name="CountryCode">BF</setting>
+		<setting name="LanguageDescription">French</setting>
+		<setting name="LanguageCode">fr</setting>
+		<setting name="LanguageRegion">fr-BF</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="bg-BG">
+		<setting name="CountryDescription">Bulgaria</setting>
+		<setting name="CountryCode">BG</setting>
+		<setting name="LanguageDescription">Bulgarian</setting>
+		<setting name="LanguageCode">bg</setting>
+		<setting name="LanguageRegion">bg-BG</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="ar-BH">
+		<setting name="CountryDescription">Bahrain</setting>
+		<setting name="CountryCode">BH</setting>
+		<setting name="LanguageDescription">Arabic</setting>
+		<setting name="LanguageCode">ar</setting>
+		<setting name="LanguageRegion">ar-BH</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="rn-BI">
+		<setting name="CountryDescription">Burundi</setting>
+		<setting name="CountryCode">BI</setting>
+		<setting name="LanguageDescription">Kirundi</setting>
+		<setting name="LanguageCode">rn</setting>
+		<setting name="LanguageRegion">rn-BI</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="fr-BI">
+		<setting name="CountryDescription">Burundi</setting>
+		<setting name="CountryCode">BI</setting>
+		<setting name="LanguageDescription">French</setting>
+		<setting name="LanguageCode">fr</setting>
+		<setting name="LanguageRegion">fr-BI</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="fr-BJ">
+		<setting name="CountryDescription">Benin</setting>
+		<setting name="CountryCode">BJ</setting>
+		<setting name="LanguageDescription">French</setting>
+		<setting name="LanguageCode">fr</setting>
+		<setting name="LanguageRegion">fr-BJ</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="en-BM">
+		<setting name="CountryDescription">Bermuda</setting>
+		<setting name="CountryCode">BM</setting>
+		<setting name="LanguageDescription">English</setting>
+		<setting name="LanguageCode">en</setting>
+		<setting name="LanguageRegion">en-BM</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="ms-BN">
+		<setting name="CountryDescription">Brunei Darussalam</setting>
+		<setting name="CountryCode">BN</setting>
+		<setting name="LanguageDescription">Malay</setting>
+		<setting name="LanguageCode">ms</setting>
+		<setting name="LanguageRegion">ms-BN</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="ay-BO">
+		<setting name="CountryDescription">Bolivia</setting>
+		<setting name="CountryCode">BO</setting>
+		<setting name="LanguageDescription">Aymara</setting>
+		<setting name="LanguageCode">ay</setting>
+		<setting name="LanguageRegion">ay-BO</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="qu-BO">
+		<setting name="CountryDescription">Bolivia</setting>
+		<setting name="CountryCode">BO</setting>
+		<setting name="LanguageDescription">Quechua</setting>
+		<setting name="LanguageCode">qu</setting>
+		<setting name="LanguageRegion">qu-BO</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="es-BO">
+		<setting name="CountryDescription">Bolivia</setting>
+		<setting name="CountryCode">BO</setting>
+		<setting name="LanguageDescription">Spanish</setting>
+		<setting name="LanguageCode">es</setting>
+		<setting name="LanguageRegion">es-BO</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="pt-BR">
+		<setting name="CountryDescription">Brazil</setting>
+		<setting name="CountryCode">BR</setting>
+		<setting name="LanguageDescription">Portugese</setting>
+		<setting name="LanguageCode">pt</setting>
+		<setting name="LanguageRegion">pt-BR</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="en-BS">
+		<setting name="CountryDescription">Bahamas</setting>
+		<setting name="CountryCode">BS</setting>
+		<setting name="LanguageDescription">English</setting>
+		<setting name="LanguageCode">en</setting>
+		<setting name="LanguageRegion">en-BS</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="dz-BT">
+		<setting name="CountryDescription">Bhutan</setting>
+		<setting name="CountryCode">BT</setting>
+		<setting name="LanguageDescription">Dzongkha</setting>
+		<setting name="LanguageCode">dz</setting>
+		<setting name="LanguageRegion">dz-BT</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="en-BW">
+		<setting name="CountryDescription">Botswana</setting>
+		<setting name="CountryCode">BW</setting>
+		<setting name="LanguageDescription">English</setting>
+		<setting name="LanguageCode">en</setting>
+		<setting name="LanguageRegion">en-BW</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="be-BY">
+		<setting name="CountryDescription">Belarus</setting>
+		<setting name="CountryCode">BY</setting>
+		<setting name="LanguageDescription">Belarusian</setting>
+		<setting name="LanguageCode">be</setting>
+		<setting name="LanguageRegion">be-BY</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="en-BZ">
+		<setting name="CountryDescription">Belize</setting>
+		<setting name="CountryCode">BZ</setting>
+		<setting name="LanguageDescription">English</setting>
+		<setting name="LanguageCode">en</setting>
+		<setting name="LanguageRegion">en-BZ</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="en-CA">
+		<setting name="CountryDescription">Canada</setting>
+		<setting name="CountryCode">CA</setting>
+		<setting name="LanguageDescription">English</setting>
+		<setting name="LanguageCode">en</setting>
+		<setting name="LanguageRegion">en-CA</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="fr-CA">
+		<setting name="CountryDescription">Canada</setting>
+		<setting name="CountryCode">CA</setting>
+		<setting name="LanguageDescription">French</setting>
+		<setting name="LanguageCode">fr</setting>
+		<setting name="LanguageRegion">fr-CA</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="ms-CC">
+		<setting name="CountryDescription">Cocos (Keeling) Islands</setting>
+		<setting name="CountryCode">CC</setting>
+		<setting name="LanguageDescription">Malay</setting>
+		<setting name="LanguageCode">ms</setting>
+		<setting name="LanguageRegion">ms-CC</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="fr-CD">
+		<setting name="CountryDescription">The Democratic Republic Of Congo</setting>
+		<setting name="CountryCode">CD</setting>
+		<setting name="LanguageDescription">French</setting>
+		<setting name="LanguageCode">fr</setting>
+		<setting name="LanguageRegion">fr-CD</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="fr-CF">
+		<setting name="CountryDescription">Central African Republic</setting>
+		<setting name="CountryCode">CF</setting>
+		<setting name="LanguageDescription">French</setting>
+		<setting name="LanguageCode">fr</setting>
+		<setting name="LanguageRegion">fr-CF</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="fr-CG">
+		<setting name="CountryDescription">Congo</setting>
+		<setting name="CountryCode">CG</setting>
+		<setting name="LanguageDescription">French</setting>
+		<setting name="LanguageCode">fr</setting>
+		<setting name="LanguageRegion">fr-CG</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="de-CH">
+		<setting name="CountryDescription">Switzerland</setting>
+		<setting name="CountryCode">CH</setting>
+		<setting name="LanguageDescription">German</setting>
+		<setting name="LanguageCode">de</setting>
+		<setting name="LanguageRegion">de-CH</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="fr-CH">
+		<setting name="CountryDescription">Switzerland</setting>
+		<setting name="CountryCode">CH</setting>
+		<setting name="LanguageDescription">French</setting>
+		<setting name="LanguageCode">fr</setting>
+		<setting name="LanguageRegion">fr-CH</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="it-CH">
+		<setting name="CountryDescription">Switzerland</setting>
+		<setting name="CountryCode">CH</setting>
+		<setting name="LanguageDescription">Italian</setting>
+		<setting name="LanguageCode">it</setting>
+		<setting name="LanguageRegion">it-CH</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="fr-CI">
+		<setting name="CountryDescription">Côte D'ivoire</setting>
+		<setting name="CountryCode">CI</setting>
+		<setting name="LanguageDescription">French</setting>
+		<setting name="LanguageCode">fr</setting>
+		<setting name="LanguageRegion">fr-CI</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="en-CK">
+		<setting name="CountryDescription">Cook Islands</setting>
+		<setting name="CountryCode">CK</setting>
+		<setting name="LanguageDescription">English</setting>
+		<setting name="LanguageCode">en</setting>
+		<setting name="LanguageRegion">en-CK</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="es-CL">
+		<setting name="CountryDescription">Chile</setting>
+		<setting name="CountryCode">CL</setting>
+		<setting name="LanguageDescription">Spanish</setting>
+		<setting name="LanguageCode">es</setting>
+		<setting name="LanguageRegion">es-CL</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="en-CM">
+		<setting name="CountryDescription">Cameroon</setting>
+		<setting name="CountryCode">CM</setting>
+		<setting name="LanguageDescription">English</setting>
+		<setting name="LanguageCode">en</setting>
+		<setting name="LanguageRegion">en-CM</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="fr-CM">
+		<setting name="CountryDescription">Cameroon</setting>
+		<setting name="CountryCode">CM</setting>
+		<setting name="LanguageDescription">French</setting>
+		<setting name="LanguageCode">fr</setting>
+		<setting name="LanguageRegion">fr-CM</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="zh-CN">
+		<setting name="CountryDescription">China</setting>
+		<setting name="CountryCode">CN</setting>
+		<setting name="LanguageDescription">Chinese</setting>
+		<setting name="LanguageCode">zh</setting>
+		<setting name="LanguageRegion">zh-CN</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="es-CO">
+		<setting name="CountryDescription">Colombia</setting>
+		<setting name="CountryCode">CO</setting>
+		<setting name="LanguageDescription">Spanish</setting>
+		<setting name="LanguageCode">es</setting>
+		<setting name="LanguageRegion">es-CO</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="es-CR">
+		<setting name="CountryDescription">Costa Rica</setting>
+		<setting name="CountryCode">CR</setting>
+		<setting name="LanguageDescription">Spanish</setting>
+		<setting name="LanguageCode">es</setting>
+		<setting name="LanguageRegion">es-CR</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="es-CU">
+		<setting name="CountryDescription">Cuba</setting>
+		<setting name="CountryCode">CU</setting>
+		<setting name="LanguageDescription">Spanish</setting>
+		<setting name="LanguageCode">es</setting>
+		<setting name="LanguageRegion">es-CU</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="pt-CV">
+		<setting name="CountryDescription">Cape Verde</setting>
+		<setting name="CountryCode">CV</setting>
+		<setting name="LanguageDescription">Portugese</setting>
+		<setting name="LanguageCode">pt</setting>
+		<setting name="LanguageRegion">pt-CV</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="ms-CC">
+		<setting name="CountryDescription">Christmas Island</setting>
+		<setting name="CountryCode">CX</setting>
+		<setting name="LanguageDescription">Malay</setting>
+		<setting name="LanguageCode">ms</setting>
+		<setting name="LanguageRegion">ms-CC</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="el-CY">
+		<setting name="CountryDescription">Cyprus</setting>
+		<setting name="CountryCode">CY</setting>
+		<setting name="LanguageDescription">Greek</setting>
+		<setting name="LanguageCode">el</setting>
+		<setting name="LanguageRegion">el-CY</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="tr-CY">
+		<setting name="CountryDescription">Cyprus</setting>
+		<setting name="CountryCode">CY</setting>
+		<setting name="LanguageDescription">Turkish</setting>
+		<setting name="LanguageCode">tr</setting>
+		<setting name="LanguageRegion">tr-CY</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="cs-CZ">
+		<setting name="CountryDescription">Czech Republic</setting>
+		<setting name="CountryCode">CZ</setting>
+		<setting name="LanguageDescription">Czech</setting>
+		<setting name="LanguageCode">cs</setting>
+		<setting name="LanguageRegion">cs-CZ</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="de-DE">
+		<setting name="CountryDescription">Germany</setting>
+		<setting name="CountryCode">DE</setting>
+		<setting name="LanguageDescription">German</setting>
+		<setting name="LanguageCode">de</setting>
+		<setting name="LanguageRegion">de-DE</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="fr-DJ">
+		<setting name="CountryDescription">Djibouti</setting>
+		<setting name="CountryCode">DJ</setting>
+		<setting name="LanguageDescription">French</setting>
+		<setting name="LanguageCode">fr</setting>
+		<setting name="LanguageRegion">fr-DJ</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="ar-DJ">
+		<setting name="CountryDescription">Djibouti</setting>
+		<setting name="CountryCode">DJ</setting>
+		<setting name="LanguageDescription">Arabic</setting>
+		<setting name="LanguageCode">ar</setting>
+		<setting name="LanguageRegion">ar-DJ</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="da-DK">
+		<setting name="CountryDescription">Denmark</setting>
+		<setting name="CountryCode">DK</setting>
+		<setting name="LanguageDescription">Danish</setting>
+		<setting name="LanguageCode">da</setting>
+		<setting name="LanguageRegion">da-DK</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="en-DM">
+		<setting name="CountryDescription">Dominica</setting>
+		<setting name="CountryCode">DM</setting>
+		<setting name="LanguageDescription">English</setting>
+		<setting name="LanguageCode">en</setting>
+		<setting name="LanguageRegion">en-DM</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="es-DO">
+		<setting name="CountryDescription">Dominican Republic</setting>
+		<setting name="CountryCode">DO</setting>
+		<setting name="LanguageDescription">Spanish</setting>
+		<setting name="LanguageCode">es</setting>
+		<setting name="LanguageRegion">es-DO</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="ar-DZ">
+		<setting name="CountryDescription">Algeria</setting>
+		<setting name="CountryCode">DZ</setting>
+		<setting name="LanguageDescription">Arabic</setting>
+		<setting name="LanguageCode">ar</setting>
+		<setting name="LanguageRegion">ar-DZ</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="es-EC">
+		<setting name="CountryDescription">Ecuador</setting>
+		<setting name="CountryCode">EC</setting>
+		<setting name="LanguageDescription">Spanish</setting>
+		<setting name="LanguageCode">es</setting>
+		<setting name="LanguageRegion">es-EC</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="et-EE">
+		<setting name="CountryDescription">Estonia</setting>
+		<setting name="CountryCode">EE</setting>
+		<setting name="LanguageDescription">Estonian</setting>
+		<setting name="LanguageCode">et</setting>
+		<setting name="LanguageRegion">et-EE</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="ar-EG">
+		<setting name="CountryDescription">Egypt</setting>
+		<setting name="CountryCode">EG</setting>
+		<setting name="LanguageDescription">Arabic</setting>
+		<setting name="LanguageCode">ar</setting>
+		<setting name="LanguageRegion">ar-EG</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="ar-ER">
+		<setting name="CountryDescription">Eritrea</setting>
+		<setting name="CountryCode">ER</setting>
+		<setting name="LanguageDescription">Arabic</setting>
+		<setting name="LanguageCode">ar</setting>
+		<setting name="LanguageRegion">ar-ER</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="en-ER">
+		<setting name="CountryDescription">Eritrea</setting>
+		<setting name="CountryCode">ER</setting>
+		<setting name="LanguageDescription">English</setting>
+		<setting name="LanguageCode">en</setting>
+		<setting name="LanguageRegion">en-ER</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="aa-ER">
+		<setting name="CountryDescription">Eritrea</setting>
+		<setting name="CountryCode">ER</setting>
+		<setting name="LanguageDescription">Afar</setting>
+		<setting name="LanguageCode">aa</setting>
+		<setting name="LanguageRegion">aa-ER</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="ca-ES">
+		<setting name="CountryDescription">Spain</setting>
+		<setting name="CountryCode">ES</setting>
+		<setting name="LanguageDescription">Catalan</setting>
+		<setting name="LanguageCode">ca</setting>
+		<setting name="LanguageRegion">ca-ES</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="gl-ES">
+		<setting name="CountryDescription">Spain</setting>
+		<setting name="CountryCode">ES</setting>
+		<setting name="LanguageDescription">Galician</setting>
+		<setting name="LanguageCode">gl</setting>
+		<setting name="LanguageRegion">gl-ES</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="eu-ES">
+		<setting name="CountryDescription">Spain</setting>
+		<setting name="CountryCode">ES</setting>
+		<setting name="LanguageDescription">Basque</setting>
+		<setting name="LanguageCode">eu</setting>
+		<setting name="LanguageRegion">eu-ES</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="es-ES">
+		<setting name="CountryDescription">Spain</setting>
+		<setting name="CountryCode">ES</setting>
+		<setting name="LanguageDescription">Spanish</setting>
+		<setting name="LanguageCode">es</setting>
+		<setting name="LanguageRegion">es-ES</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="am-ET">
+		<setting name="CountryDescription">Ethiopia</setting>
+		<setting name="CountryCode">ET</setting>
+		<setting name="LanguageDescription">Amharic</setting>
+		<setting name="LanguageCode">am</setting>
+		<setting name="LanguageRegion">am-ET</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="ti-ET">
+		<setting name="CountryDescription">Ethiopia</setting>
+		<setting name="CountryCode">ET</setting>
+		<setting name="LanguageDescription">Tigrigna</setting>
+		<setting name="LanguageCode">ti</setting>
+		<setting name="LanguageRegion">ti-ET</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="en-ET">
+		<setting name="CountryDescription">Ethiopia</setting>
+		<setting name="CountryCode">ET</setting>
+		<setting name="LanguageDescription">English</setting>
+		<setting name="LanguageCode">en</setting>
+		<setting name="LanguageRegion">en-ET</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="fi-FI">
+		<setting name="CountryDescription">Finland</setting>
+		<setting name="CountryCode">FI</setting>
+		<setting name="LanguageDescription">Finnish</setting>
+		<setting name="LanguageCode">fi</setting>
+		<setting name="LanguageRegion">fi-FI</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="sv-FI">
+		<setting name="CountryDescription">Finland</setting>
+		<setting name="CountryCode">FI</setting>
+		<setting name="LanguageDescription">Swedish</setting>
+		<setting name="LanguageCode">sv</setting>
+		<setting name="LanguageRegion">sv-FI</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="en-FJ">
+		<setting name="CountryDescription">Fiji</setting>
+		<setting name="CountryCode">FJ</setting>
+		<setting name="LanguageDescription">English</setting>
+		<setting name="LanguageCode">en</setting>
+		<setting name="LanguageRegion">en-FJ</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="fj-FJ">
+		<setting name="CountryDescription">Fiji</setting>
+		<setting name="CountryCode">FJ</setting>
+		<setting name="LanguageDescription">Fijian</setting>
+		<setting name="LanguageCode">fj</setting>
+		<setting name="LanguageRegion">fj-FJ</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="en-FK">
+		<setting name="CountryDescription">Falkland Islands (Malvinas)</setting>
+		<setting name="CountryCode">FK</setting>
+		<setting name="LanguageDescription">English</setting>
+		<setting name="LanguageCode">en</setting>
+		<setting name="LanguageRegion">en-FK</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="en-FM">
+		<setting name="CountryDescription">Federated States Of Micronesia</setting>
+		<setting name="CountryCode">FM</setting>
+		<setting name="LanguageDescription">English</setting>
+		<setting name="LanguageCode">en</setting>
+		<setting name="LanguageRegion">en-FM</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="fo-FO">
+		<setting name="CountryDescription">Faroe Islands</setting>
+		<setting name="CountryCode">FO</setting>
+		<setting name="LanguageDescription">Faroese</setting>
+		<setting name="LanguageCode">fo</setting>
+		<setting name="LanguageRegion">fo-FO</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="da-FO">
+		<setting name="CountryDescription">Faroe Islands</setting>
+		<setting name="CountryCode">FO</setting>
+		<setting name="LanguageDescription">Danish</setting>
+		<setting name="LanguageCode">da</setting>
+		<setting name="LanguageRegion">da-FO</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="fr-FR">
+		<setting name="CountryDescription">France</setting>
+		<setting name="CountryCode">FR</setting>
+		<setting name="LanguageDescription">French</setting>
+		<setting name="LanguageCode">fr</setting>
+		<setting name="LanguageRegion">fr-FR</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="fr-GA">
+		<setting name="CountryDescription">Gabon</setting>
+		<setting name="CountryCode">GA</setting>
+		<setting name="LanguageDescription">French</setting>
+		<setting name="LanguageCode">fr</setting>
+		<setting name="LanguageRegion">fr-GA</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="en-GB">
+		<setting name="CountryDescription">United Kingdom</setting>
+		<setting name="CountryCode">GB</setting>
+		<setting name="LanguageDescription">English</setting>
+		<setting name="LanguageCode">en</setting>
+		<setting name="LanguageRegion">en-GB</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="en-GD">
+		<setting name="CountryDescription">Grenada</setting>
+		<setting name="CountryCode">GD</setting>
+		<setting name="LanguageDescription">English</setting>
+		<setting name="LanguageCode">en</setting>
+		<setting name="LanguageRegion">en-GD</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="ka-GE">
+		<setting name="CountryDescription">Georgia</setting>
+		<setting name="CountryCode">GE</setting>
+		<setting name="LanguageDescription">Georgian</setting>
+		<setting name="LanguageCode">ka</setting>
+		<setting name="LanguageRegion">ka-GE</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="fr-GF">
+		<setting name="CountryDescription">French Guiana</setting>
+		<setting name="CountryCode">GF</setting>
+		<setting name="LanguageDescription">French</setting>
+		<setting name="LanguageCode">fr</setting>
+		<setting name="LanguageRegion">fr-GF</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="en-GH">
+		<setting name="CountryDescription">Ghana</setting>
+		<setting name="CountryCode">GH</setting>
+		<setting name="LanguageDescription">English</setting>
+		<setting name="LanguageCode">en</setting>
+		<setting name="LanguageRegion">en-GH</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="en-GI">
+		<setting name="CountryDescription">Gibraltar</setting>
+		<setting name="CountryCode">GI</setting>
+		<setting name="LanguageDescription">English</setting>
+		<setting name="LanguageCode">en</setting>
+		<setting name="LanguageRegion">en-GI</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="kl-GL">
+		<setting name="CountryDescription">Greenland</setting>
+		<setting name="CountryCode">GL</setting>
+		<setting name="LanguageDescription">Kalaallisut</setting>
+		<setting name="LanguageCode">kl</setting>
+		<setting name="LanguageRegion">kl-GL</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="da-GL">
+		<setting name="CountryDescription">Greenland</setting>
+		<setting name="CountryCode">GL</setting>
+		<setting name="LanguageDescription">Danish</setting>
+		<setting name="LanguageCode">da</setting>
+		<setting name="LanguageRegion">da-GL</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="en-GM">
+		<setting name="CountryDescription">Gambia</setting>
+		<setting name="CountryCode">GM</setting>
+		<setting name="LanguageDescription">English</setting>
+		<setting name="LanguageCode">en</setting>
+		<setting name="LanguageRegion">en-GM</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="fr-GN">
+		<setting name="CountryDescription">Guinea</setting>
+		<setting name="CountryCode">GN</setting>
+		<setting name="LanguageDescription">French</setting>
+		<setting name="LanguageCode">fr</setting>
+		<setting name="LanguageRegion">fr-GN</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="fr-GP">
+		<setting name="CountryDescription">Guadeloupe</setting>
+		<setting name="CountryCode">GP</setting>
+		<setting name="LanguageDescription">French</setting>
+		<setting name="LanguageCode">fr</setting>
+		<setting name="LanguageRegion">fr-GP</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="fr-GQ">
+		<setting name="CountryDescription">Equatorial Guinea</setting>
+		<setting name="CountryCode">GQ</setting>
+		<setting name="LanguageDescription">French</setting>
+		<setting name="LanguageCode">fr</setting>
+		<setting name="LanguageRegion">fr-GQ</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="es-GQ">
+		<setting name="CountryDescription">Equatorial Guinea</setting>
+		<setting name="CountryCode">GQ</setting>
+		<setting name="LanguageDescription">Spanish</setting>
+		<setting name="LanguageCode">es</setting>
+		<setting name="LanguageRegion">es-GQ</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="el-GR">
+		<setting name="CountryDescription">Greece</setting>
+		<setting name="CountryCode">GR</setting>
+		<setting name="LanguageDescription">Greek</setting>
+		<setting name="LanguageCode">el</setting>
+		<setting name="LanguageRegion">el-GR</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="es-GT">
+		<setting name="CountryDescription">Guatemala</setting>
+		<setting name="CountryCode">GT</setting>
+		<setting name="LanguageDescription">Spanish</setting>
+		<setting name="LanguageCode">es</setting>
+		<setting name="LanguageRegion">es-GT</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="ch-GU">
+		<setting name="CountryDescription">Guam</setting>
+		<setting name="CountryCode">GU</setting>
+		<setting name="LanguageDescription">Chamorro</setting>
+		<setting name="LanguageCode">ch</setting>
+		<setting name="LanguageRegion">ch-GU</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="es-GT">
+		<setting name="CountryDescription">Guam</setting>
+		<setting name="CountryCode">GU</setting>
+		<setting name="LanguageDescription">Spanish</setting>
+		<setting name="LanguageCode">es</setting>
+		<setting name="LanguageRegion">es-GT</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="pt-GW">
+		<setting name="CountryDescription">Guinea-Bissau</setting>
+		<setting name="CountryCode">GW</setting>
+		<setting name="LanguageDescription">Portugese</setting>
+		<setting name="LanguageCode">pt</setting>
+		<setting name="LanguageRegion">pt-GW</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="en-GY">
+		<setting name="CountryDescription">Guyana</setting>
+		<setting name="CountryCode">GY</setting>
+		<setting name="LanguageDescription">English</setting>
+		<setting name="LanguageCode">en</setting>
+		<setting name="LanguageRegion">en-GY</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="en-HK">
+		<setting name="CountryDescription">Hong Kong</setting>
+		<setting name="CountryCode">HK</setting>
+		<setting name="LanguageDescription">English</setting>
+		<setting name="LanguageCode">en</setting>
+		<setting name="LanguageRegion">en-HK</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="zh-HK">
+		<setting name="CountryDescription">Hong Kong</setting>
+		<setting name="CountryCode">HK</setting>
+		<setting name="LanguageDescription">Chinese</setting>
+		<setting name="LanguageCode">zh</setting>
+		<setting name="LanguageRegion">zh-HK</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="es-HN">
+		<setting name="CountryDescription">Honduras</setting>
+		<setting name="CountryCode">HN</setting>
+		<setting name="LanguageDescription">Spanish</setting>
+		<setting name="LanguageCode">es</setting>
+		<setting name="LanguageRegion">es-HN</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="hr-HR">
+		<setting name="CountryDescription">Croatia</setting>
+		<setting name="CountryCode">HR</setting>
+		<setting name="LanguageDescription">Croatian</setting>
+		<setting name="LanguageCode">hr</setting>
+		<setting name="LanguageRegion">hr-HR</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="fr-HT">
+		<setting name="CountryDescription">Haiti</setting>
+		<setting name="CountryCode">HT</setting>
+		<setting name="LanguageDescription">French</setting>
+		<setting name="LanguageCode">fr</setting>
+		<setting name="LanguageRegion">fr-HT</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="ht-HT">
+		<setting name="CountryDescription">Haiti</setting>
+		<setting name="CountryCode">HT</setting>
+		<setting name="LanguageDescription">Haitian / Creole</setting>
+		<setting name="LanguageCode">ht</setting>
+		<setting name="LanguageRegion">ht-HT</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="hu-HU">
+		<setting name="CountryDescription">Hungary</setting>
+		<setting name="CountryCode">HU</setting>
+		<setting name="LanguageDescription">Hungarian</setting>
+		<setting name="LanguageCode">hu</setting>
+		<setting name="LanguageRegion">hu-HU</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="id-ID">
+		<setting name="CountryDescription">Indonesia</setting>
+		<setting name="CountryCode">ID</setting>
+		<setting name="LanguageDescription">Indonesian</setting>
+		<setting name="LanguageCode">id</setting>
+		<setting name="LanguageRegion">id-ID</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="en-IE">
+		<setting name="CountryDescription">Ireland</setting>
+		<setting name="CountryCode">IE</setting>
+		<setting name="LanguageDescription">English</setting>
+		<setting name="LanguageCode">en</setting>
+		<setting name="LanguageRegion">en-IE</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="ga-IE">
+		<setting name="CountryDescription">Ireland</setting>
+		<setting name="CountryCode">IE</setting>
+		<setting name="LanguageDescription">Irish</setting>
+		<setting name="LanguageCode">ga</setting>
+		<setting name="LanguageRegion">ga-IE</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="he-IL">
+		<setting name="CountryDescription">Israel</setting>
+		<setting name="CountryCode">IL</setting>
+		<setting name="LanguageDescription">Hebrew</setting>
+		<setting name="LanguageCode">he</setting>
+		<setting name="LanguageRegion">he-IL</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="gv-IM">
+		<setting name="CountryDescription">Isle of Man</setting>
+		<setting name="CountryCode">IM</setting>
+		<setting name="LanguageDescription">Manx</setting>
+		<setting name="LanguageCode">gv</setting>
+		<setting name="LanguageRegion">gv-IM</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="hi-IN">
+		<setting name="CountryDescription">India</setting>
+		<setting name="CountryCode">IN</setting>
+		<setting name="LanguageDescription">Hindi</setting>
+		<setting name="LanguageCode">hi</setting>
+		<setting name="LanguageRegion">hi-IN</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="en-IN">
+		<setting name="CountryDescription">India</setting>
+		<setting name="CountryCode">IN</setting>
+		<setting name="LanguageDescription">English</setting>
+		<setting name="LanguageCode">en</setting>
+		<setting name="LanguageRegion">en-IN</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="en-IO">
+		<setting name="CountryDescription">British Indian Ocean Territory</setting>
+		<setting name="CountryCode">IO</setting>
+		<setting name="LanguageDescription">en</setting>
+		<setting name="LanguageCode">en</setting>
+		<setting name="LanguageRegion">en-IO</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="ar-IQ">
+		<setting name="CountryDescription">Iraq</setting>
+		<setting name="CountryCode">IQ</setting>
+		<setting name="LanguageDescription">Arabic</setting>
+		<setting name="LanguageCode">ar</setting>
+		<setting name="LanguageRegion">ar-IQ</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="ku-IQ">
+		<setting name="CountryDescription">Iraq</setting>
+		<setting name="CountryCode">IQ</setting>
+		<setting name="LanguageDescription">Kurdish</setting>
+		<setting name="LanguageCode">ku</setting>
+		<setting name="LanguageRegion">ku-IQ</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="fa-IR">
+		<setting name="CountryDescription">Islamic Republic Of Iran</setting>
+		<setting name="CountryCode">IR</setting>
+		<setting name="LanguageDescription">Persian/Farsi</setting>
+		<setting name="LanguageCode">fa</setting>
+		<setting name="LanguageRegion">fa-IR</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="is-IS">
+		<setting name="CountryDescription">Iceland</setting>
+		<setting name="CountryCode">IS</setting>
+		<setting name="LanguageDescription">Icelandic</setting>
+		<setting name="LanguageCode">is</setting>
+		<setting name="LanguageRegion">is-IS</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="it-IT">
+		<setting name="CountryDescription">Italy</setting>
+		<setting name="CountryCode">IT</setting>
+		<setting name="LanguageDescription">Italian</setting>
+		<setting name="LanguageCode">it</setting>
+		<setting name="LanguageRegion">it-IT</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="en-JM">
+		<setting name="CountryDescription">Jamaica</setting>
+		<setting name="CountryCode">JM</setting>
+		<setting name="LanguageDescription">English</setting>
+		<setting name="LanguageCode">en</setting>
+		<setting name="LanguageRegion">en-JM</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="ar-JO">
+		<setting name="CountryDescription">Jordan</setting>
+		<setting name="CountryCode">JO</setting>
+		<setting name="LanguageDescription">Arabic</setting>
+		<setting name="LanguageCode">ar</setting>
+		<setting name="LanguageRegion">ar-JO</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="ja-JP">
+		<setting name="CountryDescription">Japan</setting>
+		<setting name="CountryCode">JP</setting>
+		<setting name="LanguageDescription">Japanese</setting>
+		<setting name="LanguageCode">ja</setting>
+		<setting name="LanguageRegion">ja-JP</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="en-KE">
+		<setting name="CountryDescription">Kenya</setting>
+		<setting name="CountryCode">KE</setting>
+		<setting name="LanguageDescription">English</setting>
+		<setting name="LanguageCode">en</setting>
+		<setting name="LanguageRegion">en-KE</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="ru-KG">
+		<setting name="CountryDescription">Kyrgyzstan</setting>
+		<setting name="CountryCode">KG</setting>
+		<setting name="LanguageDescription">Russian</setting>
+		<setting name="LanguageCode">ru</setting>
+		<setting name="LanguageRegion">ru-KG</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="ky-KG">
+		<setting name="CountryDescription">Kyrgyzstan</setting>
+		<setting name="CountryCode">KG</setting>
+		<setting name="LanguageDescription">Kirghiz</setting>
+		<setting name="LanguageCode">ky</setting>
+		<setting name="LanguageRegion">ky-KG</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="km-KH">
+		<setting name="CountryDescription">Cambodia</setting>
+		<setting name="CountryCode">KH</setting>
+		<setting name="LanguageDescription">Khmer</setting>
+		<setting name="LanguageCode">km</setting>
+		<setting name="LanguageRegion">km-KH</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="en-KI">
+		<setting name="CountryDescription">Kiribati</setting>
+		<setting name="CountryCode">KI</setting>
+		<setting name="LanguageDescription">English</setting>
+		<setting name="LanguageCode">en</setting>
+		<setting name="LanguageRegion">en-KI</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="ar-KM">
+		<setting name="CountryDescription">Comoros</setting>
+		<setting name="CountryCode">KM</setting>
+		<setting name="LanguageDescription">Arabic</setting>
+		<setting name="LanguageCode">ar</setting>
+		<setting name="LanguageRegion">ar-KM</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="fr-KM">
+		<setting name="CountryDescription">Comoros</setting>
+		<setting name="CountryCode">KM</setting>
+		<setting name="LanguageDescription">French</setting>
+		<setting name="LanguageCode">fr</setting>
+		<setting name="LanguageRegion">fr-KM</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="en-KN">
+		<setting name="CountryDescription">Saint Kitts And Nevis</setting>
+		<setting name="CountryCode">KN</setting>
+		<setting name="LanguageDescription">English</setting>
+		<setting name="LanguageCode">en</setting>
+		<setting name="LanguageRegion">en-KN</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="ko-KP">
+		<setting name="CountryDescription">Democratic People's Republic Of Korea</setting>
+		<setting name="CountryCode">KP</setting>
+		<setting name="LanguageDescription">Korean</setting>
+		<setting name="LanguageCode">ko</setting>
+		<setting name="LanguageRegion">ko-KP</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="ko-KR">
+		<setting name="CountryDescription">Republic Of Korea</setting>
+		<setting name="CountryCode">KR</setting>
+		<setting name="LanguageDescription">Korean</setting>
+		<setting name="LanguageCode">ko</setting>
+		<setting name="LanguageRegion">ko-KR</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="ar-KW">
+		<setting name="CountryDescription">Kuwait</setting>
+		<setting name="CountryCode">KW</setting>
+		<setting name="LanguageDescription">Arabic</setting>
+		<setting name="LanguageCode">ar</setting>
+		<setting name="LanguageRegion">ar-KW</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="en-KY">
+		<setting name="CountryDescription">Cayman Islands</setting>
+		<setting name="CountryCode">KY</setting>
+		<setting name="LanguageDescription">english</setting>
+		<setting name="LanguageCode">en</setting>
+		<setting name="LanguageRegion">en-KY</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="kk-KZ">
+		<setting name="CountryDescription">Kazakhstan</setting>
+		<setting name="CountryCode">KZ</setting>
+		<setting name="LanguageDescription">Kazakh</setting>
+		<setting name="LanguageCode">kk</setting>
+		<setting name="LanguageRegion">kk-KZ</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="ru-KZ">
+		<setting name="CountryDescription">Kazakhstan</setting>
+		<setting name="CountryCode">KZ</setting>
+		<setting name="LanguageDescription">Russian</setting>
+		<setting name="LanguageCode">ru</setting>
+		<setting name="LanguageRegion">ru-KZ</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="lo-LA">
+		<setting name="CountryDescription">Lao People's Democratic Republic</setting>
+		<setting name="CountryCode">LA</setting>
+		<setting name="LanguageDescription">Lao</setting>
+		<setting name="LanguageCode">lo</setting>
+		<setting name="LanguageRegion">lo-LA</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="ar-LB">
+		<setting name="CountryDescription">Lebanon</setting>
+		<setting name="CountryCode">LB</setting>
+		<setting name="LanguageDescription">Arabic</setting>
+		<setting name="LanguageCode">ar</setting>
+		<setting name="LanguageRegion">ar-LB</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="en-LC">
+		<setting name="CountryDescription">Saint Lucia</setting>
+		<setting name="CountryCode">LC</setting>
+		<setting name="LanguageDescription">English</setting>
+		<setting name="LanguageCode">en</setting>
+		<setting name="LanguageRegion">en-LC</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="de-LI">
+		<setting name="CountryDescription">Liechtenstein</setting>
+		<setting name="CountryCode">LI</setting>
+		<setting name="LanguageDescription">German</setting>
+		<setting name="LanguageCode">de</setting>
+		<setting name="LanguageRegion">de-LI</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="si-LK">
+		<setting name="CountryDescription">Sri Lanka</setting>
+		<setting name="CountryCode">LK</setting>
+		<setting name="LanguageDescription">Sinhala</setting>
+		<setting name="LanguageCode">si</setting>
+		<setting name="LanguageRegion">si-LK</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="en-LR">
+		<setting name="CountryDescription">Liberia</setting>
+		<setting name="CountryCode">LR</setting>
+		<setting name="LanguageDescription">English</setting>
+		<setting name="LanguageCode">en</setting>
+		<setting name="LanguageRegion">en-LR</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="st-LS">
+		<setting name="CountryDescription">Lesotho</setting>
+		<setting name="CountryCode">LS</setting>
+		<setting name="LanguageDescription">Sesotho (=Southern Sotho)</setting>
+		<setting name="LanguageCode">st</setting>
+		<setting name="LanguageRegion">st-LS</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="en-LS">
+		<setting name="CountryDescription">Lesotho</setting>
+		<setting name="CountryCode">LS</setting>
+		<setting name="LanguageDescription">English</setting>
+		<setting name="LanguageCode">en</setting>
+		<setting name="LanguageRegion">en-LS</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="lt-LT">
+		<setting name="CountryDescription">Lithuania</setting>
+		<setting name="CountryCode">LT</setting>
+		<setting name="LanguageDescription">Lithuanian</setting>
+		<setting name="LanguageCode">lt</setting>
+		<setting name="LanguageRegion">lt-LT</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="de-LU">
+		<setting name="CountryDescription">Luxembourg</setting>
+		<setting name="CountryCode">LU</setting>
+		<setting name="LanguageDescription">German</setting>
+		<setting name="LanguageCode">de</setting>
+		<setting name="LanguageRegion">de-LU</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="fr-LU">
+		<setting name="CountryDescription">Luxembourg</setting>
+		<setting name="CountryCode">LU</setting>
+		<setting name="LanguageDescription">French</setting>
+		<setting name="LanguageCode">fr</setting>
+		<setting name="LanguageRegion">fr-LU</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="lb-LU">
+		<setting name="CountryDescription">Luxembourg</setting>
+		<setting name="CountryCode">LU</setting>
+		<setting name="LanguageDescription">Luxembourgish</setting>
+		<setting name="LanguageCode">lb</setting>
+		<setting name="LanguageRegion">lb-LU</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="lv-LV">
+		<setting name="CountryDescription">Latvia</setting>
+		<setting name="CountryCode">LV</setting>
+		<setting name="LanguageDescription">Latvian</setting>
+		<setting name="LanguageCode">lv</setting>
+		<setting name="LanguageRegion">lv-LV</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="ar-LY">
+		<setting name="CountryDescription">Libyan Arab Jamahiriya</setting>
+		<setting name="CountryCode">LY</setting>
+		<setting name="LanguageDescription">Arabic</setting>
+		<setting name="LanguageCode">ar</setting>
+		<setting name="LanguageRegion">ar-LY</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="ar-MA">
+		<setting name="CountryDescription">Morocco</setting>
+		<setting name="CountryCode">MA</setting>
+		<setting name="LanguageDescription">Arabic</setting>
+		<setting name="LanguageCode">ar</setting>
+		<setting name="LanguageRegion">ar-MA</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="fr-MC">
+		<setting name="CountryDescription">Monaco</setting>
+		<setting name="CountryCode">MC</setting>
+		<setting name="LanguageDescription">French</setting>
+		<setting name="LanguageCode">fr</setting>
+		<setting name="LanguageRegion">fr-MC</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="mo-MD">
+		<setting name="CountryDescription">Republic Of Moldova</setting>
+		<setting name="CountryCode">MD</setting>
+		<setting name="LanguageDescription">Moldavian</setting>
+		<setting name="LanguageCode">mo</setting>
+		<setting name="LanguageRegion">mo-MD</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="sr-ME">
+		<setting name="CountryDescription">Montenegro</setting>
+		<setting name="CountryCode">ME</setting>
+		<setting name="LanguageDescription">Serbian</setting>
+		<setting name="LanguageCode">sr</setting>
+		<setting name="LanguageRegion">sr-ME</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="fr-MG">
+		<setting name="CountryDescription">Madagascar</setting>
+		<setting name="CountryCode">MG</setting>
+		<setting name="LanguageDescription">French</setting>
+		<setting name="LanguageCode">fr</setting>
+		<setting name="LanguageRegion">fr-MG</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="mg-MG">
+		<setting name="CountryDescription">Madagascar</setting>
+		<setting name="CountryCode">MG</setting>
+		<setting name="LanguageDescription">Malagasy</setting>
+		<setting name="LanguageCode">mg</setting>
+		<setting name="LanguageRegion">mg-MG</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="en-MH">
+		<setting name="CountryDescription">Marshall Islands</setting>
+		<setting name="CountryCode">MH</setting>
+		<setting name="LanguageDescription">English</setting>
+		<setting name="LanguageCode">en</setting>
+		<setting name="LanguageRegion">en-MH</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="mh-MH">
+		<setting name="CountryDescription">Marshall Islands</setting>
+		<setting name="CountryCode">MH</setting>
+		<setting name="LanguageDescription">Marshallese</setting>
+		<setting name="LanguageCode">mh</setting>
+		<setting name="LanguageRegion">mh-MH</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="sq-MK">
+		<setting name="CountryDescription">The Former Yugoslav Republic Of Macedonia</setting>
+		<setting name="CountryCode">MK</setting>
+		<setting name="LanguageDescription">Albanian</setting>
+		<setting name="LanguageCode">sq</setting>
+		<setting name="LanguageRegion">sq-MK</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="mk-MK">
+		<setting name="CountryDescription">The Former Yugoslav Republic Of Macedonia</setting>
+		<setting name="CountryCode">MK</setting>
+		<setting name="LanguageDescription">Macedonian</setting>
+		<setting name="LanguageCode">mk</setting>
+		<setting name="LanguageRegion">mk-MK</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="bm-ML">
+		<setting name="CountryDescription">Mali</setting>
+		<setting name="CountryCode">ML</setting>
+		<setting name="LanguageDescription">Bambara</setting>
+		<setting name="LanguageCode">bm</setting>
+		<setting name="LanguageRegion">bm-ML</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="fr-ML">
+		<setting name="CountryDescription">Mali</setting>
+		<setting name="CountryCode">ML</setting>
+		<setting name="LanguageDescription">French</setting>
+		<setting name="LanguageCode">fr</setting>
+		<setting name="LanguageRegion">fr-ML</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="my-MM">
+		<setting name="CountryDescription">Myanmar</setting>
+		<setting name="CountryCode">MM</setting>
+		<setting name="LanguageDescription">Burmese</setting>
+		<setting name="LanguageCode">my</setting>
+		<setting name="LanguageRegion">my-MM</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="mn-MN">
+		<setting name="CountryDescription">Mongolia</setting>
+		<setting name="CountryCode">MN</setting>
+		<setting name="LanguageDescription">Mongolian</setting>
+		<setting name="LanguageCode">mn</setting>
+		<setting name="LanguageRegion">mn-MN</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="zh-MO">
+		<setting name="CountryDescription">Macao</setting>
+		<setting name="CountryCode">MO</setting>
+		<setting name="LanguageDescription">Chinese</setting>
+		<setting name="LanguageCode">zh</setting>
+		<setting name="LanguageRegion">zh-MO</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="ch-MP">
+		<setting name="CountryDescription">Northern Mariana Islands</setting>
+		<setting name="CountryCode">MP</setting>
+		<setting name="LanguageDescription">Chamorro</setting>
+		<setting name="LanguageCode">ch</setting>
+		<setting name="LanguageRegion">ch-MP</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="en-MP">
+		<setting name="CountryDescription">Northern Mariana Islands</setting>
+		<setting name="CountryCode">MP</setting>
+		<setting name="LanguageDescription">English</setting>
+		<setting name="LanguageCode">en</setting>
+		<setting name="LanguageRegion">en-MP</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="fr-MQ">
+		<setting name="CountryDescription">Martinique</setting>
+		<setting name="CountryCode">MQ</setting>
+		<setting name="LanguageDescription">French</setting>
+		<setting name="LanguageCode">fr</setting>
+		<setting name="LanguageRegion">fr-MQ</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="ar-MR">
+		<setting name="CountryDescription">Mauritania</setting>
+		<setting name="CountryCode">MR</setting>
+		<setting name="LanguageDescription">Arabic</setting>
+		<setting name="LanguageCode">ar</setting>
+		<setting name="LanguageRegion">ar-MR</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="wo-MR">
+		<setting name="CountryDescription">Mauritania</setting>
+		<setting name="CountryCode">MR</setting>
+		<setting name="LanguageDescription">Wolof</setting>
+		<setting name="LanguageCode">wo</setting>
+		<setting name="LanguageRegion">wo-MR</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="en-MS">
+		<setting name="CountryDescription">Montserrat</setting>
+		<setting name="CountryCode">MS</setting>
+		<setting name="LanguageDescription">English</setting>
+		<setting name="LanguageCode">en</setting>
+		<setting name="LanguageRegion">en-MS</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="en-MT">
+		<setting name="CountryDescription">Malta</setting>
+		<setting name="CountryCode">MT</setting>
+		<setting name="LanguageDescription">English</setting>
+		<setting name="LanguageCode">en</setting>
+		<setting name="LanguageRegion">en-MT</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="mt-MT">
+		<setting name="CountryDescription">Malta</setting>
+		<setting name="CountryCode">MT</setting>
+		<setting name="LanguageDescription">Maltese</setting>
+		<setting name="LanguageCode">mt</setting>
+		<setting name="LanguageRegion">mt-MT</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="en-MU">
+		<setting name="CountryDescription">Mauritius</setting>
+		<setting name="CountryCode">MU</setting>
+		<setting name="LanguageDescription">English</setting>
+		<setting name="LanguageCode">en</setting>
+		<setting name="LanguageRegion">en-MU</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="dv-MV">
+		<setting name="CountryDescription">Maldives</setting>
+		<setting name="CountryCode">MV</setting>
+		<setting name="LanguageDescription">Divehi</setting>
+		<setting name="LanguageCode">dv</setting>
+		<setting name="LanguageRegion">dv-MV</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="en-MW">
+		<setting name="CountryDescription">Malawi</setting>
+		<setting name="CountryCode">MW</setting>
+		<setting name="LanguageDescription">English</setting>
+		<setting name="LanguageCode">en</setting>
+		<setting name="LanguageRegion">en-MW</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="ny-MW">
+		<setting name="CountryDescription">Malawi</setting>
+		<setting name="CountryCode">MW</setting>
+		<setting name="LanguageDescription">Chichewa</setting>
+		<setting name="LanguageCode">ny</setting>
+		<setting name="LanguageRegion">ny-MW</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="es-MX">
+		<setting name="CountryDescription">Mexico</setting>
+		<setting name="CountryCode">MX</setting>
+		<setting name="LanguageDescription">Spanish</setting>
+		<setting name="LanguageCode">es</setting>
+		<setting name="LanguageRegion">es-MX</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="ms-MY">
+		<setting name="CountryDescription">Malaysia</setting>
+		<setting name="CountryCode">MY</setting>
+		<setting name="LanguageDescription">Malay</setting>
+		<setting name="LanguageCode">ms</setting>
+		<setting name="LanguageRegion">ms-MY</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="pt-MZ">
+		<setting name="CountryDescription">Mozambique</setting>
+		<setting name="CountryCode">MZ</setting>
+		<setting name="LanguageDescription">Portugese</setting>
+		<setting name="LanguageCode">pt</setting>
+		<setting name="LanguageRegion">pt-MZ</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="en-NA">
+		<setting name="CountryDescription">Namibia</setting>
+		<setting name="CountryCode">NA</setting>
+		<setting name="LanguageDescription">English</setting>
+		<setting name="LanguageCode">en</setting>
+		<setting name="LanguageRegion">en-NA</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="fr-NC">
+		<setting name="CountryDescription">New Caledonia</setting>
+		<setting name="CountryCode">NC</setting>
+		<setting name="LanguageDescription">French</setting>
+		<setting name="LanguageCode">fr</setting>
+		<setting name="LanguageRegion">fr-NC</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="ha-NE">
+		<setting name="CountryDescription">Niger</setting>
+		<setting name="CountryCode">NE</setting>
+		<setting name="LanguageDescription">Hausa</setting>
+		<setting name="LanguageCode">ha</setting>
+		<setting name="LanguageRegion">ha-NE</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="fr-NE">
+		<setting name="CountryDescription">Niger</setting>
+		<setting name="CountryCode">NE</setting>
+		<setting name="LanguageDescription">French</setting>
+		<setting name="LanguageCode">fr</setting>
+		<setting name="LanguageRegion">fr-NE</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="en-NF">
+		<setting name="CountryDescription">Norfolk Island</setting>
+		<setting name="CountryCode">NF</setting>
+		<setting name="LanguageDescription">English</setting>
+		<setting name="LanguageCode">en</setting>
+		<setting name="LanguageRegion">en-NF</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="ha-NG">
+		<setting name="CountryDescription">Nigeria</setting>
+		<setting name="CountryCode">NG</setting>
+		<setting name="LanguageDescription">Hausa</setting>
+		<setting name="LanguageCode">ha</setting>
+		<setting name="LanguageRegion">ha-NG</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="ig-NG">
+		<setting name="CountryDescription">Nigeria</setting>
+		<setting name="CountryCode">NG</setting>
+		<setting name="LanguageDescription">Igbo</setting>
+		<setting name="LanguageCode">ig</setting>
+		<setting name="LanguageRegion">ig-NG</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="yo-NG">
+		<setting name="CountryDescription">Nigeria</setting>
+		<setting name="CountryCode">NG</setting>
+		<setting name="LanguageDescription">Yoruba</setting>
+		<setting name="LanguageCode">yo</setting>
+		<setting name="LanguageRegion">yo-NG</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="en-NG">
+		<setting name="CountryDescription">Nigeria</setting>
+		<setting name="CountryCode">NG</setting>
+		<setting name="LanguageDescription">English</setting>
+		<setting name="LanguageCode">en</setting>
+		<setting name="LanguageRegion">en-NG</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="es-NI">
+		<setting name="CountryDescription">Nicaragua</setting>
+		<setting name="CountryCode">NI</setting>
+		<setting name="LanguageDescription">Spanish</setting>
+		<setting name="LanguageCode">es</setting>
+		<setting name="LanguageRegion">es-NI</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="fy-NL">
+		<setting name="CountryDescription">Netherlands</setting>
+		<setting name="CountryCode">NL</setting>
+		<setting name="LanguageDescription">Frisian</setting>
+		<setting name="LanguageCode">fy</setting>
+		<setting name="LanguageRegion">fy-NL</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="nl-NL">
+		<setting name="CountryDescription">Netherlands</setting>
+		<setting name="CountryCode">NL</setting>
+		<setting name="LanguageDescription">Dutch</setting>
+		<setting name="LanguageCode">nl</setting>
+		<setting name="LanguageRegion">nl-NL</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="no-NO">
+		<setting name="CountryDescription">Norway</setting>
+		<setting name="CountryCode">NO</setting>
+		<setting name="LanguageDescription">Norwegian</setting>
+		<setting name="LanguageCode">no</setting>
+		<setting name="LanguageRegion">no-NO</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="ne-NP">
+		<setting name="CountryDescription">Nepal</setting>
+		<setting name="CountryCode">NP</setting>
+		<setting name="LanguageDescription">Nepali</setting>
+		<setting name="LanguageCode">ne</setting>
+		<setting name="LanguageRegion">ne-NP</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="na-NR">
+		<setting name="CountryDescription">Nauru</setting>
+		<setting name="CountryCode">NR</setting>
+		<setting name="LanguageDescription">Nauru</setting>
+		<setting name="LanguageCode">na</setting>
+		<setting name="LanguageRegion">na-NR</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="en-NU">
+		<setting name="CountryDescription">Niue</setting>
+		<setting name="CountryCode">NU</setting>
+		<setting name="LanguageDescription">English</setting>
+		<setting name="LanguageCode">en</setting>
+		<setting name="LanguageRegion">en-NU</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="mi-NZ">
+		<setting name="CountryDescription">New Zealand</setting>
+		<setting name="CountryCode">NZ</setting>
+		<setting name="LanguageDescription">Maori</setting>
+		<setting name="LanguageCode">mi</setting>
+		<setting name="LanguageRegion">mi-NZ</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="en-NZ">
+		<setting name="CountryDescription">New Zealand</setting>
+		<setting name="CountryCode">NZ</setting>
+		<setting name="LanguageDescription">English</setting>
+		<setting name="LanguageCode">en</setting>
+		<setting name="LanguageRegion">en-NZ</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="ar-OM">
+		<setting name="CountryDescription">Oman</setting>
+		<setting name="CountryCode">OM</setting>
+		<setting name="LanguageDescription">Arabic</setting>
+		<setting name="LanguageCode">ar</setting>
+		<setting name="LanguageRegion">ar-OM</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="es-PA">
+		<setting name="CountryDescription">Panama</setting>
+		<setting name="CountryCode">PA</setting>
+		<setting name="LanguageDescription">Spanish</setting>
+		<setting name="LanguageCode">es</setting>
+		<setting name="LanguageRegion">es-PA</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="es-PE">
+		<setting name="CountryDescription">Peru</setting>
+		<setting name="CountryCode">PE</setting>
+		<setting name="LanguageDescription">Spanish</setting>
+		<setting name="LanguageCode">es</setting>
+		<setting name="LanguageRegion">es-PE</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="qu-PE">
+		<setting name="CountryDescription">Peru</setting>
+		<setting name="CountryCode">PE</setting>
+		<setting name="LanguageDescription">Quechua</setting>
+		<setting name="LanguageCode">qu</setting>
+		<setting name="LanguageRegion">qu-PE</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="fr-PF">
+		<setting name="CountryDescription">French Polynesia</setting>
+		<setting name="CountryCode">PF</setting>
+		<setting name="LanguageDescription">French</setting>
+		<setting name="LanguageCode">fr</setting>
+		<setting name="LanguageRegion">fr-PF</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="en-PG">
+		<setting name="CountryDescription">Papua New Guinea</setting>
+		<setting name="CountryCode">PG</setting>
+		<setting name="LanguageDescription">English</setting>
+		<setting name="LanguageCode">en</setting>
+		<setting name="LanguageRegion">en-PG</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="ho-PG">
+		<setting name="CountryDescription">Papua New Guinea</setting>
+		<setting name="CountryCode">PG</setting>
+		<setting name="LanguageDescription">Hiri Motu</setting>
+		<setting name="LanguageCode">ho</setting>
+		<setting name="LanguageRegion">ho-PG</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="en-PH">
+		<setting name="CountryDescription">Philippines</setting>
+		<setting name="CountryCode">PH</setting>
+		<setting name="LanguageDescription">English</setting>
+		<setting name="LanguageCode">en</setting>
+		<setting name="LanguageRegion">en-PH</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="tl-PH">
+		<setting name="CountryDescription">Philippines</setting>
+		<setting name="CountryCode">PH</setting>
+		<setting name="LanguageDescription">Tagalog</setting>
+		<setting name="LanguageCode">tl</setting>
+		<setting name="LanguageRegion">tl-PH</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="en-PK">
+		<setting name="CountryDescription">Pakistan</setting>
+		<setting name="CountryCode">PK</setting>
+		<setting name="LanguageDescription">English</setting>
+		<setting name="LanguageCode">en</setting>
+		<setting name="LanguageRegion">en-PK</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="ur-PK">
+		<setting name="CountryDescription">Pakistan</setting>
+		<setting name="CountryCode">PK</setting>
+		<setting name="LanguageDescription">Urdu</setting>
+		<setting name="LanguageCode">ur</setting>
+		<setting name="LanguageRegion">ur-PK</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="pl-PL">
+		<setting name="CountryDescription">Poland</setting>
+		<setting name="CountryCode">PL</setting>
+		<setting name="LanguageDescription">Polish</setting>
+		<setting name="LanguageCode">pl</setting>
+		<setting name="LanguageRegion">pl-PL</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="fr-PM">
+		<setting name="CountryDescription">Saint Pierre And Miquelon</setting>
+		<setting name="CountryCode">PM</setting>
+		<setting name="LanguageDescription">French</setting>
+		<setting name="LanguageCode">fr</setting>
+		<setting name="LanguageRegion">fr-PM</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="en-PN">
+		<setting name="CountryDescription">Pitcairn</setting>
+		<setting name="CountryCode">PN</setting>
+		<setting name="LanguageDescription">English</setting>
+		<setting name="LanguageCode">en</setting>
+		<setting name="LanguageRegion">en-PN</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="en-PR">
+		<setting name="CountryDescription">Puerto Rico</setting>
+		<setting name="CountryCode">PR</setting>
+		<setting name="LanguageDescription">English</setting>
+		<setting name="LanguageCode">en</setting>
+		<setting name="LanguageRegion">en-PR</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="es-PR">
+		<setting name="CountryDescription">Puerto Rico</setting>
+		<setting name="CountryCode">PR</setting>
+		<setting name="LanguageDescription">Spanish</setting>
+		<setting name="LanguageCode">es</setting>
+		<setting name="LanguageRegion">es-PR</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="pt-PT">
+		<setting name="CountryDescription">Portugal</setting>
+		<setting name="CountryCode">PT</setting>
+		<setting name="LanguageDescription">Portugese</setting>
+		<setting name="LanguageCode">pt</setting>
+		<setting name="LanguageRegion">pt-PT</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="en-PW">
+		<setting name="CountryDescription">Palau</setting>
+		<setting name="CountryCode">PW</setting>
+		<setting name="LanguageDescription">English</setting>
+		<setting name="LanguageCode">en</setting>
+		<setting name="LanguageRegion">en-PW</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="es-PY">
+		<setting name="CountryDescription">Paraguay</setting>
+		<setting name="CountryCode">PY</setting>
+		<setting name="LanguageDescription">Spanish</setting>
+		<setting name="LanguageCode">es</setting>
+		<setting name="LanguageRegion">es-PY</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="gn-PY">
+		<setting name="CountryDescription">Paraguay</setting>
+		<setting name="CountryCode">PY</setting>
+		<setting name="LanguageDescription">Guarani</setting>
+		<setting name="LanguageCode">gn</setting>
+		<setting name="LanguageRegion">gn-PY</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="ar-QA">
+		<setting name="CountryDescription">Qatar</setting>
+		<setting name="CountryCode">QA</setting>
+		<setting name="LanguageDescription">Arabic</setting>
+		<setting name="LanguageCode">ar</setting>
+		<setting name="LanguageRegion">ar-QA</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="fr-RE">
+		<setting name="CountryDescription">Réunion</setting>
+		<setting name="CountryCode">RE</setting>
+		<setting name="LanguageDescription">French</setting>
+		<setting name="LanguageCode">fr</setting>
+		<setting name="LanguageRegion">fr-RE</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="ro-RO">
+		<setting name="CountryDescription">Romania</setting>
+		<setting name="CountryCode">RO</setting>
+		<setting name="LanguageDescription">Romanian</setting>
+		<setting name="LanguageCode">ro</setting>
+		<setting name="LanguageRegion">ro-RO</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="sr-RS">
+		<setting name="CountryDescription">Serbia</setting>
+		<setting name="CountryCode">RS</setting>
+		<setting name="LanguageDescription">Serbian</setting>
+		<setting name="LanguageCode">sr</setting>
+		<setting name="LanguageRegion">sr-RS</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="ru-RU">
+		<setting name="CountryDescription">Russian Federation</setting>
+		<setting name="CountryCode">RU</setting>
+		<setting name="LanguageDescription">Russian</setting>
+		<setting name="LanguageCode">ru</setting>
+		<setting name="LanguageRegion">ru-RU</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="en-RW">
+		<setting name="CountryDescription">Rwanda</setting>
+		<setting name="CountryCode">RW</setting>
+		<setting name="LanguageDescription">English</setting>
+		<setting name="LanguageCode">en</setting>
+		<setting name="LanguageRegion">en-RW</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="fr-RW">
+		<setting name="CountryDescription">Rwanda</setting>
+		<setting name="CountryCode">RW</setting>
+		<setting name="LanguageDescription">French</setting>
+		<setting name="LanguageCode">fr</setting>
+		<setting name="LanguageRegion">fr-RW</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="rw-RW">
+		<setting name="CountryDescription">Rwanda</setting>
+		<setting name="CountryCode">RW</setting>
+		<setting name="LanguageDescription">Kinyarwanda</setting>
+		<setting name="LanguageCode">rw</setting>
+		<setting name="LanguageRegion">rw-RW</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="ar-SA">
+		<setting name="CountryDescription">Saudi Arabia</setting>
+		<setting name="CountryCode">SA</setting>
+		<setting name="LanguageDescription">Arabic</setting>
+		<setting name="LanguageCode">ar</setting>
+		<setting name="LanguageRegion">ar-SA</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="en-SB">
+		<setting name="CountryDescription">Solomon Islands</setting>
+		<setting name="CountryCode">SB</setting>
+		<setting name="LanguageDescription">English</setting>
+		<setting name="LanguageCode">en</setting>
+		<setting name="LanguageRegion">en-SB</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="en-SC">
+		<setting name="CountryDescription">Seychelles</setting>
+		<setting name="CountryCode">SC</setting>
+		<setting name="LanguageDescription">English</setting>
+		<setting name="LanguageCode">en</setting>
+		<setting name="LanguageRegion">en-SC</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="fr-SC">
+		<setting name="CountryDescription">Seychelles</setting>
+		<setting name="CountryCode">SC</setting>
+		<setting name="LanguageDescription">French</setting>
+		<setting name="LanguageCode">fr</setting>
+		<setting name="LanguageRegion">fr-SC</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="ar-SD">
+		<setting name="CountryDescription">Sudan</setting>
+		<setting name="CountryCode">SD</setting>
+		<setting name="LanguageDescription">Arabic</setting>
+		<setting name="LanguageCode">ar</setting>
+		<setting name="LanguageRegion">ar-SD</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="sv-SE">
+		<setting name="CountryDescription">Sweden</setting>
+		<setting name="CountryCode">SE</setting>
+		<setting name="LanguageDescription">Swedish</setting>
+		<setting name="LanguageCode">sv</setting>
+		<setting name="LanguageRegion">sv-SE</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="ms-SG">
+		<setting name="CountryDescription">Singapore</setting>
+		<setting name="CountryCode">SG</setting>
+		<setting name="LanguageDescription">Malay</setting>
+		<setting name="LanguageCode">ms</setting>
+		<setting name="LanguageRegion">ms-SG</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="zh-SG">
+		<setting name="CountryDescription">Singapore</setting>
+		<setting name="CountryCode">SG</setting>
+		<setting name="LanguageDescription">Chinese (Mandarin)</setting>
+		<setting name="LanguageCode">zh</setting>
+		<setting name="LanguageRegion">zh-SG</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="ta-SG">
+		<setting name="CountryDescription">Singapore</setting>
+		<setting name="CountryCode">SG</setting>
+		<setting name="LanguageDescription">Tamil</setting>
+		<setting name="LanguageCode">ta</setting>
+		<setting name="LanguageRegion">ta-SG</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="en-SG">
+		<setting name="CountryDescription">Singapore</setting>
+		<setting name="CountryCode">SG</setting>
+		<setting name="LanguageDescription">English</setting>
+		<setting name="LanguageCode">en</setting>
+		<setting name="LanguageRegion">en-SG</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="en-SH">
+		<setting name="CountryDescription">Saint Helena</setting>
+		<setting name="CountryCode">SH</setting>
+		<setting name="LanguageDescription">English</setting>
+		<setting name="LanguageCode">en</setting>
+		<setting name="LanguageRegion">en-SH</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="sl-SI">
+		<setting name="CountryDescription">Slovenia</setting>
+		<setting name="CountryCode">SI</setting>
+		<setting name="LanguageDescription">Slovenian</setting>
+		<setting name="LanguageCode">sl</setting>
+		<setting name="LanguageRegion">sl-SI</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="it-SI">
+		<setting name="CountryDescription">Slovenia</setting>
+		<setting name="CountryCode">SI</setting>
+		<setting name="LanguageDescription">Italian</setting>
+		<setting name="LanguageCode">it</setting>
+		<setting name="LanguageRegion">it-SI</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="hu-SK">
+		<setting name="CountryDescription">Slovakia</setting>
+		<setting name="CountryCode">SK</setting>
+		<setting name="LanguageDescription">Hungarian</setting>
+		<setting name="LanguageCode">hu</setting>
+		<setting name="LanguageRegion">hu-SK</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="sk-SK">
+		<setting name="CountryDescription">Slovakia</setting>
+		<setting name="CountryCode">SK</setting>
+		<setting name="LanguageDescription">Slovak</setting>
+		<setting name="LanguageCode">sk</setting>
+		<setting name="LanguageRegion">sk-SK</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="en-SL">
+		<setting name="CountryDescription">Sierra Leone</setting>
+		<setting name="CountryCode">SL</setting>
+		<setting name="LanguageDescription">English</setting>
+		<setting name="LanguageCode">en</setting>
+		<setting name="LanguageRegion">en-SL</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="it-SM">
+		<setting name="CountryDescription">San Marino</setting>
+		<setting name="CountryCode">SM</setting>
+		<setting name="LanguageDescription">Italian</setting>
+		<setting name="LanguageCode">it</setting>
+		<setting name="LanguageRegion">it-SM</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="wo-SN">
+		<setting name="CountryDescription">Senegal</setting>
+		<setting name="CountryCode">SN</setting>
+		<setting name="LanguageDescription">Wolof</setting>
+		<setting name="LanguageCode">wo</setting>
+		<setting name="LanguageRegion">wo-SN</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="fr-SN">
+		<setting name="CountryDescription">Senegal</setting>
+		<setting name="CountryCode">SN</setting>
+		<setting name="LanguageDescription">French</setting>
+		<setting name="LanguageCode">fr</setting>
+		<setting name="LanguageRegion">fr-SN</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="ar-SO">
+		<setting name="CountryDescription">Somalia</setting>
+		<setting name="CountryCode">SO</setting>
+		<setting name="LanguageDescription">Arabic</setting>
+		<setting name="LanguageCode">ar</setting>
+		<setting name="LanguageRegion">ar-SO</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="en-SO">
+		<setting name="CountryDescription">Somalia</setting>
+		<setting name="CountryCode">SO</setting>
+		<setting name="LanguageDescription">English</setting>
+		<setting name="LanguageCode">en</setting>
+		<setting name="LanguageRegion">en-SO</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="so-SO">
+		<setting name="CountryDescription">Somalia</setting>
+		<setting name="CountryCode">SO</setting>
+		<setting name="LanguageDescription">Somali</setting>
+		<setting name="LanguageCode">so</setting>
+		<setting name="LanguageRegion">so-SO</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="nl-SR">
+		<setting name="CountryDescription">Suriname</setting>
+		<setting name="CountryCode">SR</setting>
+		<setting name="LanguageDescription">Dutch</setting>
+		<setting name="LanguageCode">nl</setting>
+		<setting name="LanguageRegion">nl-SR</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="pt-ST">
+		<setting name="CountryDescription">Sao Tome And Principe</setting>
+		<setting name="CountryCode">ST</setting>
+		<setting name="LanguageDescription">Portugese</setting>
+		<setting name="LanguageCode">pt</setting>
+		<setting name="LanguageRegion">pt-ST</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="es-SV">
+		<setting name="CountryDescription">El Salvador</setting>
+		<setting name="CountryCode">SV</setting>
+		<setting name="LanguageDescription">Spanish</setting>
+		<setting name="LanguageCode">es</setting>
+		<setting name="LanguageRegion">es-SV</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="ar-SY">
+		<setting name="CountryDescription">Syrian Arab Republic</setting>
+		<setting name="CountryCode">SY</setting>
+		<setting name="LanguageDescription">Arabic</setting>
+		<setting name="LanguageCode">ar</setting>
+		<setting name="LanguageRegion">ar-SY</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="en-SZ">
+		<setting name="CountryDescription">Swaziland</setting>
+		<setting name="CountryCode">SZ</setting>
+		<setting name="LanguageDescription">English</setting>
+		<setting name="LanguageCode">en</setting>
+		<setting name="LanguageRegion">en-SZ</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="ss-SZ">
+		<setting name="CountryDescription">Swaziland</setting>
+		<setting name="CountryCode">SZ</setting>
+		<setting name="LanguageDescription">Swati</setting>
+		<setting name="LanguageCode">ss</setting>
+		<setting name="LanguageRegion">ss-SZ</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="en-TC">
+		<setting name="CountryDescription">Turks And Caicos Islands</setting>
+		<setting name="CountryCode">TC</setting>
+		<setting name="LanguageDescription">English</setting>
+		<setting name="LanguageCode">en</setting>
+		<setting name="LanguageRegion">en-TC</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="ar-TD">
+		<setting name="CountryDescription">Chad</setting>
+		<setting name="CountryCode">TD</setting>
+		<setting name="LanguageDescription">Arabic</setting>
+		<setting name="LanguageCode">ar</setting>
+		<setting name="LanguageRegion">ar-TD</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="fr-TD">
+		<setting name="CountryDescription">Chad</setting>
+		<setting name="CountryCode">TD</setting>
+		<setting name="LanguageDescription">French</setting>
+		<setting name="LanguageCode">fr</setting>
+		<setting name="LanguageRegion">fr-TD</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="fr-TG">
+		<setting name="CountryDescription">Togo</setting>
+		<setting name="CountryCode">TG</setting>
+		<setting name="LanguageDescription">French</setting>
+		<setting name="LanguageCode">fr</setting>
+		<setting name="LanguageRegion">fr-TG</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="th-TH">
+		<setting name="CountryDescription">Thailand</setting>
+		<setting name="CountryCode">TH</setting>
+		<setting name="LanguageDescription">Thai</setting>
+		<setting name="LanguageCode">th</setting>
+		<setting name="LanguageRegion">th-TH</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="tg-TJ">
+		<setting name="CountryDescription">Tajikistan</setting>
+		<setting name="CountryCode">TJ</setting>
+		<setting name="LanguageDescription">Tajik</setting>
+		<setting name="LanguageCode">tg</setting>
+		<setting name="LanguageRegion">tg-TJ</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="en-TK">
+		<setting name="CountryDescription">Tokelau</setting>
+		<setting name="CountryCode">TK</setting>
+		<setting name="LanguageDescription">English</setting>
+		<setting name="LanguageCode">en</setting>
+		<setting name="LanguageRegion">en-TK</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="pt-TL">
+		<setting name="CountryDescription">Timor-Leste</setting>
+		<setting name="CountryCode">TL</setting>
+		<setting name="LanguageDescription">Portugese</setting>
+		<setting name="LanguageCode">pt</setting>
+		<setting name="LanguageRegion">pt-TL</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="tk-TM">
+		<setting name="CountryDescription">Turkmenistan</setting>
+		<setting name="CountryCode">TM</setting>
+		<setting name="LanguageDescription">Turkmen</setting>
+		<setting name="LanguageCode">tk</setting>
+		<setting name="LanguageRegion">tk-TM</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="ar-TN">
+		<setting name="CountryDescription">Tunisia</setting>
+		<setting name="CountryCode">TN</setting>
+		<setting name="LanguageDescription">Arabic</setting>
+		<setting name="LanguageCode">ar</setting>
+		<setting name="LanguageRegion">ar-TN</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="en-TO">
+		<setting name="CountryDescription">Tonga</setting>
+		<setting name="CountryCode">TO</setting>
+		<setting name="LanguageDescription">English</setting>
+		<setting name="LanguageCode">en</setting>
+		<setting name="LanguageRegion">en-TO</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="to-TO">
+		<setting name="CountryDescription">Tonga</setting>
+		<setting name="CountryCode">TO</setting>
+		<setting name="LanguageDescription">Tongan</setting>
+		<setting name="LanguageCode">to</setting>
+		<setting name="LanguageRegion">to-TO</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="tr-TR">
+		<setting name="CountryDescription">Turkey</setting>
+		<setting name="CountryCode">TR</setting>
+		<setting name="LanguageDescription">Turkish</setting>
+		<setting name="LanguageCode">tr</setting>
+		<setting name="LanguageRegion">tr-TR</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="en-TT">
+		<setting name="CountryDescription">Trinidad And Tobago</setting>
+		<setting name="CountryCode">TT</setting>
+		<setting name="LanguageDescription">English</setting>
+		<setting name="LanguageCode">en</setting>
+		<setting name="LanguageRegion">en-TT</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="zh-TW">
+		<setting name="CountryDescription">Taiwan, Province Of China</setting>
+		<setting name="CountryCode">TW</setting>
+		<setting name="LanguageDescription">Chinese</setting>
+		<setting name="LanguageCode">zh</setting>
+		<setting name="LanguageRegion">zh-TW</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="en-TZ">
+		<setting name="CountryDescription">United Republic Of Tanzania</setting>
+		<setting name="CountryCode">TZ</setting>
+		<setting name="LanguageDescription">English</setting>
+		<setting name="LanguageCode">en</setting>
+		<setting name="LanguageRegion">en-TZ</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="sw-TZ">
+		<setting name="CountryDescription">United Republic Of Tanzania</setting>
+		<setting name="CountryCode">TZ</setting>
+		<setting name="LanguageDescription">Swahili</setting>
+		<setting name="LanguageCode">sw</setting>
+		<setting name="LanguageRegion">sw-TZ</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="uk-UA">
+		<setting name="CountryDescription">Ukraine</setting>
+		<setting name="CountryCode">UA</setting>
+		<setting name="LanguageDescription">Ukrainian</setting>
+		<setting name="LanguageCode">uk</setting>
+		<setting name="LanguageRegion">uk-UA</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="en-UG">
+		<setting name="CountryDescription">Uganda</setting>
+		<setting name="CountryCode">UG</setting>
+		<setting name="LanguageDescription">English</setting>
+		<setting name="LanguageCode">en</setting>
+		<setting name="LanguageRegion">en-UG</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="en-UM">
+		<setting name="CountryDescription">United States Minor Outlying Islands</setting>
+		<setting name="CountryCode">UM</setting>
+		<setting name="LanguageDescription">English</setting>
+		<setting name="LanguageCode">en</setting>
+		<setting name="LanguageRegion">en-UM</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="en-US">
+		<setting name="CountryDescription">United States</setting>
+		<setting name="CountryCode">US</setting>
+		<setting name="LanguageDescription">English</setting>
+		<setting name="LanguageCode">en</setting>
+		<setting name="LanguageRegion">en-US</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="es-UY">
+		<setting name="CountryDescription">Uruguay</setting>
+		<setting name="CountryCode">UY</setting>
+		<setting name="LanguageDescription">Spanish</setting>
+		<setting name="LanguageCode">es</setting>
+		<setting name="LanguageRegion">es-UY</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="uz-UZ">
+		<setting name="CountryDescription">Uzbekistan</setting>
+		<setting name="CountryCode">UZ</setting>
+		<setting name="LanguageDescription">Uzbek</setting>
+		<setting name="LanguageCode">uz</setting>
+		<setting name="LanguageRegion">uz-UZ</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="en-VC">
+		<setting name="CountryDescription">Saint Vincent And The Grenadines</setting>
+		<setting name="CountryCode">VC</setting>
+		<setting name="LanguageDescription">English</setting>
+		<setting name="LanguageCode">en</setting>
+		<setting name="LanguageRegion">en-VC</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="es-VE">
+		<setting name="CountryDescription">Venezuela</setting>
+		<setting name="CountryCode">VE</setting>
+		<setting name="LanguageDescription">Spanish</setting>
+		<setting name="LanguageCode">es</setting>
+		<setting name="LanguageRegion">es-VE</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="en-VG">
+		<setting name="CountryDescription">Virgin Islands, British</setting>
+		<setting name="CountryCode">VG</setting>
+		<setting name="LanguageDescription">English</setting>
+		<setting name="LanguageCode">en</setting>
+		<setting name="LanguageRegion">en-VG</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="en-VI">
+		<setting name="CountryDescription">Virgin Islands, U.S.</setting>
+		<setting name="CountryCode">VI</setting>
+		<setting name="LanguageDescription">English</setting>
+		<setting name="LanguageCode">en</setting>
+		<setting name="LanguageRegion">en-VI</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="vi-VN">
+		<setting name="CountryDescription">Viet Nam</setting>
+		<setting name="CountryCode">VN</setting>
+		<setting name="LanguageDescription">Vietnamese</setting>
+		<setting name="LanguageCode">vi</setting>
+		<setting name="LanguageRegion">vi-VN</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="bi-VU">
+		<setting name="CountryDescription">Vanuatu</setting>
+		<setting name="CountryCode">VU</setting>
+		<setting name="LanguageDescription">Bislama</setting>
+		<setting name="LanguageCode">bi</setting>
+		<setting name="LanguageRegion">bi-VU</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="en-VU">
+		<setting name="CountryDescription">Vanuatu</setting>
+		<setting name="CountryCode">VU</setting>
+		<setting name="LanguageDescription">English</setting>
+		<setting name="LanguageCode">en</setting>
+		<setting name="LanguageRegion">en-VU</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="fr-VU">
+		<setting name="CountryDescription">Vanuatu</setting>
+		<setting name="CountryCode">VU</setting>
+		<setting name="LanguageDescription">French</setting>
+		<setting name="LanguageCode">fr</setting>
+		<setting name="LanguageRegion">fr-VU</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="sm-WS">
+		<setting name="CountryDescription">Samoa</setting>
+		<setting name="CountryCode">WS</setting>
+		<setting name="LanguageDescription">Samoan</setting>
+		<setting name="LanguageCode">sm</setting>
+		<setting name="LanguageRegion">sm-WS</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="en-WS">
+		<setting name="CountryDescription">Samoa</setting>
+		<setting name="CountryCode">WS</setting>
+		<setting name="LanguageDescription">English</setting>
+		<setting name="LanguageCode">en</setting>
+		<setting name="LanguageRegion">en-WS</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="ar-YE">
+		<setting name="CountryDescription">Yemen</setting>
+		<setting name="CountryCode">YE</setting>
+		<setting name="LanguageDescription">Arabic</setting>
+		<setting name="LanguageCode">ar</setting>
+		<setting name="LanguageRegion">ar-YE</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="fr-YT">
+		<setting name="CountryDescription">Mayotte</setting>
+		<setting name="CountryCode">YT</setting>
+		<setting name="LanguageDescription">French</setting>
+		<setting name="LanguageCode">fr</setting>
+		<setting name="LanguageRegion">fr-YT</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="af-ZA">
+		<setting name="CountryDescription">South Africa</setting>
+		<setting name="CountryCode">ZA</setting>
+		<setting name="LanguageDescription">Afrikaans</setting>
+		<setting name="LanguageCode">af</setting>
+		<setting name="LanguageRegion">af-ZA</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="ss-ZA">
+		<setting name="CountryDescription">South Africa</setting>
+		<setting name="CountryCode">ZA</setting>
+		<setting name="LanguageDescription">Swati</setting>
+		<setting name="LanguageCode">ss</setting>
+		<setting name="LanguageRegion">ss-ZA</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="tn-ZA">
+		<setting name="CountryDescription">South Africa</setting>
+		<setting name="CountryCode">ZA</setting>
+		<setting name="LanguageDescription">Tswana</setting>
+		<setting name="LanguageCode">tn</setting>
+		<setting name="LanguageRegion">tn-ZA</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="zu-ZA">
+		<setting name="CountryDescription">South Africa</setting>
+		<setting name="CountryCode">ZA</setting>
+		<setting name="LanguageDescription">Zulu</setting>
+		<setting name="LanguageCode">zu</setting>
+		<setting name="LanguageRegion">zu-ZA</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="xh-ZA">
+		<setting name="CountryDescription">South Africa</setting>
+		<setting name="CountryCode">ZA</setting>
+		<setting name="LanguageDescription">Xhosa</setting>
+		<setting name="LanguageCode">xh</setting>
+		<setting name="LanguageRegion">xh-ZA</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="en-ZA">
+		<setting name="CountryDescription">South Africa</setting>
+		<setting name="CountryCode">ZA</setting>
+		<setting name="LanguageDescription">English</setting>
+		<setting name="LanguageCode">en</setting>
+		<setting name="LanguageRegion">en-ZA</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="en-ZM">
+		<setting name="CountryDescription">Zambia</setting>
+		<setting name="CountryCode">ZM</setting>
+		<setting name="LanguageDescription">English</setting>
+		<setting name="LanguageCode">en</setting>
+		<setting name="LanguageRegion">en-ZM</setting>
+	</RegionalSettings>
+	<RegionalSettings xml:lang="en-ZW">
+		<setting name="CountryDescription">Zimbabwe</setting>
+		<setting name="CountryCode">ZW</setting>
+		<setting name="LanguageDescription">English</setting>
+		<setting name="LanguageCode">en</setting>
+		<setting name="LanguageRegion">en-ZW</setting>
+	</RegionalSettings>
+</RegionalSettingsList>

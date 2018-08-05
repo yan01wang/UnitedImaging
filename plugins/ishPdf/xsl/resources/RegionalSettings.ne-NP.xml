@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RegionalSettings xml:lang="ne-NP"><!--Nepali (Nepal)-->
+	<setting name="CountryDescription">Nepal</setting>
+	<setting name="CountryCode">NP</setting>
+	<setting name="LanguageDescription">Nepali</setting>
+	<setting name="LanguageCode">ne</setting>
+	<setting name="LanguageRegion">ne-NP</setting>
+</RegionalSettings>

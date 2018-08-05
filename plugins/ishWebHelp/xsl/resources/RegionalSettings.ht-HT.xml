@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RegionalSettings xml:lang="ht-HT"><!--Haitian / Creole (Haiti)-->
+	<setting name="CountryDescription">Haiti</setting>
+	<setting name="CountryCode">HT</setting>
+	<setting name="LanguageDescription">Haitian / Creole</setting>
+	<setting name="LanguageCode">ht</setting>
+	<setting name="LanguageRegion">ht-HT</setting>
+</RegionalSettings>

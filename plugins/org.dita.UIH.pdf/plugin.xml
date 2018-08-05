@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  This file is part of the DITA Open Toolkit project.
+  See the accompanying license.txt file for applicable licenses.
+-->
+<plugin id="org.dita.UIH">
+  <require plugin="org.dita.pdf2"/>
+  <feature extension="dita.specialization.catalog.relative" file="catalog.xml"/>
+  <feature extension="dita.conductor.transtype.check" value="UIH-PDF"/>
+  <feature extension="dita.transtype.print" value="UIH-PDF"/>
+  <feature extension="dita.conductor.target.relative" file="integrator.xml"/>
+</plugin>

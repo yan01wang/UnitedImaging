@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RegionalSettings xml:lang="sk-SK"><!--Slovak (Slovakia)-->
+	<setting name="CountryDescription">Slovakia</setting>
+	<setting name="CountryCode">SK</setting>
+	<setting name="LanguageDescription">Slovak</setting>
+	<setting name="LanguageCode">sk</setting>
+	<setting name="LanguageRegion">sk-SK</setting>
+</RegionalSettings>

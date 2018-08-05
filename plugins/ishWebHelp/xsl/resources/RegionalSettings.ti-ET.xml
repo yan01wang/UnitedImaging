@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RegionalSettings xml:lang="ti-ET"><!--Tigrigna (Ethiopia)-->
+	<setting name="CountryDescription">Ethiopia</setting>
+	<setting name="CountryCode">ET</setting>
+	<setting name="LanguageDescription">Tigrigna</setting>
+	<setting name="LanguageCode">ti</setting>
+	<setting name="LanguageRegion">ti-ET</setting>
+</RegionalSettings>

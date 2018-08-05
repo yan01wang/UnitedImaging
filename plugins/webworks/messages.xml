@@ -1,0 +1,14 @@
+﻿<messages>
+    <message id="DOTAWW001F" type="FATAL">
+        <reason>Can&apos;t find the user specified stationery &apos;%1&apos;.</reason>
+        <response>Please provide the correct sytlesheet using Ant parameter &apos;args.stationery&apos;.</response>
+    </message>
+    <message id="DOTAWW002W" type="WARN">
+        <reason>A valid name for a zip file was not provided.</reason>
+        <response>Please provide a file name using Ant parameter &apos;args.zipfile&apos;.</response>
+    </message>
+    <message id="DOTAWW003F" type="FATAL">
+        <reason>A target name was not provided.</reason>
+        <response>Please provide a target name using Ant parameter &apos;args.target&apos;.</response>
+    </message>
+</messages>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RegionalSettings xml:lang="hi-IN"><!--Hindi (India)-->
+	<setting name="CountryDescription">India</setting>
+	<setting name="CountryCode">IN</setting>
+	<setting name="LanguageDescription">Hindi</setting>
+	<setting name="LanguageCode">hi</setting>
+	<setting name="LanguageRegion">hi-IN</setting>
+</RegionalSettings>

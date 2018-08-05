@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RegionalSettings xml:lang="fr-SN"><!--French (Senegal)-->
+	<setting name="CountryDescription">Senegal</setting>
+	<setting name="CountryCode">SN</setting>
+	<setting name="LanguageDescription">French</setting>
+	<setting name="LanguageCode">fr</setting>
+	<setting name="LanguageRegion">fr-SN</setting>
+</RegionalSettings>

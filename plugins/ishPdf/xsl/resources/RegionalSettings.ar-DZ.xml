@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RegionalSettings xml:lang="ar-DZ"><!--Arabic (Algeria)-->
+	<setting name="CountryDescription">Algeria</setting>
+	<setting name="CountryCode">DZ</setting>
+	<setting name="LanguageDescription">Arabic</setting>
+	<setting name="LanguageCode">ar</setting>
+	<setting name="LanguageRegion">ar-DZ</setting>
+</RegionalSettings>

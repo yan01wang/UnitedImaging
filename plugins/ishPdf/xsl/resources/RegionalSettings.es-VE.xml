@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RegionalSettings xml:lang="es-VE"><!--Spanish (Venezuela)-->
+	<setting name="CountryDescription">Venezuela</setting>
+	<setting name="CountryCode">VE</setting>
+	<setting name="LanguageDescription">Spanish</setting>
+	<setting name="LanguageCode">es</setting>
+	<setting name="LanguageRegion">es-VE</setting>
+</RegionalSettings>

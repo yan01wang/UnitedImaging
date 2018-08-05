@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RegionalSettings xml:lang="da-FO"><!--Danish (Faroe Islands)-->
+	<setting name="CountryDescription">Faroe Islands</setting>
+	<setting name="CountryCode">FO</setting>
+	<setting name="LanguageDescription">Danish</setting>
+	<setting name="LanguageCode">da</setting>
+	<setting name="LanguageRegion">da-FO</setting>
+</RegionalSettings>

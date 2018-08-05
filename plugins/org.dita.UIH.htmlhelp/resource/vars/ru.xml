@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--  
+  This file is part of the DITA Open Toolkit project.
+  See the accompanying license.txt file for applicable licenses.
+-->
+<vars xmlns="http://www.idiominc.com/opentopic/vars">
+  
+<!-- various labels (not author controlled) -->
+<variable id="Figure">Рис.</variable>
+<variable id="Table">Табл.</variable>
+<variable id="Next topic">Следующая тема</variable>
+<variable id="Previous topic">Предыдущая тема</variable>
+<variable id="Parent topic">На уровень выше</variable>
+<variable id="Required cleanup">Требуется исправление</variable>
+<variable id="Draft comment">Замечание в черновой версии</variable>
+<variable id="Option">Опция</variable>
+<variable id="Description">Описание</variable>
+<variable id="Optional">Необязательно</variable>
+<variable id="Required">Обязательно</variable>
+<variable id="Skip visual syntax diagram">Пропуск синтаксической диаграммы</variable>
+<variable id="Read syntax diagram">Чтение синтаксической диаграммы</variable>
+<variable id="Start of change">Изменено</variable>
+<variable id="End of change">Конец изменений</variable>
+<variable id="Index">Индекс</variable>
+<variable id="Special characters">Спец. символы</variable>
+<variable id="Numerics">Числа</variable>
+<variable id="End notes">Сноски</variable>
+<variable id="Artwork">Иллюстрация</variable>
+<variable id="Syntax">Синтаксис</variable>
+<variable id="Type">Тип</variable>
+<variable id="Value">Значение</variable>
+<!-- Text that goes before a link to a topic -->
+<variable id="intro-to-topic-link"></variable>
+
+<!-- peril notice labels -->
+<variable id="Note">Прим.</variable>
+<variable id="Notes">Прим.</variable>
+<variable id="Tip">Совет</variable>
+<variable id="Fastpath">Быстрый путь</variable>
+<variable id="Important">Важное замечание</variable>
+<variable id="Attention">Внимание</variable>
+<variable id="Caution">ОСТОРОЖНО</variable>
+<variable id="Danger">ОПАСНО</variable>
+<variable id="Remember">Напоминание</variable>
+<variable id="Revariableiction">Ограничение</variable>
+<variable id="Warning">Внимание</variable>
+
+<!-- default title text for section level generated sections -->
+<variable id="Contents">Содержание</variable>
+<variable id="Related concepts">Понятия, связанные с данным</variable>
+<variable id="Related tasks">Задачи, связанные с данной</variable>
+<variable id="Related reference">Ссылки, связанные с данной</variable>
+<variable id="Related information">Информация, связанная с данной</variable>
+
+<variable id="Prerequisite">Предварительное условие</variable>
+<variable id="Prerequisites">Предварительные условия</variable>
+<variable id="or">or</variable>
+<variable id="figure-number-separator"> </variable>
+
+<!--Task section labels -->
+<variable id="task_context">Об этой задаче</variable>
+<variable id="task_example">Пример</variable>
+<variable id="task_povariableeq">Дальнейшие действия</variable>
+<variable id="task_prereq">Подготовка</variable>
+<variable id="task_procedure">Процедура</variable>
+<variable id="task_procedure_unordered">Процедура</variable>
+<variable id="task_results">Результат</variable>
+
+<variable id="Copyright">Copyright</variable>
+
+<!-- Symbols -->
+<variable id="OpenQuote">"</variable>
+<variable id="CloseQuote">"</variable>
+<variable id="ColonSymbol">:</variable>
+
+</vars>

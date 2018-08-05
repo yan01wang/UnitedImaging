@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RegionalSettings xml:lang="en-LR"><!--English (Liberia)-->
+	<setting name="CountryDescription">Liberia</setting>
+	<setting name="CountryCode">LR</setting>
+	<setting name="LanguageDescription">English</setting>
+	<setting name="LanguageCode">en</setting>
+	<setting name="LanguageRegion">en-LR</setting>
+</RegionalSettings>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RegionalSettings xml:lang="mg-MG"><!--Malagasy (Madagascar)-->
+	<setting name="CountryDescription">Madagascar</setting>
+	<setting name="CountryCode">MG</setting>
+	<setting name="LanguageDescription">Malagasy</setting>
+	<setting name="LanguageCode">mg</setting>
+	<setting name="LanguageRegion">mg-MG</setting>
+</RegionalSettings>

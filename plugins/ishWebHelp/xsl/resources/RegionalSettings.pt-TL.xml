@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RegionalSettings xml:lang="pt-TL"><!--Portugese (Timor-Leste)-->
+	<setting name="CountryDescription">Timor-Leste</setting>
+	<setting name="CountryCode">TL</setting>
+	<setting name="LanguageDescription">Portugese</setting>
+	<setting name="LanguageCode">pt</setting>
+	<setting name="LanguageRegion">pt-TL</setting>
+</RegionalSettings>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RegionalSettings xml:lang="bn-BD"><!--Bengali (Bangladesh)-->
+	<setting name="CountryDescription">Bangladesh</setting>
+	<setting name="CountryCode">BD</setting>
+	<setting name="LanguageDescription">Bengali</setting>
+	<setting name="LanguageCode">bn</setting>
+	<setting name="LanguageRegion">bn-BD</setting>
+</RegionalSettings>

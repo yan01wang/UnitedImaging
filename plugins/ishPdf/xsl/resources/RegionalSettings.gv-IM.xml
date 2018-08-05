@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RegionalSettings xml:lang="gv-IM"><!--Manx (Isle of Man)-->
+	<setting name="CountryDescription">Isle of Man</setting>
+	<setting name="CountryCode">IM</setting>
+	<setting name="LanguageDescription">Manx</setting>
+	<setting name="LanguageCode">gv</setting>
+	<setting name="LanguageRegion">gv-IM</setting>
+</RegionalSettings>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RegionalSettings xml:lang="xh-ZA"><!--Xhosa (South Africa)-->
+	<setting name="CountryDescription">South Africa</setting>
+	<setting name="CountryCode">ZA</setting>
+	<setting name="LanguageDescription">Xhosa</setting>
+	<setting name="LanguageCode">xh</setting>
+	<setting name="LanguageRegion">xh-ZA</setting>
+</RegionalSettings>

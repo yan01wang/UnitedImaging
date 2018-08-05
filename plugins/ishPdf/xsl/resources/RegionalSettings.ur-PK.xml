@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RegionalSettings xml:lang="ur-PK"><!--Urdu (Pakistan)-->
+	<setting name="CountryDescription">Pakistan</setting>
+	<setting name="CountryCode">PK</setting>
+	<setting name="LanguageDescription">Urdu</setting>
+	<setting name="LanguageCode">ur</setting>
+	<setting name="LanguageRegion">ur-PK</setting>
+</RegionalSettings>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RegionalSettings xml:lang="fr-PM"><!--French (Saint Pierre And Miquelon)-->
+	<setting name="CountryDescription">Saint Pierre And Miquelon</setting>
+	<setting name="CountryCode">PM</setting>
+	<setting name="LanguageDescription">French</setting>
+	<setting name="LanguageCode">fr</setting>
+	<setting name="LanguageRegion">fr-PM</setting>
+</RegionalSettings>

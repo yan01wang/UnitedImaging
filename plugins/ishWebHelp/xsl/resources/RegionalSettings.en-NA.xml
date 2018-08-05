@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RegionalSettings xml:lang="en-NA"><!--English (Namibia)-->
+	<setting name="CountryDescription">Namibia</setting>
+	<setting name="CountryCode">NA</setting>
+	<setting name="LanguageDescription">English</setting>
+	<setting name="LanguageCode">en</setting>
+	<setting name="LanguageRegion">en-NA</setting>
+</RegionalSettings>

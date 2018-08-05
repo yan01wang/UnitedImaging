@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RegionalSettings xml:lang="na-NR"><!--Nauru (Nauru)-->
+	<setting name="CountryDescription">Nauru</setting>
+	<setting name="CountryCode">NR</setting>
+	<setting name="LanguageDescription">Nauru</setting>
+	<setting name="LanguageCode">na</setting>
+	<setting name="LanguageRegion">na-NR</setting>
+</RegionalSettings>

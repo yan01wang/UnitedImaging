@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RegionalSettings xml:lang="ky-KG"><!--Kirghiz (Kyrgyzstan)-->
+	<setting name="CountryDescription">Kyrgyzstan</setting>
+	<setting name="CountryCode">KG</setting>
+	<setting name="LanguageDescription">Kirghiz</setting>
+	<setting name="LanguageCode">ky</setting>
+	<setting name="LanguageRegion">ky-KG</setting>
+</RegionalSettings>

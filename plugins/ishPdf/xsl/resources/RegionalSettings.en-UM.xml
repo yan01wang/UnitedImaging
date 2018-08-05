@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RegionalSettings xml:lang="en-UM"><!--English (United States Minor Outlying Islands)-->
+	<setting name="CountryDescription">United States Minor Outlying Islands</setting>
+	<setting name="CountryCode">UM</setting>
+	<setting name="LanguageDescription">English</setting>
+	<setting name="LanguageCode">en</setting>
+	<setting name="LanguageRegion">en-UM</setting>
+</RegionalSettings>

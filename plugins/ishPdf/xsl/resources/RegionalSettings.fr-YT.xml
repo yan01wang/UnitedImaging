@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RegionalSettings xml:lang="fr-YT"><!--French (Mayotte)-->
+	<setting name="CountryDescription">Mayotte</setting>
+	<setting name="CountryCode">YT</setting>
+	<setting name="LanguageDescription">French</setting>
+	<setting name="LanguageCode">fr</setting>
+	<setting name="LanguageRegion">fr-YT</setting>
+</RegionalSettings>

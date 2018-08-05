@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RegionalSettings xml:lang="qu-BO"><!--Quechua (Bolivia)-->
+	<setting name="CountryDescription">Bolivia</setting>
+	<setting name="CountryCode">BO</setting>
+	<setting name="LanguageDescription">Quechua</setting>
+	<setting name="LanguageCode">qu</setting>
+	<setting name="LanguageRegion">qu-BO</setting>
+</RegionalSettings>

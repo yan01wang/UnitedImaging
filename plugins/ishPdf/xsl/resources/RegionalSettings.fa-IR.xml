@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RegionalSettings xml:lang="fa-IR"><!--Persian/Farsi (Islamic Republic Of Iran)-->
+	<setting name="CountryDescription">Islamic Republic Of Iran</setting>
+	<setting name="CountryCode">IR</setting>
+	<setting name="LanguageDescription">Persian/Farsi</setting>
+	<setting name="LanguageCode">fa</setting>
+	<setting name="LanguageRegion">fa-IR</setting>
+</RegionalSettings>

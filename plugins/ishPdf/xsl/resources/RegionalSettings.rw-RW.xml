@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RegionalSettings xml:lang="rw-RW"><!--Kinyarwanda (Rwanda)-->
+	<setting name="CountryDescription">Rwanda</setting>
+	<setting name="CountryCode">RW</setting>
+	<setting name="LanguageDescription">Kinyarwanda</setting>
+	<setting name="LanguageCode">rw</setting>
+	<setting name="LanguageRegion">rw-RW</setting>
+</RegionalSettings>

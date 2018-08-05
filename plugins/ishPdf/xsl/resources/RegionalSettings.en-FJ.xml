@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RegionalSettings xml:lang="en-FJ"><!--English (Fiji)-->
+	<setting name="CountryDescription">Fiji</setting>
+	<setting name="CountryCode">FJ</setting>
+	<setting name="LanguageDescription">English</setting>
+	<setting name="LanguageCode">en</setting>
+	<setting name="LanguageRegion">en-FJ</setting>
+</RegionalSettings>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--   
+This file is part of the DITA Open Toolkit project. 
+See the accompanying license.txt file for applicable licenses.
+-->
+<vars xmlns="http://www.idiominc.com/opentopic/vars">
+
+<!-- various labels (not author controlled) -->
+<variable id="Figure">تصویر</variable>
+<variable id="Table">جدول</variable>
+<variable id="Next topic">اگلا موضوع</variable>
+<variable id="Previous topic">سابقہ موضوع</variable>
+<variable id="Parent topic">مادر موضوع</variable>
+<variable id="Required cleanup">مطلوبہ صفائی</variable>
+<variable id="Draft comment">تبصرے کا مسودہ</variable>
+<variable id="Option">اختیار</variable>
+<variable id="Description">وضاحت</variable>
+<variable id="Optional">اختیاری</variable>
+<variable id="Required">ضروری</variable>
+<variable id="Skip visual syntax diagram">وژوئل سنٹیکس کی شکل چھوڑ دیں</variable>
+<variable id="Read syntax diagram">وژوئل سنٹیکس کی شکل پڑھیں</variable>
+<variable id="Start of change">تبدیلی کی شروعات</variable>
+<variable id="End of change">تبدیلی کی کا اختتام</variable>
+<variable id="Index">انڈکس</variable>
+<variable id="Special characters">خاص حروف</variable>
+<variable id="Numerics">نمبر</variable>
+<variable id="End notes">اختتامی نوٹس</variable>
+<variable id="Artwork">آرٹ ورک</variable>
+<variable id="Syntax">سنٹیکس</variable>
+<variable id="Type">قسم</variable>
+<variable id="Value">قدر</variable>
+<!-- Text that goes before a link to a topic -->
+<variable id="intro-to-topic-link"></variable>
+
+<!-- peril notice labels -->
+<variable id="Note">نوٹ</variable>
+<variable id="Notes">نوٹس</variable>
+<variable id="Tip">مشورہ</variable>
+<variable id="Fastpath">تیز طریقہ</variable>
+<variable id="Important">اہم</variable>
+<variable id="Attention">براۓ توجہ</variable>
+<variable id="Caution">احتیاط</variable>
+<variable id="Danger">خطرناک</variable>
+<variable id="Remember">یاد رکھیں</variable>
+<variable id="Revariableiction">پابندی</variable>
+<variable id="Warning">انتباہ</variable>
+
+<!-- default title text for section level generated sections -->
+<variable id="Contents">فہرست</variable>
+<variable id="Related concepts">متعلقہ خیالات</variable>
+<variable id="Related tasks">متعلقہ کام</variable>
+<variable id="Related reference">متعلقہ حوالہ</variable>
+<variable id="Related information">متعلقہ معلومات</variable>
+
+<variable id="Prerequisite">شرط اول</variable>
+<variable id="Prerequisites">اولین شرطیں</variable>
+<variable id="or">یا</variable>
+<variable id="figure-number-separator"> </variable>
+
+<!--Task section labels -->
+<variable id="task_context">اس کام کے متعلق</variable>
+<variable id="task_example">مثال</variable>
+<variable id="task_povariableeq">آکے کیا کرنا ہے</variable>
+<variable id="task_prereq">قبل اس کے کہ آپ شروع کریں</variable>
+<variable id="task_procedure">طریق عمل</variable>
+<variable id="task_procedure_unordered">طریق عمل</variable>
+<variable id="task_results">نتائج</variable>
+
+<variable id="Copyright">حقوق</variable>
+
+<!-- Symbols -->
+<variable id="OpenQuote">"</variable>
+<variable id="CloseQuote">"</variable>
+<variable id="ColonSymbol">:</variable>
+</vars>

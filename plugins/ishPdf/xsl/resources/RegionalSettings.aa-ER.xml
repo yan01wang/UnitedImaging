@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RegionalSettings xml:lang="aa-ER"><!--Afar (Eritrea)-->
+	<setting name="CountryDescription">Eritrea</setting>
+	<setting name="CountryCode">ER</setting>
+	<setting name="LanguageDescription">Afar</setting>
+	<setting name="LanguageCode">aa</setting>
+	<setting name="LanguageRegion">aa-ER</setting>
+</RegionalSettings>

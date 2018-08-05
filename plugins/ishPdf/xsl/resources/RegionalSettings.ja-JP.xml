@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RegionalSettings xml:lang="ja-JP"><!--Japanese (Japan)-->
+	<setting name="CountryDescription">Japan</setting>
+	<setting name="CountryCode">JP</setting>
+	<setting name="LanguageDescription">Japanese</setting>
+	<setting name="LanguageCode">ja</setting>
+	<setting name="LanguageRegion">ja-JP</setting>
+</RegionalSettings>

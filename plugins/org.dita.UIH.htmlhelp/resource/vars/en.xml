@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--   
+Copyright © 2004-2006 by Idiom Technologies, Inc. All rights reserved. 
+IDIOM is a registered trademark of Idiom Technologies, Inc. and WORLDSERVER
+and WORLDSTART are trademarks of Idiom Technologies, Inc. All other 
+trademarks are the property of their respective owners. 
+
+IDIOM TECHNOLOGIES, INC. IS DELIVERING THE SOFTWARE "AS IS," WITH 
+ABSOLUTELY NO WARRANTIES WHATSOEVER, WHETHER EXPRESS OR IMPLIED,  AND IDIOM
+TECHNOLOGIES, INC. DISCLAIMS ALL WARRANTIES, EXPRESS OR IMPLIED, INCLUDING
+BUT NOT LIMITED TO WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR 
+PURPOSE AND WARRANTY OF NON-INFRINGEMENT. IDIOM TECHNOLOGIES, INC. SHALL NOT
+BE LIABLE FOR INDIRECT, INCIDENTAL, SPECIAL, COVER, PUNITIVE, EXEMPLARY,
+RELIANCE, OR CONSEQUENTIAL DAMAGES (INCLUDING BUT NOT LIMITED TO LOSS OF 
+ANTICIPATED PROFIT), ARISING FROM ANY CAUSE UNDER OR RELATED TO  OR ARISING 
+OUT OF THE USE OF OR INABILITY TO USE THE SOFTWARE, EVEN IF IDIOM
+TECHNOLOGIES, INC. HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES. 
+
+Idiom Technologies, Inc. and its licensors shall not be liable for any
+damages suffered by any person as a result of using and/or modifying the
+Software or its derivatives. In no event shall Idiom Technologies, Inc.'s
+liability for any damages hereunder exceed the amounts received by Idiom
+Technologies, Inc. as a result of this transaction.
+
+These terms and conditions supersede the terms and conditions in any
+licensing agreement to the extent that such terms and conditions conflict
+with those set forth herein.
+
+This file is part of the DITA Open Toolkit project. 
+See the accompanying license.txt file for applicable licenses.
+-->
+<vars xmlns="http://www.idiominc.com/opentopic/vars">
+
+    <!-- 
+     
+      This file controls strings that appear in the published output.  
+      There is one version of this file per language.  To add support 
+      for a new language, simply create a copy of this file and name 
+      it using the <locale ISO code>.xml format.
+      
+    -->
+
+    <!-- 
+       Strings used in the headers and footers of pages.
+    -->
+	<!-- css file path -->  
+    <variable id="dita-css">css/UIHltr_en.css</variable>
+	<variable id="bidi-dita-css">css/UIHrtl_en.css</variable>
+<!-- The footer that appears on even-numbered pages. -->
+	<variable id="Body footer">© 2017 Shanghai United Imaging Healthcare Co.,Ltd. All Rights Reserved.</variable>
+	<!-- various labels (not author controlled) -->
+<variable id="Figure">Figure</variable>
+<variable id="Table">Table</variable>
+<variable id="Next topic">Next topic</variable>
+<variable id="Previous topic">Previous topic</variable>
+<variable id="Parent topic">Parent topic</variable>
+<variable id="Required cleanup">Required cleanup</variable>
+<variable id="Draft comment">Draft comment</variable>
+<variable id="Option">Option</variable>
+<variable id="Description">Description</variable>
+<variable id="Optional">Optional</variable>
+<variable id="Required">Required</variable>
+<variable id="Skip visual syntax diagram">Skip visual syntax diagram</variable>
+<variable id="Read syntax diagram">Read syntax diagram</variable>
+<variable id="Start of change">Start of change</variable>
+<variable id="End of change">End of change</variable>
+<variable id="Index">Index</variable>
+<variable id="Special characters">Special characters</variable>
+<variable id="Numerics">Numerics</variable>
+<variable id="End notes">End notes</variable>
+<variable id="Artwork">Artwork</variable>
+<variable id="Syntax">Syntax</variable>
+<variable id="Type">Type</variable>
+<variable id="Value">Value</variable>
+<!-- Text that goes before a link to a topic -->
+<variable id="intro-to-topic-link"></variable>
+
+<!-- peril notice labels -->
+<variable id="Note">Notice</variable>
+<variable id="Notes">Notes</variable>
+<variable id="Tip">Tip</variable>
+<variable id="Fastpath">Fastpath</variable>
+<variable id="Important">Important</variable>
+<variable id="Attention">Attention</variable>
+<variable id="Caution">Caution</variable>
+<variable id="Danger">Danger</variable>
+<variable id="Remember">Remember</variable>
+<variable id="Revariableiction">Revariableiction</variable>
+<variable id="Warning">Warning</variable>
+<variable id="Trouble">Trouble</variable>
+
+<!-- default title text for section level generated sections -->
+<variable id="Contents">Contents</variable>
+<variable id="Related concepts">Related concepts</variable>
+<variable id="Related tasks">Related tasks</variable>
+<variable id="Related reference">Related reference</variable>
+<variable id="Related information">Related information</variable>
+
+<variable id="Prerequisite">Prerequisite</variable>
+<variable id="Prerequisites">Prerequisites</variable>
+<variable id="or">or</variable>
+<variable id="figure-number-separator"> </variable>
+
+<!--Task section labels -->
+<variable id="task_context">About this task</variable>
+<variable id="task_example">Example</variable>
+<variable id="task_povariableeq">What to do next</variable>
+<variable id="task_prereq">Before you begin</variable>
+<variable id="task_procedure">Procedure</variable>
+<variable id="task_procedure_unordered">Procedure</variable>
+<variable id="task_results">Results</variable>
+
+<variable id="Copyright">Copyright</variable>
+
+<!-- Symbols -->
+<variable id="OpenQuote">"</variable>
+<variable id="CloseQuote">"</variable>
+<variable id="ColonSymbol">:</variable>
+</vars>

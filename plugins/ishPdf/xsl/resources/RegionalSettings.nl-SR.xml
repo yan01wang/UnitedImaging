@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RegionalSettings xml:lang="nl-SR"><!--Dutch (Suriname)-->
+	<setting name="CountryDescription">Suriname</setting>
+	<setting name="CountryCode">SR</setting>
+	<setting name="LanguageDescription">Dutch</setting>
+	<setting name="LanguageCode">nl</setting>
+	<setting name="LanguageRegion">nl-SR</setting>
+</RegionalSettings>

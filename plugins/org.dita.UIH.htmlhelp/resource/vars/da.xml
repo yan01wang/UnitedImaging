@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--   
+This file is part of the DITA Open Toolkit project. 
+See the accompanying license.txt file for applicable licenses.
+-->
+<vars xmlns="http://www.idiominc.com/opentopic/vars">
+
+<!-- various labels (not author controlled) -->
+<variable id="Figure">Figur</variable>
+<variable id="Table">Tabel</variable>
+<variable id="Next topic">Næste emne</variable>
+<variable id="Previous topic">Forrige emne</variable>
+<variable id="Parent topic">Overordnet emne</variable>
+<variable id="Required cleanup">Påkrævet oprydning</variable>
+<variable id="Draft comment">Kommentar til kladde</variable>
+<variable id="Option">Valg</variable>
+<variable id="Description">Beskrivelse</variable>
+<variable id="Optional">Valgfrit</variable>
+<variable id="Required">Påkrævet</variable>
+<variable id="Skip visual syntax diagram">Spring over visuel syntaksdiagram</variable>
+<variable id="Read syntax diagram">Læs syntaksdiagram</variable>
+<variable id="Start of change">Start på ændringer</variable>
+<variable id="End of change">Slut på ændringer</variable>
+<variable id="Index">Stikordsregister</variable>
+<variable id="Special characters">Specialtegn</variable>
+<variable id="Numerics">Numerisk</variable>
+<variable id="End notes">Slutbemærkninger</variable>
+<variable id="Artwork">Illuvariableationer</variable>
+<variable id="Syntax">Syntaks</variable>
+<variable id="Type">Type</variable>
+<variable id="Value">Værdi</variable>
+<!-- Text that goes before a link to a topic -->
+<variable id="intro-to-topic-link"></variable>
+
+<!-- peril notice labels -->
+<variable id="Note">Bemærk</variable>
+<variable id="Notes">Bemærkninger</variable>
+<variable id="Tip">Tip</variable>
+<variable id="Fastpath">Genvej</variable>
+<variable id="Important">Vigtigt</variable>
+<variable id="Attention">Advarsel</variable>
+<variable id="Caution">Pas på</variable>
+<variable id="Danger">Fare!</variable>
+<variable id="Remember">Husk</variable>
+<variable id="Revariableiction">Begrænsning</variable>
+<variable id="Warning">Advarsel</variable>
+
+<!-- default title text for section level generated sections -->
+<variable id="Contents">Indholdsfortegnelse</variable>
+<variable id="Related concepts">Beslægtede begreber</variable>
+<variable id="Related tasks">Beslægtede opgaver</variable>
+<variable id="Related reference">Beslægtet reference</variable>
+<variable id="Related information">Beslægtede oplysninger</variable>
+
+<variable id="Prerequisite">Forudsætning</variable>
+<variable id="Prerequisites">Forudsætninger</variable>
+<variable id="or">eller</variable>
+<variable id="figure-number-separator"> </variable>
+
+<!--Task section labels -->
+<variable id="task_context">Om denne opgave</variable>
+<variable id="task_example">Eksempel</variable>
+<variable id="task_povariableeq">Næste trin</variable>
+<variable id="task_prereq">Inden du begynder</variable>
+<variable id="task_procedure">Fremgangsmåde</variable>
+<variable id="task_procedure_unordered">Fremgangsmåde</variable>
+<variable id="task_results">Resultater</variable>
+
+<variable id="Copyright">Copyright</variable>
+
+<!-- Symbols -->
+<variable id="OpenQuote">"</variable>
+<variable id="CloseQuote">"</variable>
+<variable id="ColonSymbol">:</variable>
+</vars>

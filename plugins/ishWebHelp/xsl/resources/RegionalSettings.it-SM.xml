@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RegionalSettings xml:lang="it-SM"><!--Italian (San Marino)-->
+	<setting name="CountryDescription">San Marino</setting>
+	<setting name="CountryCode">SM</setting>
+	<setting name="LanguageDescription">Italian</setting>
+	<setting name="LanguageCode">it</setting>
+	<setting name="LanguageRegion">it-SM</setting>
+</RegionalSettings>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RegionalSettings xml:lang="so-SO"><!--Somali (Somalia)-->
+	<setting name="CountryDescription">Somalia</setting>
+	<setting name="CountryCode">SO</setting>
+	<setting name="LanguageDescription">Somali</setting>
+	<setting name="LanguageCode">so</setting>
+	<setting name="LanguageRegion">so-SO</setting>
+</RegionalSettings>

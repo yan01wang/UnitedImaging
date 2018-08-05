@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin id="trisoft.dita.pdf">
+  <feature extension="dita.conductor.transtype.check" value="ishpdf" type="pdf"/>
+  <feature extension="dita.conductor.target" value="integrator.xml" type="file"/>
+</plugin>

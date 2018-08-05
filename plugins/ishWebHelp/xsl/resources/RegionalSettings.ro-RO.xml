@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RegionalSettings xml:lang="ro-RO"><!--Romanian (Romania)-->
+	<setting name="CountryDescription">Romania</setting>
+	<setting name="CountryCode">RO</setting>
+	<setting name="LanguageDescription">Romanian</setting>
+	<setting name="LanguageCode">ro</setting>
+	<setting name="LanguageRegion">ro-RO</setting>
+</RegionalSettings>

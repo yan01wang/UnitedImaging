@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+Copyright © 2008 by XyEnterprise Inc. All rights reserved.
+
+ XyEnterprise is a registered trademark of XyEnterprise Inc.
+
+XYENTERPRISE INC. HAS CONTRIBUTED THE SOFTWARE "AS IS," WITH
+ABSOLUTELY NO WARRANTIES WHATSOEVER, WHETHER EXPRESS OR IMPLIED, AND
+XYENTERPRISE INC. DISCLAIMS ALL WARRANTIES, EXPRESS OR IMPLIED, INCLUDING
+BUT NOT LIMITED TO WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR
+PURPOSE AND WARRANTY OF NON-INFRINGEMENT. XYENTERPRISE INC. SHALL NOT
+BE LIABLE FOR INDIRECT, INCIDENTAL, SPECIAL, COVER, PUNITIVE, EXEMPLARY,
+RELIANCE, OR CONSEQUENTIAL DAMAGES (INCLUDING BUT NOT LIMITED TO LOSS OF
+ANTICIPATED PROFIT), ARISING FROM ANY CAUSE UNDER OR RELATED TO OR ARISING
+OUT OF THE USE OF OR INABILITY TO USE THE SOFTWARE, EVEN IF XYENTERPRISE INC.
+HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
+
+XyEnterprise Inc. and its licensors shall not be liable for any
+damages suffered by any person as a result of using and/or modifying the
+Software or its derivatives.
+
+These terms and conditions supersede the terms and conditions in any
+licensing agreement to the extent that such terms and conditions conflict
+with those set forth herein.
+-->
+
+<plugin id="com.sdl.ishxpp">
+   <feature extension="dita.conductor.transtype.check" 
+            value="ishxpp" 
+            type="xml" />
+   <feature extension="dita.conductor.target" 
+            value="integrator.xml" 
+            type="file" />
+</plugin>

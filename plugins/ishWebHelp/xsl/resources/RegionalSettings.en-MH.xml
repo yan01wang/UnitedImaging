@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RegionalSettings xml:lang="en-MH"><!--English (Marshall Islands)-->
+	<setting name="CountryDescription">Marshall Islands</setting>
+	<setting name="CountryCode">MH</setting>
+	<setting name="LanguageDescription">English</setting>
+	<setting name="LanguageCode">en</setting>
+	<setting name="LanguageRegion">en-MH</setting>
+</RegionalSettings>

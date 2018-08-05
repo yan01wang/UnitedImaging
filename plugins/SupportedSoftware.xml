@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="Trisoft-FoSoftware" basedir="..">
+
+	<property name="fo.xep.program.name" value="xep.bat"/>
+	<property name="fo.pe.program.name" value=""/>
+
+	<condition property="xep.dir" value="${env.XEP_DIR}">
+		<isset property="env.XEP_DIR"/>
+	</condition>
+	<condition property="xep.dir" value="${basedir}${file.separator}lib${file.separator}xep">
+		<not>
+			<isset property="xep.dir"/>
+		</not>
+	</condition>
+
+	<condition property="pe.dir" value="${env.PE_DIR}">
+		<isset property="env.PE_DIR"/>
+	</condition>
+	<!--condition property="pe.dir" value="${basedir}${file.separator}lib${file.separator}xep">
+		<not>
+			<isset property="pe.dir"/>
+		</not>
+	</condition-->
+
+	<condition property="fop.home" value="${env.FOP_HOME}">
+		<isset property="env.FOP_HOME"/>
+	</condition>
+	<condition property="fop.home" value="${basedir}${file.separator}plugins${file.separator}org.dita.pdf2.fop${file.separator}fop">
+		<not>
+			<isset property="fop.home"/>
+		</not>
+	</condition>
+
+	<condition property="use.xep.pdf.formatter">
+		<equals arg1="${pdf.formatter}" arg2="xep"/>
+	</condition>
+	<condition property="use.ah.pdf.formatter">
+		<equals arg1="${pdf.formatter}" arg2="ah"/>
+	</condition>
+	<condition property="use.pe.pdf.formatter">
+		<equals arg1="${pdf.formatter}" arg2="pe"/>
+	</condition>
+	<condition property="use.fop.pdf.formatter">
+		<equals arg1="${pdf.formatter}" arg2="fop"/>
+		<!--
+		<not>
+			<or>
+				<isset property="use.xep.pdf.formatter"/>
+				<isset property="use.ah.pdf.formatter"/>
+				<isset property="use.pe.pdf.formatter"/>
+			</or>
+		</not>
+		-->
+	</condition>
+
+	<!-- Build PDF from FO using AntennaHouse -->
+	<target name="dita.fo2pdf.ah" if="use.ah.pdf.formatter" description="Build PDF from FO using AntennaHouse">
+
+		<condition property="has.axf.option">
+		  <and>
+			  <not>
+				  <equals arg1="${env.AXF_OPT}" arg2=""/>
+			  </not>
+			  <available file="${env.AXF_OPT}"/>
+		  </and>
+		</condition>
+
+		<!--We try to hunt for Antenna House in different directories-->
+		<condition property="axf.path" value="${env.AXF_DIR}">
+			<and>
+				<isset property="env.AXF_DIR"/>
+				<or>
+					<available file="${env.AXF_DIR}/run.sh"/>
+					<available file="${env.AXF_DIR}\XSLCmd.exe"/>
+					<available file="${env.AXF_DIR}\AHFCmd.exe"/>
+				</or>
+			</and>
+		</condition>
+		<condition property="axf.path" value="C:\Program Files\AntennaHouse\AHFormatterV5">
+			<and>
+				<not>
+					<isset property="axf.path"/>
+				</not>
+				<available file="C:\Program Files\AntennaHouse\AHFormatterV5\AHFCmd.exe"/>
+			</and>
+		</condition>
+		<condition property="axf.path" value="C:\Program Files\Antenna\XSLFormatterV43">
+			<and>
+				<not>
+					<isset property="axf.path"/>
+				</not>
+				<available file="C:\Program Files\Antenna\XSLFormatterV43\XSLCmd.exe"/>
+			</and>
+		</condition>
+		<condition property="axf.path" value="C:\Program Files\Antenna\XSLFormatterV42">
+			<and>
+				<not>
+					<isset property="axf.path"/>
+				</not>
+				<available file="C:\Program Files\Antenna\XSLFormatterV42\XSLCmd.exe"/>
+			</and>
+		</condition>
+		<condition property="axf.path" value="C:\Program Files\Antenna\XSLFormatterV41">
+			<and>
+				<not>
+					<isset property="axf.path"/>
+				</not>
+				<available file="C:\Program Files\Antenna\XSLFormatterV41\XSLCmd.exe"/>
+			</and>
+		</condition>
+		<condition property="axf.path" value="/usr/AHFormatterV5">
+			<and>
+				<not>
+					<isset property="axf.path"/>
+				</not>
+				<available file="/usr/AHFormatterV5/run.sh" value="/usr/AHFormatterV5"/>
+			</and>
+		</condition>
+		<condition property="axf.path" value="/usr/XSLFormatterV43">
+			<and>
+				<not>
+					<isset property="axf.path"/>
+				</not>
+				<available file="/usr/XSLFormatterV43/run.sh"/>
+			</and>
+		</condition>
+
+		<!-- run.sh on Linux, XSLCmd.exe on Windows -->
+		<condition property="fo.ah.program.name" value="run.sh">
+			<os family="unix"/>
+		</condition>
+		<condition property="fo.ah.program.name" value="AHFCmd.exe">
+			<and>
+				<not>
+					<isset property="fo.ah.program.name" />
+				</not>
+				<available file="${axf.path}${file.separator}AHFCmd.exe"/>
+			</and>
+		</condition>
+		<condition property="fo.ah.program.name" value="XSLCmd.exe">
+			<and>
+				<not>
+					<isset property="fo.ah.program.name" />
+				</not>
+				<available file="${axf.path}${file.separator}XSLCmd.exe"/>
+			</and>
+		</condition>
+
+		<antcall target="dita.fo2pdf.ah.nooption"/>
+		<antcall target="dita.fo2pdf.ah.hasoption"/>
+	</target>
+
+	<target name="dita.fo2pdf.ah.nooption" unless="has.axf.option" description="Build PDF from FO using AntennaHouse (without option file)">
+		<echo>Builing PDF using   : ${axf.path}${file.separator}${fo.ah.program.name}</echo>
+		<echo>Input parameter     : ${input}</echo>
+		<echo>Output parameter    : ${output}</echo>
+		<exec executable="${axf.path}${file.separator}${fo.ah.program.name}" failonerror="${failonerror}" failifexecutionfails="${failonerror}">
+			<arg value='-d' />
+			<arg value='${input}' />
+			<arg value='-o' />
+			<arg value='${output}' />
+			<arg value='-extlevel' />
+			<arg value='4' />
+		</exec>
+	</target>
+
+	<target name="dita.fo2pdf.ah.hasoption" if="has.axf.option" description="Build PDF from FO using AntennaHouse (with option file)">
+		<echo>Builing PDF using   : ${axf.path}${file.separator}${fo.ah.program.name}</echo>
+		<echo>Input parameter     : ${input}</echo>
+		<echo>Output parameter    : ${output}</echo>
+		<echo>Option setting file : ${env.AXF_OPT}</echo>
+		<exec executable="${axf.path}${file.separator}${fo.ah.program.name}" failonerror="${failonerror}" failifexecutionfails="${failonerror}">
+			<arg value='-d' />
+			<arg value='${input}' />
+			<arg value='-o' />
+			<arg value='${output}' />
+			<arg value='-i' />
+			<arg value='${env.AXF_OPT}' />
+			<arg value='-extlevel' />
+			<arg value='4' />
+		</exec>
+	</target>
+
+
+	<!-- Build PDF from FO using RenderX -->
+	<target name="dita.fo2pdf.xep" if="use.xep.pdf.formatter" description="Build PDF from FO using RenderX">
+		<echo>Builing PDF using   : ${xep.dir}${file.separator}${fo.xep.program.name}</echo>
+		<echo>Input parameter     : ${input}</echo>
+		<echo>Output parameter    : ${output}</echo>
+		<exec executable="${xep.dir}${file.separator}${fo.xep.program.name}" failonerror="${failonerror}" failifexecutionfails="${failonerror}">
+			<arg line='-quiet -version -valid -fo ${input} -pdf ${output}'/>
+		</exec>  
+	</target>
+
+
+	<!-- Build PDF from FO using Arbortext PE -->
+	<target name="dita.fo2pdf.pe" if="use.pe.pdf.formatter" description="Build PDF from FO using Arbortext PE">
+		<echo>Builing PDF using   : ${pe.dir}${file.separator}${fo.pe.program.name}</echo>
+		<echo>Input parameter     : ${input}</echo>
+		<echo>Output parameter    : ${output}</echo>
+		<exec executable="${pe.dir}${file.separator}${fo.pe.program.name}" failonerror="${failonerror}" failifexecutionfails="${failonerror}">
+			<arg line='-d ${input} -o ${output}'/>
+		</exec>  
+	</target>
+
+
+	<!--Build PDF from FO using FOP-->
+	<target name="dita.fo2pdf.fop" if="use.fop.pdf.formatter" description="Build PDF from FO using FOP">
+		<echo>Builing PDF using   : org.apache.fop.tools.anttasks.Fop</echo>
+		<echo>Input parameter     : ${input}</echo>
+		<echo>Output parameter    : ${output}</echo>
+
+		<taskdef name="fop" classname="org.apache.fop.tools.anttasks.Fop">
+			<classpath>
+				<fileset dir="${fop.home}${file.separator}lib">
+					<include name="*.jar"/>
+				</fileset>
+				<fileset dir="${fop.home}${file.separator}build">
+					<include name="fop.jar"/>
+					<include name="fop-hyph.jar" />
+				</fileset>
+			</classpath>
+		</taskdef>
+
+		<fop format="application/pdf" fofile="${input}" basedir="${dita.map.output.dir}"
+	      outfile="${output}" messagelevel="info" relativebase="true"
+	      force="true" userconfig="${fop.home}${file.separator}conf${file.separator}fop.xconf">
+		</fop>
+	</target>
+
+</project>

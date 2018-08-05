@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RegionalSettings xml:lang="sm-AS"><!--Samoan (American Samoa)-->
+	<setting name="CountryDescription">American Samoa</setting>
+	<setting name="CountryCode">AS</setting>
+	<setting name="LanguageDescription">Samoan</setting>
+	<setting name="LanguageCode">sm</setting>
+	<setting name="LanguageRegion">sm-AS</setting>
+</RegionalSettings>

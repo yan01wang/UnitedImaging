@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+Changes for 1.4.2 Gerrit Kuilder 10 Aug 2010
+ * added dita-preprocess to depends
+ * removed clean-temp before gen-list from depends. (line 11 and further)
+-->
+<project name="DOST" default="init" basedir=".">
+   <property name="transtype" 
+             value="ishxpp">
+   </property>
+
+	 <property name="ishxpp.dir"  value="${dita.dir}${file.separator}plugins${file.separator}ishXpp" />
+
+   <target name="dita2ishxpp" 
+           depends="build-init, preprocess, merge2valid, merge2wellformed">
+
+      <echo message="SDL XPP preparation Plug-in, version 1.4.2"/>
+   </target>
+
+   <target name="merge2valid" description="Merge topics to valid instance" 
+           unless="wellformed">
+      <echo message="Merging to valid file"/>
+      <basename property="temp.base" 
+                file="${dita.temp.dir}${file.separator}${user.input.file}" 
+                suffix=".ditamap">
+      </basename>
+      <antcall target="merge">
+         <param name="input"
+                value="${dita.temp.dir}${file.separator}${user.input.file}" />
+         <param name="output"
+                value="${dita.temp.dir}${file.separator}${temp.base}_temp.xml" />
+      </antcall>
+      <antcall target="structuralize">
+         <param name="input"
+                value="${dita.temp.dir}${file.separator}${temp.base}_temp.xml" />
+         <param name="output"
+                value="${dita.temp.dir}${file.separator}${temp.base}_temp2.xml" />
+      </antcall>
+      <antcall target="generalize">
+         <param name="input"
+                value="${dita.temp.dir}${file.separator}${temp.base}_temp2.xml" />
+         <param name="output"
+                value="${dita.temp.dir}${file.separator}${temp.base}_temp3.xml" />
+      </antcall>
+      <antcall target="validate">
+         <param name="input"
+                value="${dita.temp.dir}${file.separator}${temp.base}_temp3.xml" />
+				<param name="output" 
+								value="${dita.map.output.dir}${file.separator}${dita.map.filename.root}.xml" />              
+      </antcall>
+   </target>
+
+   <target name="merge2wellformed" description="Merge topics to wellformed instance"  
+           if="wellformed">
+      <echo message="Merging to wellformed file"/>
+      <basename property="temp.base" 
+                file="${dita.temp.dir}${file.separator}${user.input.file}" 
+                suffix=".ditamap">
+      </basename>
+      <antcall target="merge">
+         <param name="input"
+                value="${dita.temp.dir}${file.separator}${user.input.file}" />
+         <param name="output"
+                value="${dita.temp.dir}${file.separator}${temp.base}_temp.xml" />
+      </antcall>
+      <antcall target="structuralize">
+         <param name="input"
+                value="${dita.temp.dir}${file.separator}${temp.base}_temp.xml" />
+				<param name="output" 
+								value="${dita.map.output.dir}${file.separator}${dita.map.filename.root}.xml" />                              
+      </antcall>
+   </target>
+
+	<target name="merge"  description="Merge topics">
+       <pipeline message="topicmerge" inputmap="${input}" tempdir="${dita.temp.dir}">
+			<module class="org.dita.dost.module.TopicMergeModule">
+				<param name="output" location="${output}"/>
+			</module>
+		</pipeline>
+  </target>
+
+   <target name="structuralize">
+      <xslt processor="trax" 
+            in="${input}" 
+            out="${output}" 
+            style="${ishxpp.dir}${file.separator}xsl${file.separator}structuralize.xsl"> 
+      </xslt>
+   </target>
+
+   <target name="generalize">
+      <xslt processor="trax" 
+            in="${input}" 
+            out="${output}" 
+            style="${ishxpp.dir}${file.separator}xsl${file.separator}generalize.xsl">
+      </xslt>
+   </target>
+
+   <target name="validate">
+      <xslt processor="trax" 
+            in="${input}" 
+            out="${output}" 
+            style="${ishxpp.dir}${file.separator}xsl${file.separator}ditabase.xsl">
+      </xslt>
+   </target>
+
+</project>

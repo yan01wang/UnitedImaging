@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RegionalSettings xml:lang="bi-VU"><!--Bislama (Vanuatu)-->
+	<setting name="CountryDescription">Vanuatu</setting>
+	<setting name="CountryCode">VU</setting>
+	<setting name="LanguageDescription">Bislama</setting>
+	<setting name="LanguageCode">bi</setting>
+	<setting name="LanguageRegion">bi-VU</setting>
+</RegionalSettings>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RegionalSettings xml:lang="it-SI"><!--Italian (Slovenia)-->
+	<setting name="CountryDescription">Slovenia</setting>
+	<setting name="CountryCode">SI</setting>
+	<setting name="LanguageDescription">Italian</setting>
+	<setting name="LanguageCode">it</setting>
+	<setting name="LanguageRegion">it-SI</setting>
+</RegionalSettings>

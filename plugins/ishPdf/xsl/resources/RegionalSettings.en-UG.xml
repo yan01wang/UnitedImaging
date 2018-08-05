@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RegionalSettings xml:lang="en-UG"><!--English (Uganda)-->
+	<setting name="CountryDescription">Uganda</setting>
+	<setting name="CountryCode">UG</setting>
+	<setting name="LanguageDescription">English</setting>
+	<setting name="LanguageCode">en</setting>
+	<setting name="LanguageRegion">en-UG</setting>
+</RegionalSettings>

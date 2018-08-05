@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RegionalSettings xml:lang="pt-ST"><!--Portugese (Sao Tome And Principe)-->
+	<setting name="CountryDescription">Sao Tome And Principe</setting>
+	<setting name="CountryCode">ST</setting>
+	<setting name="LanguageDescription">Portugese</setting>
+	<setting name="LanguageCode">pt</setting>
+	<setting name="LanguageRegion">pt-ST</setting>
+</RegionalSettings>

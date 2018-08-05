@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RegionalSettings xml:lang="en-SB"><!--English (Solomon Islands)-->
+	<setting name="CountryDescription">Solomon Islands</setting>
+	<setting name="CountryCode">SB</setting>
+	<setting name="LanguageDescription">English</setting>
+	<setting name="LanguageCode">en</setting>
+	<setting name="LanguageRegion">en-SB</setting>
+</RegionalSettings>

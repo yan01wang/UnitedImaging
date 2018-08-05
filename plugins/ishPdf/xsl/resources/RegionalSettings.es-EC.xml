@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RegionalSettings xml:lang="es-EC"><!--Spanish (Ecuador)-->
+	<setting name="CountryDescription">Ecuador</setting>
+	<setting name="CountryCode">EC</setting>
+	<setting name="LanguageDescription">Spanish</setting>
+	<setting name="LanguageCode">es</setting>
+	<setting name="LanguageRegion">es-EC</setting>
+</RegionalSettings>

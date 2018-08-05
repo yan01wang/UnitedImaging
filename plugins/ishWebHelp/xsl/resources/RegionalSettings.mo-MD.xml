@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RegionalSettings xml:lang="mo-MD"><!--Moldavian (Republic Of Moldova)-->
+	<setting name="CountryDescription">Republic Of Moldova</setting>
+	<setting name="CountryCode">MD</setting>
+	<setting name="LanguageDescription">Moldavian</setting>
+	<setting name="LanguageCode">mo</setting>
+	<setting name="LanguageRegion">mo-MD</setting>
+</RegionalSettings>

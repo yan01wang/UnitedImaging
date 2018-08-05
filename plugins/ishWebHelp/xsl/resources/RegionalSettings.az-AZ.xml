@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RegionalSettings xml:lang="az-AZ"><!--Azerbaijani (Azerbaijan)-->
+	<setting name="CountryDescription">Azerbaijan</setting>
+	<setting name="CountryCode">AZ</setting>
+	<setting name="LanguageDescription">Azerbaijani</setting>
+	<setting name="LanguageCode">az</setting>
+	<setting name="LanguageRegion">az-AZ</setting>
+</RegionalSettings>
