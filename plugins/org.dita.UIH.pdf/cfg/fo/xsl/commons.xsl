@@ -73,7 +73,7 @@
             <xsl:call-template name="determineTopicType"/>
         </xsl:variable>
         <xsl:choose>
-            <!--  Disable chapter title processing when mini TOC is created -->
+            <!--  Disable chapter title processing when mini TOC is created  -->
             <xsl:when test="(topicType = 'topicChapter') or (topicType = 'topicAppendix')" />
             <!--   Normal processing         -->
             <xsl:otherwise>
@@ -1184,19 +1184,10 @@
     </xsl:template>
 		
 	<xsl:template match="*[contains (@class, ' topic/fig ')][child::*[contains(@class, ' topic/title ' )]]" mode="list.of.figures"> 
-    <!--<xsl:variable name="v_chapter_number">
-	    <xsl:call-template name="getVariable">
-		  <xsl:with-param name="id" select="'Figure.title'"/>
-		  <xsl:with-param name="params">
-			<title>
-			  <xsl:apply-templates select="./*[contains(@class, ' topic/title ')]" mode="insert-text"/>
-			</title>
-		  </xsl:with-param>
-		</xsl:call-template>
-	</xsl:variable>
-	<xsl:variable name="v_string_before" select="substring-before($v_chapter_number,'-')"/>
-	
-	<xsl:variable name="v_string_after" select="substring-after($v_string_before,' ')"/>-->
+        <xsl:variable name="v_preceding" select="count(ancestor::*[contains (@class, ' topic/topic ')][@level='1']/preceding-sibling::*[contains (@class, ' topic/topic ')][@level='1']//fig[child::title])"/>
+		<xsl:variable name="v_position" select="position()"/>
+		<xsl:variable name="v_value" select="number($v_position)- number($v_preceding)"/>
+		
 
     <fo:block xsl:use-attribute-sets="__lotf__indent">
       <fo:block xsl:use-attribute-sets="__lotf__content">
@@ -1210,7 +1201,7 @@
               <xsl:with-param name="id" select="'Figure.title'"/>
               <xsl:with-param name="params">
 			    <number>
-				     <xsl:value-of select="ancestor::*[contains (@class, ' topic/topic ')][1]/@chapter_number"/>-<xsl:apply-templates select="child::title" mode="fig.title-number"/> <xsl:text>&#xA0;</xsl:text><xsl:text>&#xA0;</xsl:text>
+				     <xsl:value-of select="ancestor::*[contains (@class, ' topic/topic ')][1]/@chapter_number"/>-<xsl:value-of select="$v_value"/> <xsl:text>&#xA0;</xsl:text><xsl:text>&#xA0;</xsl:text>
 				</number>
                 <title>
                      <xsl:apply-templates select="./*[contains(@class, ' topic/title ')]" mode="insert-text"/>
@@ -1237,29 +1228,7 @@
 		<xsl:variable name="v_preceding" select="count(ancestor::*[contains (@class, ' topic/topic ')][@level='1']/preceding-sibling::*[contains (@class, ' topic/topic ')][@level='1']//table[child::title])"/>
 		<xsl:variable name="v_position" select="position()"/>
 		<xsl:variable name="v_value" select="number($v_position)- number($v_preceding)"/>
-		<!--<xsl:variable name="v_first_node">
-		   <xsl:value-of select="count(ancestor::*[contains (@class, ' topic/topic ')][@level='1']//table[child::title])"></xsl:value-of>
-		</xsl:variable>
 		
-		<xsl:variable name="v_current_position">
-		   <xsl:choose>
-		      <xsl:when test="$v_first_node!='1'">
-			    <xsl:value-of select="count(preceding-sibling::table[child::title])+1"/>
-			  </xsl:when>
-			  <xsl:otherwise><xsl:value-of select="$v_first_node"/></xsl:otherwise>
-		   </xsl:choose>
-		</xsl:variable>
-		<xsl:variable name="v_preceding_position" select="number($v_current_position)-1"/>
-		<xsl:variable name="v_current_number">
-		<xsl:choose>
-		    <xsl:when test="$v_level='1' and $v_chapnbr!=$v_preced_chapnbr">
-			  <xsl:value-of select="number($v_current_position)-number($v_preceding_position)"/>
-			</xsl:when>
-			<xsl:otherwise>
-			  
-			</xsl:otherwise>
-		</xsl:choose>	
-		</xsl:variable>-->
 		
 		<fo:block xsl:use-attribute-sets="__lotf__indent">
 		  <fo:block xsl:use-attribute-sets="__lotf__content">
@@ -1274,7 +1243,7 @@
 				  <xsl:with-param name="id" select="'Table.title'"/>
 				  <xsl:with-param name="params">  
 				    <number>
-				    @<xsl:value-of select="$v_value"/>@<xsl:value-of select="ancestor::*[contains (@class, ' topic/topic ')][1]/@chapter_number"/>-<xsl:value-of select="position()"/><xsl:text>&#xA0;</xsl:text><xsl:text>&#xA0;</xsl:text>
+				    <xsl:value-of select="ancestor::*[contains (@class, ' topic/topic ')][1]/@chapter_number"/>-<xsl:value-of select="$v_value"/><xsl:text>&#xA0;</xsl:text><xsl:text>&#xA0;</xsl:text>
                     </number>
 					<space> <xsl:text> </xsl:text> </space>
 					<title>

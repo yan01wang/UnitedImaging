@@ -48,13 +48,19 @@
     </xsl:template>
 	
 	<xsl:template match="*[contains(@class, ' topic/table ')]/*[contains(@class, ' topic/title ')]">
+	    <xsl:variable name="v_preceding" select="count(ancestor::*[contains (@class, ' topic/topic ')][@level='1']/preceding-sibling::*[contains (@class, ' topic/topic ')][@level='1']//table[child::title])"/>
+		<xsl:variable name="v_position">
+		    <xsl:apply-templates select="." mode="table.title-number"/>
+		</xsl:variable>	
+		<xsl:variable name="v_value" select="number($v_position)- number($v_preceding)"/>
+		
         <fo:block xsl:use-attribute-sets="table_title">
             <xsl:call-template name="commonattributes"/>
             <xsl:call-template name="getVariable">
                 <xsl:with-param name="id" select="'Table.title'"/>
                 <xsl:with-param name="params">
                     <number>
-                      <xsl:value-of select="ancestor::*[contains (@class, ' topic/topic ')][1]/@chapter_number"/>-<xsl:apply-templates select="." mode="table.title-number"/><xsl:text>&#xA0;</xsl:text><xsl:text>&#xA0;</xsl:text>
+                      <xsl:value-of select="ancestor::*[contains (@class, ' topic/topic ')][1]/@chapter_number"/>-<xsl:value-of select="$v_value"/><xsl:text>&#xA0;</xsl:text><xsl:text>&#xA0;</xsl:text>
                     </number>
                     <title>
                         <xsl:apply-templates/>

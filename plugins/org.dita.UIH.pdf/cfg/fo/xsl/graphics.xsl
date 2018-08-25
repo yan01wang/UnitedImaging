@@ -109,6 +109,12 @@
 	    figure title font-weight=normal
 	==========================================================-->
 	<xsl:template match="*[contains(@class,' topic/fig ')]/*[contains(@class,' topic/title ')]">
+	    <xsl:variable name="v_preceding" select="count(ancestor::*[contains (@class, ' topic/topic ')][@level='1']/preceding-sibling::*[contains (@class, ' topic/topic ')][@level='1']//fig[child::title])"/>
+		<xsl:variable name="v_position">
+		    <xsl:apply-templates select="." mode="fig.title-number"/>
+		</xsl:variable>	
+		<xsl:variable name="v_value" select="number($v_position)- number($v_preceding)"/>
+		
         <fo:block space-before="0pt" space-after="3.5pt">
 		    <xsl:attribute name="margin-left">
 				<xsl:choose>
@@ -128,7 +134,7 @@
                 <xsl:with-param name="id" select="'Figure.title'"/>
                 <xsl:with-param name="params">
                     <number>
-                        <xsl:value-of select="ancestor::*[contains (@class, ' topic/topic ')][1]/@chapter_number"/>-<xsl:apply-templates select="." mode="fig.title-number"/>
+                        <xsl:value-of select="ancestor::*[contains (@class, ' topic/topic ')][1]/@chapter_number"/>-<xsl:value-of select="$v_value"/>
                     </number>
                     <title>
                         <xsl:apply-templates/>
